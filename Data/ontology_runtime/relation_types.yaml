@@ -1,0 +1,239 @@
+version: 0.2.0
+status: active
+design: two_level_nodes
+relation_types:
+  - name: 提及
+    source_types: [文档]
+    target_types: [催化剂]
+
+  - name: 有活性组分
+    source_types: [催化剂]
+    target_types: [活性组分]
+
+  - name: 有前驱体
+    source_types: [催化剂]
+    target_types: [前驱体]
+
+  - name: 有晶相结构
+    source_types: [催化剂]
+    target_types: [晶相结构]
+
+  - name: 有铁比
+    source_types: [催化剂]
+    target_types: [铁比]
+
+  - name: 有比表面积
+    source_types: [催化剂]
+    target_types: [比表面积]
+
+  - name: 有孔结构
+    source_types: [催化剂]
+    target_types: [孔结构]
+
+  - name: 有粒径
+    source_types: [催化剂]
+    target_types: [粒径]
+
+  - name: 有制备方式
+    source_types: [催化剂]
+    target_types: [制备方式]
+
+  - name: 有机械强度
+    source_types: [催化剂]
+    target_types: [机械强度]
+
+  - name: 有助剂
+    source_types: [催化剂]
+    target_types: [助剂]
+
+  - name: 有助剂含量
+    source_types: [助剂]
+    target_types: [助剂含量]
+
+  - name: 有助剂种类
+    source_types: [助剂]
+    target_types: [助剂种类]
+
+  - name: 有添加方式
+    source_types: [助剂]
+    target_types: [添加方式]
+
+  - name: 有反应条件
+    source_types: [催化剂]
+    target_types: [反应条件]
+
+  - name: 有温度
+    source_types: [反应条件]
+    target_types: [温度]
+
+  - name: 有压力
+    source_types: [反应条件]
+    target_types: [压力]
+
+  - name: 有空速
+    source_types: [反应条件]
+    target_types: [空速]
+
+  - name: 有氢氮比
+    source_types: [反应条件]
+    target_types: [氢氮比]
+
+  - name: 有进料组成
+    source_types: [反应条件]
+    target_types: [进料组成]
+
+  - name: 有气体纯度
+    source_types: [反应条件]
+    target_types: [气体纯度]
+
+  - name: 有反应时间
+    source_types: [反应条件]
+    target_types: [反应时间]
+
+  - name: 有催化性能
+    source_types: [催化剂]
+    target_types: [催化性能]
+
+  - name: 有氨合成活性
+    source_types: [催化性能]
+    target_types: [氨合成活性]
+
+  - name: 有转化率
+    source_types: [催化性能]
+    target_types: [转化率]
+
+  - name: 有选择性
+    source_types: [催化性能]
+    target_types: [选择性]
+
+  - name: 有稳定性
+    source_types: [催化性能]
+    target_types: [稳定性]
+
+  - name: 有寿命
+    source_types: [催化性能]
+    target_types: [寿命]
+
+  - name: 有抗毒性
+    source_types: [催化性能]
+    target_types: [抗毒性]
+
+  - name: 有表征方法
+    source_types: [催化剂]
+    target_types: [表征方法]
+
+  - name: 有XRD
+    source_types: [表征方法]
+    target_types: [XRD]
+
+  - name: 有BET
+    source_types: [表征方法]
+    target_types: [BET]
+
+  - name: 有TEM
+    source_types: [表征方法]
+    target_types: [TEM]
+
+  - name: 有SEM
+    source_types: [表征方法]
+    target_types: [SEM]
+
+  - name: 有XPS
+    source_types: [表征方法]
+    target_types: [XPS]
+
+  - name: 有H2-TPR
+    source_types: [表征方法]
+    target_types: [H2-TPR]
+
+  - name: 有N2-TPD
+    source_types: [表征方法]
+    target_types: [N2-TPD]
+
+  - name: 有NH3-TPD
+    source_types: [表征方法]
+    target_types: [NH3-TPD]
+
+  - name: 有Mössbauer
+    source_types: [表征方法]
+    target_types: [Mössbauer]
+
+  - name: 有Raman
+    source_types: [表征方法]
+    target_types: [Raman]
+
+  - name: 有FT-IR
+    source_types: [表征方法]
+    target_types: [FT-IR]
+
+  - name: 有反应机理
+    source_types: [催化剂]
+    target_types: [反应机理]
+
+  - name: 有解离吸附
+    source_types: [反应机理]
+    target_types: [解离吸附]
+
+  - name: 有缔合吸附
+    source_types: [反应机理]
+    target_types: [缔合吸附]
+
+  - name: 有加氢步骤
+    source_types: [反应机理]
+    target_types: [加氢步骤]
+
+  - name: 有脱附机理
+    source_types: [反应机理]
+    target_types: [脱附机理]
+
+  - name: 有活性位模型
+    source_types: [反应机理]
+    target_types: [活性位模型]
+
+  - name: 有速率控制步骤
+    source_types: [反应机理]
+    target_types: [速率控制步骤]
+
+  - name: 有活化能
+    source_types: [反应机理]
+    target_types: [活化能]
+
+  - name: 有反应级数
+    source_types: [反应机理]
+    target_types: [反应级数]
+
+  - name: 有吸附热
+    source_types: [反应机理]
+    target_types: [吸附热]
+
+  - name: 有指前因子
+    source_types: [反应机理]
+    target_types: [指前因子]
+
+  - name: 有动力学参数
+    source_types: [反应机理]
+    target_types: [动力学参数]
+
+  - name: 有制备工艺
+    source_types: [催化剂]
+    target_types: [制备工艺]
+
+  - name: 有原料选择
+    source_types: [制备工艺]
+    target_types: [原料选择]
+
+  - name: 有混合方式
+    source_types: [制备工艺]
+    target_types: [混合方式]
+
+  - name: 有成型工艺
+    source_types: [制备工艺]
+    target_types: [成型工艺]
+
+  - name: 有焙烧温度
+    source_types: [制备工艺]
+    target_types: [焙烧温度]
+
+  - name: 有还原活化
+    source_types: [制备工艺]
+    target_types: [还原活化]

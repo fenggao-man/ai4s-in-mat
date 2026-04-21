@@ -1,0 +1,969 @@
+{
+"document": {
+"title": "SrO 助催化剂对 Fe₁₋ₓO 基熔铁氨合成催化剂性能的影响",
+"source": "化工进展",
+"filename": "SrO助催化剂对Fe1-XO基熔铁氨合成催化剂性能的影晌.pdf"
+},
+"nodes": [
+{
+"id": "n1",
+"type": "文档",
+"properties": {
+"title": "SrO 助催化剂对 Fe₁₋ₓO 基熔铁氨合成催化剂性能的影响",
+"source": "化工进展",
+"filename": "SrO助催化剂对Fe1-XO基熔铁氨合成催化剂性能的影晌.pdf",
+"evidence_text": "题名为“SrO 助催化剂对 Fe₁₋ₓO 基熔铁氨合成催化剂性能的影响”，发表于《化工进展》2019 年第 38 卷第 3 期。"
+}
+},
+{
+"id": "n2",
+"type": "催化剂",
+"properties": {
+"display_name": "Fe₁₋ₓO 基熔铁氨合成催化剂",
+"original_name": "Fe1-xO 基熔铁氨合成催化剂",
+"evidence_text": "采用高温熔融法制备了不同 SrO 含量的 Fe₁₋ₓO 基氨合成催化剂。"
+}
+},
+{
+"id": "n3",
+"type": "催化剂",
+"properties": {
+"display_name": "0.2 % SrO/Fe₁₋ₓO 基熔铁氨合成催化剂",
+"original_name": "0.2%SrO",
+"evidence_text": "表 2 列出了 SrO 质量分数为 0.2% 的 Fe₁₋ₓO 基催化剂表面元素分析结果。"
+}
+},
+{
+"id": "n4",
+"type": "催化剂",
+"properties": {
+"display_name": "0.3 % SrO/Fe₁₋ₓO 基熔铁氨合成催化剂",
+"original_name": "0.3%SrO",
+"evidence_text": "图 1 和表 2 中给出了 SrO 质量分数为 0.3% 的 Fe₁₋ₓO 基催化剂。"
+}
+},
+{
+"id": "n5",
+"type": "催化剂",
+"properties": {
+"display_name": "0.4 % SrO/Fe₁₋ₓO 基熔铁氨合成催化剂",
+"original_name": "0.4%SrO",
+"evidence_text": "当 SrO 质量分数为 0.4% 时，催化剂活性最高。"
+}
+},
+{
+"id": "n6",
+"type": "催化剂",
+"properties": {
+"display_name": "0.5 % SrO/Fe₁₋ₓO 基熔铁氨合成催化剂",
+"original_name": "0.5%SrO",
+"evidence_text": "图 1 和表 1 中给出了 SrO 质量分数为 0.5% 的 Fe₁₋ₓO 基催化剂。"
+}
+},
+{
+"id": "n7",
+"type": "催化剂",
+"properties": {
+"display_name": "0.8 % SrO/Fe₁₋ₓO 基熔铁氨合成催化剂",
+"original_name": "0.8%SrO",
+"evidence_text": "当 SrO 质量分数为 0.8% 时，催化剂的耐热后活性出现较明显的下降。"
+}
+},
+{
+"id": "n8",
+"type": "催化剂",
+"properties": {
+"display_name": "2.0 % SrO/Fe₁₋ₓO 基熔铁氨合成催化剂",
+"original_name": "2%SrO",
+"evidence_text": "图 5 和表 3 中给出了 SrO 质量分数为 2% 的催化剂物相信息。"
+}
+},
+{
+"id": "n9",
+"type": "催化剂",
+"properties": {
+"display_name": "4.0 % SrO/Fe₁₋ₓO 基熔铁氨合成催化剂",
+"original_name": "4%SrO",
+"evidence_text": "图 5 和表 3 中给出了 SrO 质量分数为 4% 的催化剂物相信息。"
+}
+},
+{
+"id": "n10",
+"type": "活性组分",
+"properties": {
+"display_name": "Fe",
+"original_name": "Fe",
+"evidence_text": "无论对于 Fe₃O₄ 基还是 Fe₁₋ₓO 基催化剂，助催化剂在提高催化剂比表面积、增强抗烧结能力、提高催化剂活性方面起着至关重要的作用。"
+}
+},
+{
+"id": "n11",
+"type": "助剂",
+"properties": {
+"display_name": "SrO",
+"original_name": "SrO",
+"evidence_text": "采用高温熔融法制备了不同 SrO 含量的 Fe₁₋ₓO 基氨合成催化剂。"
+}
+},
+{
+"id": "n12",
+"type": "助剂",
+"properties": {
+"display_name": "Al",
+"original_name": "Al",
+"evidence_text": "Al 是重要的结构助催化剂，能够抑制 α-Fe 活性相的烧结。"
+}
+},
+{
+"id": "n13",
+"type": "助剂含量",
+"properties": {
+"value": "0.2",
+"unit": "%",
+"display_name": "0.2 % SrO",
+"original_name": "0.2%SrO",
+"evidence_text": "表 2 中列出了 SrO 质量分数为 0.2% 的催化剂。"
+}
+},
+{
+"id": "n14",
+"type": "助剂含量",
+"properties": {
+"value": "0.3",
+"unit": "%",
+"display_name": "0.3 % SrO",
+"original_name": "0.3%SrO",
+"evidence_text": "图 1 和表 2 中给出了 SrO 质量分数为 0.3% 的催化剂。"
+}
+},
+{
+"id": "n15",
+"type": "助剂含量",
+"properties": {
+"value": "0.4",
+"unit": "%",
+"display_name": "0.4 % SrO",
+"original_name": "0.4%SrO",
+"evidence_text": "当 SrO 质量分数为 0.4% 时，催化剂活性最高。"
+}
+},
+{
+"id": "n16",
+"type": "助剂含量",
+"properties": {
+"value": "0.5",
+"unit": "%",
+"display_name": "0.5 % SrO",
+"original_name": "0.5%SrO",
+"evidence_text": "表 1 中给出了 SrO 质量分数为 0.5% 的催化剂耐热系数。"
+}
+},
+{
+"id": "n17",
+"type": "助剂含量",
+"properties": {
+"value": "0.8",
+"unit": "%",
+"display_name": "0.8 % SrO",
+"original_name": "0.8%SrO",
+"evidence_text": "当 SrO 质量分数为 0.8% 时，催化剂的耐热后活性出现较明显的下降。"
+}
+},
+{
+"id": "n18",
+"type": "助剂含量",
+"properties": {
+"value": "2.0",
+"unit": "%",
+"display_name": "2.0 % SrO",
+"original_name": "2%SrO",
+"evidence_text": "表 3 中列出了 SrO 质量分数为 2% 的催化剂物相含量分析。"
+}
+},
+{
+"id": "n19",
+"type": "助剂含量",
+"properties": {
+"value": "4.0",
+"unit": "%",
+"display_name": "4.0 % SrO",
+"original_name": "4%SrO",
+"evidence_text": "表 3 中列出了 SrO 质量分数为 4% 的催化剂物相含量分析。"
+}
+},
+{
+"id": "n20",
+"type": "制备方式",
+"properties": {
+"display_name": "高温熔融法",
+"original_name": "高温熔融法",
+"evidence_text": "催化剂采用高温熔融法制备。"
+}
+},
+{
+"id": "n21",
+"type": "制备工艺",
+"properties": {
+"display_name": "Fe₁₋ₓO 基催化剂制备与活化工艺",
+"original_name": "制备与活化工艺",
+"evidence_text": "催化剂采用高温熔融法制备；在催化剂活性检测前，催化剂依次在 400 °C、425 °C、450 °C、475 °C、500 °C 温度下分别还原 4 h、6 h、10 h、4 h、2 h。"
+}
+},
+{
+"id": "n22",
+"type": "原料选择",
+"properties": {
+"display_name": "磁铁矿粉、还原铁粉、Al、K、Ca、Sr 等助催化剂前体",
+"original_name": "磁铁矿粉、还原铁粉、Al、K、Ca、Sr 等助催化剂前体",
+"evidence_text": "称取一定量的磁铁矿粉、还原铁粉、Al、K、Ca、Sr 等助催化剂前体研磨均匀，置于电阻炉中熔融。"
+}
+},
+{
+"id": "n23",
+"type": "混合方式",
+"properties": {
+"display_name": "研磨均匀后熔融",
+"original_name": "研磨均匀",
+"evidence_text": "称取一定量的磁铁矿粉、还原铁粉、Al、K、Ca、Sr 等助催化剂前体研磨均匀，置于电阻炉中熔融。"
+}
+},
+{
+"id": "n24",
+"type": "还原活化",
+"properties": {
+"display_name": "400 °C、425 °C、450 °C、475 °C、500 °C 依次还原",
+"original_name": "依次在 400℃、425℃、450℃、475℃、500℃温度下分别还原 4h、6h、10h、4h、2h",
+"evidence_text": "在催化剂活性检测前，催化剂依次在 400 °C、425 °C、450 °C、475 °C、500 °C 温度下分别还原 4 h、6 h、10 h、4 h、2 h。"
+}
+},
+{
+"id": "n25",
+"type": "反应条件",
+"properties": {
+"display_name": "活性评价条件",
+"original_name": "活性评价条件",
+"evidence_text": "还原后降至测定温度（400 °C、425 °C、450 °C），在 15 MPa、空速 30000 h⁻¹ 条件下测定出口氨浓度。"
+}
+},
+{
+"id": "n26",
+"type": "温度",
+"properties": {
+"value": "400",
+"unit": "°C",
+"display_name": "400 °C",
+"original_name": "400℃",
+"evidence_text": "还原后降至测定温度（400 °C、425 °C、450 °C），在 15 MPa、空速 30000 h⁻¹ 条件下测定出口氨浓度。"
+}
+},
+{
+"id": "n27",
+"type": "温度",
+"properties": {
+"value": "425",
+"unit": "°C",
+"display_name": "425 °C",
+"original_name": "425℃",
+"evidence_text": "还原后降至测定温度（400 °C、425 °C、450 °C），在 15 MPa、空速 30000 h⁻¹ 条件下测定出口氨浓度。"
+}
+},
+{
+"id": "n28",
+"type": "温度",
+"properties": {
+"value": "450",
+"unit": "°C",
+"display_name": "450 °C",
+"original_name": "450℃",
+"evidence_text": "还原后降至测定温度（400 °C、425 °C、450 °C），在 15 MPa、空速 30000 h⁻¹ 条件下测定出口氨浓度。"
+}
+},
+{
+"id": "n29",
+"type": "压力",
+"properties": {
+"value": "15",
+"unit": "MPa",
+"display_name": "15 MPa",
+"original_name": "15MPa",
+"evidence_text": "在类似工业条件下（15 MPa、30000 h⁻¹）使用固定床反应器对催化剂进行了氨合成活性评价。"
+}
+},
+{
+"id": "n30",
+"type": "空速",
+"properties": {
+"value": "30000",
+"unit": "h⁻¹",
+"display_name": "30000 h⁻¹",
+"original_name": "30000h-1",
+"evidence_text": "在类似工业条件下（15 MPa、30000 h⁻¹）使用固定床反应器对催化剂进行了氨合成活性评价。"
+}
+},
+{
+"id": "n31",
+"type": "氢氮比",
+"properties": {
+"value": "3:1",
+"unit": "",
+"display_name": "H₂:N₂ = 3:1",
+"original_name": "H2:N2 摩尔比为 3:1",
+"evidence_text": "反应气 H₂:N₂ 摩尔比为 3:1，还原压力 5 MPa，空速 30000 h⁻¹。"
+}
+},
+{
+"id": "n32",
+"type": "反应条件",
+"properties": {
+"display_name": "耐热测试条件",
+"original_name": "500℃耐热 15h",
+"evidence_text": "之后催化剂在 500 °C 下耐热 15 h，测定耐热后催化剂的出口氨浓度。"
+}
+},
+{
+"id": "n33",
+"type": "温度",
+"properties": {
+"value": "500",
+"unit": "°C",
+"display_name": "500 °C",
+"original_name": "500℃",
+"evidence_text": "之后催化剂在 500 °C 下耐热 15 h，测定耐热后催化剂的出口氨浓度。"
+}
+},
+{
+"id": "n34",
+"type": "反应时间",
+"properties": {
+"value": "15",
+"unit": "h",
+"display_name": "15 h",
+"original_name": "15h",
+"evidence_text": "之后催化剂在 500 °C 下耐热 15 h，测定耐热后催化剂的出口氨浓度。"
+}
+},
+{
+"id": "n35",
+"type": "催化性能",
+"properties": {
+"display_name": "随 SrO 含量变化呈火山型活性趋势",
+"original_name": "火山型活性变化趋势",
+"evidence_text": "随着 SrO 含量的增加，催化剂的活性先增加后降低，呈现出火山型活性变化趋势。"
+}
+},
+{
+"id": "n36",
+"type": "氨合成活性",
+"properties": {
+"display_name": "活性先增加后降低",
+"original_name": "火山型活性变化趋势",
+"evidence_text": "随着 SrO 含量的增加，催化剂的活性先增加后降低，呈现出火山型活性变化趋势。"
+}
+},
+{
+"id": "n37",
+"type": "催化性能",
+"properties": {
+"display_name": "0.4 % SrO 时活性最高",
+"original_name": "当 SrO 质量分数为 0.4% 时，催化剂活性最高",
+"evidence_text": "当 SrO 质量分数为 0.4% 时，催化剂活性最高。"
+}
+},
+{
+"id": "n38",
+"type": "氨合成活性",
+"properties": {
+"display_name": "活性最高",
+"original_name": "活性最高",
+"evidence_text": "当 SrO 质量分数为 0.4% 时，催化剂活性最高。"
+}
+},
+{
+"id": "n39",
+"type": "催化性能",
+"properties": {
+"display_name": "0.8 % SrO 时耐热性能降低",
+"original_name": "当 SrO 质量分数为 0.8% 时，耐热性能有所降低",
+"evidence_text": "当 SrO 质量分数为 0.8% 时，催化剂的耐热后活性出现较明显的下降，说明催化剂的耐热性能有所降低。"
+}
+},
+{
+"id": "n40",
+"type": "稳定性",
+"properties": {
+"display_name": "耐热性能降低",
+"original_name": "耐热性能有所降低",
+"evidence_text": "当 SrO 质量分数为 0.8% 时，催化剂的耐热后活性出现较明显的下降，说明催化剂的耐热性能有所降低。"
+}
+},
+{
+"id": "n41",
+"type": "表征方法",
+"properties": {
+"display_name": "表征方法",
+"original_name": "表征方法",
+"evidence_text": "并采用 X 射线能谱仪（EDS）、程序升温还原（H₂-TPR）、程序升温脱附（N₂-TPD）、X 射线粉末衍射（XRD）对样品进行表征。"
+}
+},
+{
+"id": "n42",
+"type": "H₂-TPR",
+"properties": {
+"display_name": "H₂-TPR",
+"original_name": "H2-TPR",
+"evidence_text": "程序升温还原（H₂-TPR）在装有热导检测器的 GC1690 气相色谱中进行。"
+}
+},
+{
+"id": "n43",
+"type": "N₂-TPD",
+"properties": {
+"display_name": "N₂-TPD",
+"original_name": "N2-TPD",
+"evidence_text": "程序升温脱附（N₂-TPD）在上述装置中进行。"
+}
+},
+{
+"id": "n44",
+"type": "XRD",
+"properties": {
+"display_name": "XRD",
+"original_name": "XRD",
+"evidence_text": "催化剂反应前的物相，采用瑞士 Thermo ARL X'TRA 射线衍射仪测定。"
+}
+},
+{
+"id": "n45",
+"type": "SEM",
+"properties": {
+"display_name": "SEM",
+"original_name": "扫描电子显微镜",
+"evidence_text": "采用 Hitachi S-4700 型扫描电子显微镜对反应前催化剂进行扫描，工作电压为 15 kV。"
+}
+},
+{
+"id": "n46",
+"type": "晶相结构",
+"properties": {
+"display_name": "FeO 主相",
+"original_name": "FeO",
+"evidence_text": "Fe₁₋ₓO 基催化剂中母体是 FeO，故 XRD 谱图中 FeO 物相为主要物相。"
+}
+},
+{
+"id": "n47",
+"type": "晶相结构",
+"properties": {
+"display_name": "Ca₂Fe₂O₄ 次要物相",
+"original_name": "Ca2Fe2O4",
+"evidence_text": "除了主相 FeO 外，还有次要物相 Ca₂Fe₂O₄ 被检测出。"
+}
+},
+{
+"id": "n48",
+"type": "晶相结构",
+"properties": {
+"display_name": "3CaO·Al₂O₃",
+"original_name": "3CaO·Al2O3",
+"evidence_text": "当 SrO 质量分数在 0-0.4% 范围内，并没有出现含 Sr 的物相，含 Al 的物相为 3CaO·Al₂O₃。"
+}
+},
+{
+"id": "n49",
+"type": "晶相结构",
+"properties": {
+"display_name": "SrO·2Al₂O₃",
+"original_name": "SrO·2Al2O3",
+"evidence_text": "随着 SrO 质量分数的进一步增加，出现了含 Sr 的物相锶铝盐（SrO·2Al₂O₃）。"
+}
+},
+{
+"id": "n50",
+"type": "晶相结构",
+"properties": {
+"display_name": "12SrO·7Al₂O₃",
+"original_name": "12SrO·7Al2O3",
+"evidence_text": "表 3 中，SrO 质量分数为 2% 的催化剂含 Al 物相为 12SrO·7Al₂O₃。"
+}
+},
+{
+"id": "n51",
+"type": "晶相结构",
+"properties": {
+"display_name": "3SrO·Al₂O₃",
+"original_name": "3SrO·Al2O3",
+"evidence_text": "最终形成铝酸锶（3SrO·Al₂O₃）；表 3 中，SrO 质量分数为 4% 的催化剂含 Al 物相为 3SrO·Al₂O₃。"
+}
+},
+{
+"id": "n52",
+"type": "反应机理",
+"properties": {
+"display_name": "0.4 % SrO 促进 N₂ 解离吸附",
+"original_name": "0.4%SrO 更有利于 N2 解离吸附",
+"evidence_text": "SrO 质量分数为 0.4% 的催化剂脱附活化能最大，其吸附活化能最小，更加有利于 N₂ 的解离吸附，从而提高催化剂的活性。"
+}
+},
+{
+"id": "n53",
+"type": "速率控制步骤",
+"properties": {
+"display_name": "N₂ 解离吸附",
+"original_name": "N2 解离吸附",
+"evidence_text": "对于氨合成来说，N₂ 的解离吸附是速控步骤。"
+}
+},
+{
+"id": "n54",
+"type": "活化能",
+"properties": {
+"display_name": "N₂ 解离吸附活化能降低",
+"original_name": "降低 N2 的解离活化能",
+"evidence_text": "少量 SrO 的添加降低了 N₂ 的解离活化能或降低了 NHx 物种的稳定性，提高了催化剂的活性。"
+}
+},
+{
+"id": "n55",
+"type": "反应机理",
+"properties": {
+"display_name": "0.2 % SrO 降低 NHx 物种稳定性",
+"original_name": "0.2%SrO 降低 NHx 物种稳定性",
+"evidence_text": "当 SrO 质量分数为 0.2% 时，其吸附活化能 Ea 最大，不利于 N₂ 的解离，但是降低了 NHx 物种的稳定性，有利于 NHx 物种的加氢和脱附，提高了催化剂的活性。"
+}
+},
+{
+"id": "n56",
+"type": "加氢步骤",
+"properties": {
+"display_name": "有利于 NHx 物种加氢",
+"original_name": "有利于 NHx 物种的加氢",
+"evidence_text": "当 SrO 质量分数为 0.2% 时，其吸附活化能 Ea 最大，不利于 N₂ 的解离，但是降低了 NHx 物种的稳定性，有利于 NHx 物种的加氢和脱附，提高了催化剂的活性。"
+}
+},
+{
+"id": "n57",
+"type": "脱附机理",
+"properties": {
+"display_name": "有利于 NHx 物种脱附",
+"original_name": "有利于 NHx 物种的脱附",
+"evidence_text": "当 SrO 质量分数为 0.2% 时，其吸附活化能 Ea 最大，不利于 N₂ 的解离，但是降低了 NHx 物种的稳定性，有利于 NHx 物种的加氢和脱附，提高了催化剂的活性。"
+}
+},
+{
+"id": "n58",
+"type": "反应机理",
+"properties": {
+"display_name": "过量 SrO 抑制机理",
+"original_name": "过量 SrO 覆盖活性位并消耗结构助催化剂 Al",
+"evidence_text": "SrO 含量进一步增加，覆盖了表面部分活性位，消耗了体相的重要结构助催化剂 Al，降低了催化剂的活性和耐热性能。"
+}
+},
+{
+"id": "n59",
+"type": "活性位模型",
+"properties": {
+"display_name": "SrO 覆盖表面部分活性位",
+"original_name": "覆盖了表面部分活性位",
+"evidence_text": "SrO 含量进一步增加，覆盖了表面部分活性位，消耗了体相的重要结构助催化剂 Al，降低了催化剂的活性和耐热性能。"
+}
+}
+],
+"edges": [
+{
+"source": "n1",
+"relation": "提及",
+"target": "n2",
+"evidence_text": "采用高温熔融法制备了不同 SrO 含量的 Fe₁₋ₓO 基氨合成催化剂。"
+},
+{
+"source": "n1",
+"relation": "提及",
+"target": "n3",
+"evidence_text": "表 2 列出了 SrO 质量分数为 0.2% 的 Fe₁₋ₓO 基催化剂表面元素分析结果。"
+},
+{
+"source": "n1",
+"relation": "提及",
+"target": "n4",
+"evidence_text": "图 1 和表 2 中给出了 SrO 质量分数为 0.3% 的 Fe₁₋ₓO 基催化剂。"
+},
+{
+"source": "n1",
+"relation": "提及",
+"target": "n5",
+"evidence_text": "当 SrO 质量分数为 0.4% 时，催化剂活性最高。"
+},
+{
+"source": "n1",
+"relation": "提及",
+"target": "n6",
+"evidence_text": "图 1 和表 1 中给出了 SrO 质量分数为 0.5% 的 Fe₁₋ₓO 基催化剂。"
+},
+{
+"source": "n1",
+"relation": "提及",
+"target": "n7",
+"evidence_text": "当 SrO 质量分数为 0.8% 时，催化剂的耐热后活性出现较明显的下降。"
+},
+{
+"source": "n1",
+"relation": "提及",
+"target": "n8",
+"evidence_text": "图 5 和表 3 中给出了 SrO 质量分数为 2% 的催化剂物相信息。"
+},
+{
+"source": "n1",
+"relation": "提及",
+"target": "n9",
+"evidence_text": "图 5 和表 3 中给出了 SrO 质量分数为 4% 的催化剂物相信息。"
+},
+{
+"source": "n2",
+"relation": "有活性组分",
+"target": "n10",
+"evidence_text": "无论对于 Fe₃O₄ 基还是 Fe₁₋ₓO 基催化剂，助催化剂在提高催化剂比表面积、增强抗烧结能力、提高催化剂活性方面起着至关重要的作用。"
+},
+{
+"source": "n2",
+"relation": "有助剂",
+"target": "n11",
+"evidence_text": "采用高温熔融法制备了不同 SrO 含量的 Fe₁₋ₓO 基氨合成催化剂。"
+},
+{
+"source": "n2",
+"relation": "有助剂",
+"target": "n12",
+"evidence_text": "Al 是重要的结构助催化剂，能够抑制 α-Fe 活性相的烧结。"
+},
+{
+"source": "n3",
+"relation": "有助剂",
+"target": "n11",
+"evidence_text": "表 2 列出了 SrO 质量分数为 0.2% 的 Fe₁₋ₓO 基催化剂表面元素分析结果。"
+},
+{
+"source": "n4",
+"relation": "有助剂",
+"target": "n11",
+"evidence_text": "图 1 和表 2 中给出了 SrO 质量分数为 0.3% 的 Fe₁₋ₓO 基催化剂。"
+},
+{
+"source": "n5",
+"relation": "有助剂",
+"target": "n11",
+"evidence_text": "当 SrO 质量分数为 0.4% 时，催化剂活性最高。"
+},
+{
+"source": "n6",
+"relation": "有助剂",
+"target": "n11",
+"evidence_text": "图 1 和表 1 中给出了 SrO 质量分数为 0.5% 的 Fe₁₋ₓO 基催化剂。"
+},
+{
+"source": "n7",
+"relation": "有助剂",
+"target": "n11",
+"evidence_text": "当 SrO 质量分数为 0.8% 时，催化剂的耐热后活性出现较明显的下降。"
+},
+{
+"source": "n8",
+"relation": "有助剂",
+"target": "n11",
+"evidence_text": "表 3 中列出了 SrO 质量分数为 2% 的催化剂物相含量分析。"
+},
+{
+"source": "n9",
+"relation": "有助剂",
+"target": "n11",
+"evidence_text": "表 3 中列出了 SrO 质量分数为 4% 的催化剂物相含量分析。"
+},
+{
+"source": "n3",
+"relation": "有助剂含量",
+"target": "n13",
+"evidence_text": "表 2 中列出了 SrO 质量分数为 0.2% 的催化剂。"
+},
+{
+"source": "n4",
+"relation": "有助剂含量",
+"target": "n14",
+"evidence_text": "图 1 和表 2 中给出了 SrO 质量分数为 0.3% 的催化剂。"
+},
+{
+"source": "n5",
+"relation": "有助剂含量",
+"target": "n15",
+"evidence_text": "当 SrO 质量分数为 0.4% 时，催化剂活性最高。"
+},
+{
+"source": "n6",
+"relation": "有助剂含量",
+"target": "n16",
+"evidence_text": "表 1 中给出了 SrO 质量分数为 0.5% 的催化剂耐热系数。"
+},
+{
+"source": "n7",
+"relation": "有助剂含量",
+"target": "n17",
+"evidence_text": "当 SrO 质量分数为 0.8% 时，催化剂的耐热后活性出现较明显的下降。"
+},
+{
+"source": "n8",
+"relation": "有助剂含量",
+"target": "n18",
+"evidence_text": "表 3 中列出了 SrO 质量分数为 2% 的催化剂物相含量分析。"
+},
+{
+"source": "n9",
+"relation": "有助剂含量",
+"target": "n19",
+"evidence_text": "表 3 中列出了 SrO 质量分数为 4% 的催化剂物相含量分析。"
+},
+{
+"source": "n2",
+"relation": "有制备方式",
+"target": "n20",
+"evidence_text": "催化剂采用高温熔融法制备。"
+},
+{
+"source": "n2",
+"relation": "有制备工艺",
+"target": "n21",
+"evidence_text": "催化剂采用高温熔融法制备；在催化剂活性检测前，催化剂依次在 400 °C、425 °C、450 °C、475 °C、500 °C 温度下分别还原 4 h、6 h、10 h、4 h、2 h。"
+},
+{
+"source": "n21",
+"relation": "有原料选择",
+"target": "n22",
+"evidence_text": "称取一定量的磁铁矿粉、还原铁粉、Al、K、Ca、Sr 等助催化剂前体研磨均匀，置于电阻炉中熔融。"
+},
+{
+"source": "n21",
+"relation": "有混合方式",
+"target": "n23",
+"evidence_text": "称取一定量的磁铁矿粉、还原铁粉、Al、K、Ca、Sr 等助催化剂前体研磨均匀，置于电阻炉中熔融。"
+},
+{
+"source": "n21",
+"relation": "有还原活化",
+"target": "n24",
+"evidence_text": "在催化剂活性检测前，催化剂依次在 400 °C、425 °C、450 °C、475 °C、500 °C 温度下分别还原 4 h、6 h、10 h、4 h、2 h。"
+},
+{
+"source": "n2",
+"relation": "有反应条件",
+"target": "n25",
+"evidence_text": "还原后降至测定温度（400 °C、425 °C、450 °C），在 15 MPa、空速 30000 h⁻¹ 条件下测定出口氨浓度。"
+},
+{
+"source": "n25",
+"relation": "有温度",
+"target": "n26",
+"evidence_text": "还原后降至测定温度（400 °C、425 °C、450 °C），在 15 MPa、空速 30000 h⁻¹ 条件下测定出口氨浓度。"
+},
+{
+"source": "n25",
+"relation": "有温度",
+"target": "n27",
+"evidence_text": "还原后降至测定温度（400 °C、425 °C、450 °C），在 15 MPa、空速 30000 h⁻¹ 条件下测定出口氨浓度。"
+},
+{
+"source": "n25",
+"relation": "有温度",
+"target": "n28",
+"evidence_text": "还原后降至测定温度（400 °C、425 °C、450 °C），在 15 MPa、空速 30000 h⁻¹ 条件下测定出口氨浓度。"
+},
+{
+"source": "n25",
+"relation": "有压力",
+"target": "n29",
+"evidence_text": "在类似工业条件下（15 MPa、30000 h⁻¹）使用固定床反应器对催化剂进行了氨合成活性评价。"
+},
+{
+"source": "n25",
+"relation": "有空速",
+"target": "n30",
+"evidence_text": "在类似工业条件下（15 MPa、30000 h⁻¹）使用固定床反应器对催化剂进行了氨合成活性评价。"
+},
+{
+"source": "n25",
+"relation": "有氢氮比",
+"target": "n31",
+"evidence_text": "反应气 H₂:N₂ 摩尔比为 3:1，还原压力 5 MPa，空速 30000 h⁻¹。"
+},
+{
+"source": "n2",
+"relation": "有反应条件",
+"target": "n32",
+"evidence_text": "之后催化剂在 500 °C 下耐热 15 h，测定耐热后催化剂的出口氨浓度。"
+},
+{
+"source": "n32",
+"relation": "有温度",
+"target": "n33",
+"evidence_text": "之后催化剂在 500 °C 下耐热 15 h，测定耐热后催化剂的出口氨浓度。"
+},
+{
+"source": "n32",
+"relation": "有反应时间",
+"target": "n34",
+"evidence_text": "之后催化剂在 500 °C 下耐热 15 h，测定耐热后催化剂的出口氨浓度。"
+},
+{
+"source": "n2",
+"relation": "有催化性能",
+"target": "n35",
+"evidence_text": "随着 SrO 含量的增加，催化剂的活性先增加后降低，呈现出火山型活性变化趋势。"
+},
+{
+"source": "n35",
+"relation": "有氨合成活性",
+"target": "n36",
+"evidence_text": "随着 SrO 含量的增加，催化剂的活性先增加后降低，呈现出火山型活性变化趋势。"
+},
+{
+"source": "n5",
+"relation": "有催化性能",
+"target": "n37",
+"evidence_text": "当 SrO 质量分数为 0.4% 时，催化剂活性最高。"
+},
+{
+"source": "n37",
+"relation": "有氨合成活性",
+"target": "n38",
+"evidence_text": "当 SrO 质量分数为 0.4% 时，催化剂活性最高。"
+},
+{
+"source": "n7",
+"relation": "有催化性能",
+"target": "n39",
+"evidence_text": "当 SrO 质量分数为 0.8% 时，催化剂的耐热后活性出现较明显的下降，说明催化剂的耐热性能有所降低。"
+},
+{
+"source": "n39",
+"relation": "有稳定性",
+"target": "n40",
+"evidence_text": "当 SrO 质量分数为 0.8% 时，催化剂的耐热后活性出现较明显的下降，说明催化剂的耐热性能有所降低。"
+},
+{
+"source": "n2",
+"relation": "有表征方法",
+"target": "n41",
+"evidence_text": "并采用 X 射线能谱仪（EDS）、程序升温还原（H₂-TPR）、程序升温脱附（N₂-TPD）、X 射线粉末衍射（XRD）对样品进行表征。"
+},
+{
+"source": "n41",
+"relation": "有H₂-TPR",
+"target": "n42",
+"evidence_text": "程序升温还原（H₂-TPR）在装有热导检测器的 GC1690 气相色谱中进行。"
+},
+{
+"source": "n41",
+"relation": "有N₂-TPD",
+"target": "n43",
+"evidence_text": "程序升温脱附（N₂-TPD）在上述装置中进行。"
+},
+{
+"source": "n41",
+"relation": "有XRD",
+"target": "n44",
+"evidence_text": "催化剂反应前的物相，采用瑞士 Thermo ARL X'TRA 射线衍射仪测定。"
+},
+{
+"source": "n41",
+"relation": "有SEM",
+"target": "n45",
+"evidence_text": "采用 Hitachi S-4700 型扫描电子显微镜对反应前催化剂进行扫描，工作电压为 15 kV。"
+},
+{
+"source": "n2",
+"relation": "有晶相结构",
+"target": "n46",
+"evidence_text": "Fe₁₋ₓO 基催化剂中母体是 FeO，故 XRD 谱图中 FeO 物相为主要物相。"
+},
+{
+"source": "n2",
+"relation": "有晶相结构",
+"target": "n47",
+"evidence_text": "除了主相 FeO 外，还有次要物相 Ca₂Fe₂O₄ 被检测出。"
+},
+{
+"source": "n3",
+"relation": "有晶相结构",
+"target": "n48",
+"evidence_text": "当 SrO 质量分数在 0-0.4% 范围内，并没有出现含 Sr 的物相，含 Al 的物相为 3CaO·Al₂O₃。"
+},
+{
+"source": "n5",
+"relation": "有晶相结构",
+"target": "n48",
+"evidence_text": "当 SrO 质量分数在 0-0.4% 范围内，并没有出现含 Sr 的物相，含 Al 的物相为 3CaO·Al₂O₃。"
+},
+{
+"source": "n7",
+"relation": "有晶相结构",
+"target": "n49",
+"evidence_text": "随着 SrO 质量分数的进一步增加，出现了含 Sr 的物相锶铝盐（SrO·2Al₂O₃）。"
+},
+{
+"source": "n8",
+"relation": "有晶相结构",
+"target": "n50",
+"evidence_text": "表 3 中，SrO 质量分数为 2% 的催化剂含 Al 物相为 12SrO·7Al₂O₃。"
+},
+{
+"source": "n9",
+"relation": "有晶相结构",
+"target": "n51",
+"evidence_text": "最终形成铝酸锶（3SrO·Al₂O₃）；表 3 中，SrO 质量分数为 4% 的催化剂含 Al 物相为 3SrO·Al₂O₃。"
+},
+{
+"source": "n5",
+"relation": "有反应机理",
+"target": "n52",
+"evidence_text": "SrO 质量分数为 0.4% 的催化剂脱附活化能最大，其吸附活化能最小，更加有利于 N₂ 的解离吸附，从而提高催化剂的活性。"
+},
+{
+"source": "n52",
+"relation": "有速率控制步骤",
+"target": "n53",
+"evidence_text": "对于氨合成来说，N₂ 的解离吸附是速控步骤。"
+},
+{
+"source": "n52",
+"relation": "有活化能",
+"target": "n54",
+"evidence_text": "少量 SrO 的添加降低了 N₂ 的解离活化能或降低了 NHx 物种的稳定性，提高了催化剂的活性。"
+},
+{
+"source": "n3",
+"relation": "有反应机理",
+"target": "n55",
+"evidence_text": "当 SrO 质量分数为 0.2% 时，其吸附活化能 Ea 最大，不利于 N₂ 的解离，但是降低了 NHx 物种的稳定性，有利于 NHx 物种的加氢和脱附，提高了催化剂的活性。"
+},
+{
+"source": "n55",
+"relation": "有加氢步骤",
+"target": "n56",
+"evidence_text": "当 SrO 质量分数为 0.2% 时，其吸附活化能 Ea 最大，不利于 N₂ 的解离，但是降低了 NHx 物种的稳定性，有利于 NHx 物种的加氢和脱附，提高了催化剂的活性。"
+},
+{
+"source": "n55",
+"relation": "有脱附机理",
+"target": "n57",
+"evidence_text": "当 SrO 质量分数为 0.2% 时，其吸附活化能 Ea 最大，不利于 N₂ 的解离，但是降低了 NHx 物种的稳定性，有利于 NHx 物种的加氢和脱附，提高了催化剂的活性。"
+},
+{
+"source": "n7",
+"relation": "有反应机理",
+"target": "n58",
+"evidence_text": "SrO 含量进一步增加，覆盖了表面部分活性位，消耗了体相的重要结构助催化剂 Al，降低了催化剂的活性和耐热性能。"
+},
+{
+"source": "n58",
+"relation": "有活性位模型",
+"target": "n59",
+"evidence_text": "SrO 含量进一步增加，覆盖了表面部分活性位，消耗了体相的重要结构助催化剂 Al，降低了催化剂的活性和耐热性能。"
+}
+]
+}

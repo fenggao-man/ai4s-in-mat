@@ -1,0 +1,39 @@
+version: 0.1.0-draft
+status: active
+scope: storage_projection
+notes:
+  - 该文件定义 Neo4j 入库前的最小属性集。
+  - 目标是让图数据库只保留知识图谱查询和展示需要的字段。
+  - aliases、source_node_ids、fusion_status、normalization_method 等流水线调试字段不进入 Neo4j。
+
+property_groups:
+  document:
+    - doc_id
+    - title
+    - source
+    - filename
+
+  name_node:
+    - display_name
+    - original_name
+    - doc_id
+
+  value_node:
+    - value
+    - unit
+    - display_name
+    - original_name
+    - doc_id
+
+value_node_types:
+  - 粒径
+  - 比表面积
+  - 助剂含量
+  - 温度
+  - 压力
+  - 空速
+  - 反应时间
+  - 焙烧温度
+  - 还原活化
+  - 氨合成活性
+  - 转化率

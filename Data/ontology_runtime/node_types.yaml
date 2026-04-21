@@ -1,0 +1,588 @@
+version: 0.2.0
+status: active
+design: two_level_nodes
+node_types:
+  - name: 文档
+    level: root
+    unique_key:
+      - doc_id
+    properties:
+      - name: doc_id
+        type: string
+      - name: title
+        type: string
+      - name: source
+        type: string
+      - name: filename
+        type: string
+
+  - name: 催化剂
+    level: root
+    unique_key:
+      - name
+      - doc_id
+    properties:
+      - name: doc_id
+        type: string
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 助剂
+    level: root
+    unique_key:
+      - name
+      - catalyst_name
+      - doc_id
+    properties:
+      - name: doc_id
+        type: string
+      - name: catalyst_name
+        type: string
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 反应条件
+    level: root
+    unique_key:
+      - catalyst_name
+      - doc_id
+      - name
+    properties:
+      - name: doc_id
+        type: string
+      - name: catalyst_name
+        type: string
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 催化性能
+    level: root
+    unique_key:
+      - catalyst_name
+      - doc_id
+      - name
+    properties:
+      - name: doc_id
+        type: string
+      - name: catalyst_name
+        type: string
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 表征方法
+    level: root
+    unique_key:
+      - catalyst_name
+      - doc_id
+      - name
+    properties:
+      - name: doc_id
+        type: string
+      - name: catalyst_name
+        type: string
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 反应机理
+    level: root
+    unique_key:
+      - catalyst_name
+      - doc_id
+      - name
+    properties:
+      - name: doc_id
+        type: string
+      - name: catalyst_name
+        type: string
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 制备工艺
+    level: root
+    unique_key:
+      - catalyst_name
+      - doc_id
+      - name
+    properties:
+      - name: doc_id
+        type: string
+      - name: catalyst_name
+        type: string
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 活性组分
+    level: child
+    parent_type: 催化剂
+    properties:
+      - name: name
+        type: string
+      - name: value
+        type: string
+      - name: unit
+        type: string
+      - name: note
+        type: string
+
+  - name: 前驱体
+    level: child
+    parent_type: 催化剂
+    properties:
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 晶相结构
+    level: child
+    parent_type: 催化剂
+    properties:
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 铁比
+    level: child
+    parent_type: 催化剂
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+      - name: note
+        type: string
+
+  - name: 比表面积
+    level: child
+    parent_type: 催化剂
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+      - name: note
+        type: string
+
+  - name: 孔结构
+    level: child
+    parent_type: 催化剂
+    properties:
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 粒径
+    level: child
+    parent_type: 催化剂
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+      - name: note
+        type: string
+
+  - name: 制备方式
+    level: child
+    parent_type: 催化剂
+    properties:
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 机械强度
+    level: child
+    parent_type: 催化剂
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+      - name: note
+        type: string
+
+  - name: 助剂含量
+    level: child
+    parent_type: 助剂
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+      - name: note
+        type: string
+
+  - name: 助剂种类
+    level: child
+    parent_type: 助剂
+    properties:
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 添加方式
+    level: child
+    parent_type: 助剂
+    properties:
+      - name: name
+        type: string
+      - name: note
+        type: string
+
+  - name: 温度
+    level: child
+    parent_type: 反应条件
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 压力
+    level: child
+    parent_type: 反应条件
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 空速
+    level: child
+    parent_type: 反应条件
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 氢氮比
+    level: child
+    parent_type: 反应条件
+    properties:
+      - name: value
+        type: string
+
+  - name: 进料组成
+    level: child
+    parent_type: 反应条件
+    properties:
+      - name: value
+        type: string
+
+  - name: 气体纯度
+    level: child
+    parent_type: 反应条件
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 反应时间
+    level: child
+    parent_type: 反应条件
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 氨合成活性
+    level: child
+    parent_type: 催化性能
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 转化率
+    level: child
+    parent_type: 催化性能
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 选择性
+    level: child
+    parent_type: 催化性能
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 稳定性
+    level: child
+    parent_type: 催化性能
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+      - name: note
+        type: string
+
+  - name: 寿命
+    level: child
+    parent_type: 催化性能
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 抗毒性
+    level: child
+    parent_type: 催化性能
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+      - name: note
+        type: string
+
+  - name: XRD
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: BET
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: TEM
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: SEM
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: XPS
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: H2-TPR
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: N2-TPD
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: NH3-TPD
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: Mössbauer
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: Raman
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: FT-IR
+    level: child
+    parent_type: 表征方法
+    properties:
+      - name: result_summary
+        type: string
+      - name: note
+        type: string
+
+  - name: 解离吸附
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: description
+        type: string
+
+  - name: 缔合吸附
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: description
+        type: string
+
+  - name: 加氢步骤
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: description
+        type: string
+
+  - name: 脱附机理
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: description
+        type: string
+
+  - name: 活性位模型
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: description
+        type: string
+
+  - name: 速率控制步骤
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: description
+        type: string
+
+  - name: 活化能
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 反应级数
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: value
+        type: string
+      - name: note
+        type: string
+
+  - name: 吸附热
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 指前因子
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 动力学参数
+    level: child
+    parent_type: 反应机理
+    properties:
+      - name: value
+        type: string
+      - name: note
+        type: string
+
+  - name: 原料选择
+    level: child
+    parent_type: 制备工艺
+    properties:
+      - name: description
+        type: string
+
+  - name: 混合方式
+    level: child
+    parent_type: 制备工艺
+    properties:
+      - name: description
+        type: string
+
+  - name: 成型工艺
+    level: child
+    parent_type: 制备工艺
+    properties:
+      - name: description
+        type: string
+
+  - name: 焙烧温度
+    level: child
+    parent_type: 制备工艺
+    properties:
+      - name: value
+        type: string
+      - name: unit
+        type: string
+
+  - name: 还原活化
+    level: child
+    parent_type: 制备工艺
+    properties:
+      - name: description
+        type: string

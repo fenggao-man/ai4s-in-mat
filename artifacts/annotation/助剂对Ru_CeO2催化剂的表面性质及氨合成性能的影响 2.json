@@ -1,0 +1,3400 @@
+{
+"document": {
+"title": "助剂对 Ru/CeO₂ 催化剂的表面性质及氨合成性能的影响",
+"source": "Prompt.md 与 structured markdown；Prompt 来源 ；论文 structured markdown 来源 ",
+"filename": "document_structured.md",
+"evidence_text": "论文标题为“助剂对 Ru/CeO₂ 催化剂的表面性质及氨合成性能的影响”，输入文件为 structured markdown。",
+"evidence_anchor": "标题"
+},
+"sample_inventory": [
+{
+"sample_id": "s1",
+"display_name": "Ru/CeO₂",
+"original_names": [
+"Ru/CeO₂",
+"4% Ru/CeO₂",
+"no promoter"
+],
+"sample_category": "base_sample",
+"promoters": [],
+"promoter_contents": [],
+"sample_key_components": [
+"Ru",
+"CeO₂"
+],
+"sample_identity_evidence": "表 1、表 2、表 3 与图 2、图 3均出现未加助剂的 Ru/CeO₂ 样品。",
+"evidence_anchor": "表 1 + 表 2 + 表 3 + 图 2"
+},
+{
+"sample_id": "s2",
+"display_name": "K-Ru/CeO₂",
+"original_names": [
+"K-Ru/CeO₂",
+"KNO₃-promoted Ru/CeO₂",
+"KNO₃"
+],
+"sample_category": "single_promoted_sample",
+"promoters": [
+"K"
+],
+"promoter_contents": [
+"1.5 wt% K"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"K"
+],
+"sample_identity_evidence": "图 2 图注写明 K loading is 1.5%，表 1 和表 3给出 K-Ru/CeO₂。",
+"evidence_anchor": "图 2 + 表 1 + 表 3"
+},
+{
+"sample_id": "s3",
+"display_name": "F-Ru/CeO₂",
+"original_names": [
+"F-Ru/CeO₂",
+"KF-promoted Ru/CeO₂",
+"KF"
+],
+"sample_category": "single_promoted_sample",
+"promoters": [
+"F"
+],
+"promoter_contents": [
+"1.5 wt% F"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"F"
+],
+"sample_identity_evidence": "图 2 图注写明 F loading is 1.5%，表 1 和表 3给出 F-Ru/CeO₂。",
+"evidence_anchor": "图 2 + 表 1 + 表 3"
+},
+{
+"sample_id": "s4",
+"display_name": "Ba-Ru/CeO₂",
+"original_names": [
+"Ba-Ru/CeO₂",
+"Ba(NO₃)₂-promoted Ru/CeO₂",
+"Ba(NO₃)₂"
+],
+"sample_category": "single_promoted_sample",
+"promoters": [
+"Ba"
+],
+"promoter_contents": [
+"2 wt% Ba"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Ba"
+],
+"sample_identity_evidence": "图 2 图注写明 Ba loading is 2%，表 1 和表 3给出 Ba-Ru/CeO₂。",
+"evidence_anchor": "图 2 + 表 1 + 表 3"
+},
+{
+"sample_id": "s5",
+"display_name": "Cs-Ru/CeO₂",
+"original_names": [
+"Cs-Ru/CeO₂",
+"CsNO₃-promoted Ru/CeO₂",
+"CsNO₃"
+],
+"sample_category": "single_promoted_sample",
+"promoters": [
+"Cs"
+],
+"promoter_contents": [
+"3 wt% Cs"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Cs"
+],
+"sample_identity_evidence": "图 2 图注写明 Cs loading is 3%，表 1 和表 3给出 Cs-Ru/CeO₂。",
+"evidence_anchor": "图 2 + 表 1 + 表 3"
+},
+{
+"sample_id": "s6",
+"display_name": "F+Ba-Ru/CeO₂",
+"original_names": [
+"F+Ba-Ru/CeO₂"
+],
+"sample_category": "multi_promoted_sample",
+"promoters": [
+"F",
+"Ba"
+],
+"promoter_contents": [
+"1.5 wt% F",
+"2 wt% Ba"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"F",
+"Ba"
+],
+"sample_identity_evidence": "表 1 和表 3列出 F+Ba-Ru/CeO₂；图 3为双助剂样品之一。",
+"evidence_anchor": "表 1 + 表 3 + 图 3"
+},
+{
+"sample_id": "s7",
+"display_name": "F+Cs-Ru/CeO₂",
+"original_names": [
+"F+Cs-Ru/CeO₂"
+],
+"sample_category": "multi_promoted_sample",
+"promoters": [
+"F",
+"Cs"
+],
+"promoter_contents": [
+"1.5 wt% F",
+"3 wt% Cs"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"F",
+"Cs"
+],
+"sample_identity_evidence": "表 1 和表 3列出 F+Cs-Ru/CeO₂；图 3为双助剂样品之一。",
+"evidence_anchor": "表 1 + 表 3 + 图 3"
+},
+{
+"sample_id": "s8",
+"display_name": "Ba+Cs-Ru/CeO₂",
+"original_names": [
+"Ba+Cs-Ru/CeO₂"
+],
+"sample_category": "multi_promoted_sample",
+"promoters": [
+"Ba",
+"Cs"
+],
+"promoter_contents": [
+"2 wt% Ba",
+"3 wt% Cs"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Ba",
+"Cs"
+],
+"sample_identity_evidence": "表 1 和表 3列出 Ba+Cs-Ru/CeO₂；图 3为双助剂样品之一。",
+"evidence_anchor": "表 1 + 表 3 + 图 3"
+},
+{
+"sample_id": "s9",
+"display_name": "0.5 wt% Cs-Ru/CeO₂",
+"original_names": [
+"Cs 含量 0.5%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"Cs"
+],
+"promoter_contents": [
+"0.5 wt% Cs"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Cs"
+],
+"sample_identity_evidence": "图 1 给出 Cs 含量为 0.5% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s10",
+"display_name": "1.0 wt% Cs-Ru/CeO₂",
+"original_names": [
+"Cs 含量 1.0%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"Cs"
+],
+"promoter_contents": [
+"1.0 wt% Cs"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Cs"
+],
+"sample_identity_evidence": "图 1 给出 Cs 含量为 1.0% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s11",
+"display_name": "1.5 wt% Cs-Ru/CeO₂",
+"original_names": [
+"Cs 含量 1.5%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"Cs"
+],
+"promoter_contents": [
+"1.5 wt% Cs"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Cs"
+],
+"sample_identity_evidence": "图 1 给出 Cs 含量为 1.5% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s12",
+"display_name": "2.0 wt% Cs-Ru/CeO₂",
+"original_names": [
+"Cs 含量 2.0%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"Cs"
+],
+"promoter_contents": [
+"2.0 wt% Cs"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Cs"
+],
+"sample_identity_evidence": "图 1 给出 Cs 含量为 2.0% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s13",
+"display_name": "2.5 wt% Cs-Ru/CeO₂",
+"original_names": [
+"Cs 含量 2.5%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"Cs"
+],
+"promoter_contents": [
+"2.5 wt% Cs"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Cs"
+],
+"sample_identity_evidence": "图 1 给出 Cs 含量为 2.5% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s14",
+"display_name": "0.5 wt% F-Ru/CeO₂",
+"original_names": [
+"F 含量 0.5%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"F"
+],
+"promoter_contents": [
+"0.5 wt% F"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"F"
+],
+"sample_identity_evidence": "图 1 给出 F 含量为 0.5% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s15",
+"display_name": "1.0 wt% F-Ru/CeO₂",
+"original_names": [
+"F 含量 1.0%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"F"
+],
+"promoter_contents": [
+"1.0 wt% F"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"F"
+],
+"sample_identity_evidence": "图 1 给出 F 含量为 1.0% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s16",
+"display_name": "2.0 wt% F-Ru/CeO₂",
+"original_names": [
+"F 含量 2.0%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"F"
+],
+"promoter_contents": [
+"2.0 wt% F"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"F"
+],
+"sample_identity_evidence": "图 1 给出 F 含量为 2.0% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s17",
+"display_name": "2.5 wt% F-Ru/CeO₂",
+"original_names": [
+"F 含量 2.5%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"F"
+],
+"promoter_contents": [
+"2.5 wt% F"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"F"
+],
+"sample_identity_evidence": "图 1 给出 F 含量为 2.5% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s18",
+"display_name": "3.0 wt% F-Ru/CeO₂",
+"original_names": [
+"F 含量 3.0%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"F"
+],
+"promoter_contents": [
+"3.0 wt% F"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"F"
+],
+"sample_identity_evidence": "图 1 给出 F 含量为 3.0% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s19",
+"display_name": "0.5 wt% Ba-Ru/CeO₂",
+"original_names": [
+"Ba 含量 0.5%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"Ba"
+],
+"promoter_contents": [
+"0.5 wt% Ba"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Ba"
+],
+"sample_identity_evidence": "图 1 给出 Ba 含量为 0.5% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s20",
+"display_name": "1.0 wt% Ba-Ru/CeO₂",
+"original_names": [
+"Ba 含量 1.0%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"Ba"
+],
+"promoter_contents": [
+"1.0 wt% Ba"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Ba"
+],
+"sample_identity_evidence": "图 1 给出 Ba 含量为 1.0% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s21",
+"display_name": "1.5 wt% Ba-Ru/CeO₂",
+"original_names": [
+"Ba 含量 1.5%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"Ba"
+],
+"promoter_contents": [
+"1.5 wt% Ba"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Ba"
+],
+"sample_identity_evidence": "图 1 给出 Ba 含量为 1.5% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s22",
+"display_name": "2.5 wt% Ba-Ru/CeO₂",
+"original_names": [
+"Ba 含量 2.5%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"Ba"
+],
+"promoter_contents": [
+"2.5 wt% Ba"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Ba"
+],
+"sample_identity_evidence": "图 1 给出 Ba 含量为 2.5% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"sample_id": "s23",
+"display_name": "3.0 wt% Ba-Ru/CeO₂",
+"original_names": [
+"Ba 含量 3.0%"
+],
+"sample_category": "sample_series_member",
+"promoters": [
+"Ba"
+],
+"promoter_contents": [
+"3.0 wt% Ba"
+],
+"sample_key_components": [
+"Ru",
+"CeO₂",
+"Ba"
+],
+"sample_identity_evidence": "图 1 给出 Ba 含量为 3.0% 的 4% Ru/CeO₂ 催化剂氨浓度数据。",
+"evidence_anchor": "图 1 + 正文 2.1"
+}
+],
+"sample_assertions": [
+{
+"assertion_id": "a1",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "preparation",
+"property_name": "preparation route",
+"value_type": "text_conclusion",
+"property_value": "oxidation-reduction coprecipitation + incipient wetness impregnation + drying + calcination",
+"unit": "",
+"method": "",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "摘要与 1.1 节表明，该系列 Ru/CeO₂ 催化剂以 CeO₂ 为载体采用氧化还原共沉淀法制备，所得催化剂再用等体积浸渍法引入助剂，并在空气中 500 °C 焙烧 1 h。",
+"evidence_anchor": "摘要 + 1.1 催化剂的制备"
+},
+{
+"assertion_id": "a2",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "preparation",
+"property_name": "Ru precursor",
+"value_type": "categorical",
+"property_value": "K₂RuO₄",
+"unit": "",
+"method": "",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "1.1 节写明本实验采用 K₂RuO₄ 作为活性成分 Ru 的前驱体。",
+"evidence_anchor": "1.1 催化剂的制备"
+},
+{
+"assertion_id": "a3",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "preparation",
+"property_name": "Ru loading basis",
+"value_type": "numeric",
+"property_value": "4",
+"unit": "wt%",
+"method": "",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "1.1 节写明 K₂RuO₄ 以钌单质计质量为二氧化铈载体的 4%。",
+"evidence_anchor": "1.1 催化剂的制备"
+},
+{
+"assertion_id": "a4",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "reaction_condition",
+"property_name": "ammonia synthesis test pressure",
+"value_type": "numeric",
+"property_value": "10",
+"unit": "MPa",
+"method": "",
+"condition_context": "H₂/N₂ mixed gas, v(H₂):v(N₂)=3:1; GHSV 10 000 h⁻¹",
+"comparison_context": "",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "1.2 节写明活性评价条件为 10 MPa，反应气为 H₂ 和 N₂ 混合气，物质的量比 3:1，空速 10 000 h⁻¹。",
+"evidence_anchor": "1.2 催化剂的评价"
+},
+{
+"assertion_id": "a5",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "reaction_condition",
+"property_name": "ammonia synthesis feed ratio",
+"value_type": "categorical",
+"property_value": "H₂:N₂ = 3:1",
+"unit": "",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "1.2 节写明反应气为 H₂ 和 N₂ 混合气，物质的量比为 3:1。",
+"evidence_anchor": "1.2 催化剂的评价"
+},
+{
+"assertion_id": "a6",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "reaction_condition",
+"property_name": "catalyst amount per test",
+"value_type": "numeric",
+"property_value": "2",
+"unit": "mL",
+"method": "",
+"condition_context": "12–16 目; 四槽连续流动反应器",
+"comparison_context": "",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "1.2 节写明氨合成反应中分别加入 2 mL Ru/CeO₂ 催化剂（12～16 目）。",
+"evidence_anchor": "1.2 催化剂的评价"
+},
+{
+"assertion_id": "a7",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "composition",
+"property_name": "actual CeO₂ content",
+"value_type": "numeric",
+"property_value": "94.57",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ru/CeO₂ 的 CeO₂ 实测含量为 94.57 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a8",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "composition",
+"property_name": "actual RuO₂ content",
+"value_type": "numeric",
+"property_value": "4.63",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ru/CeO₂ 的 RuO₂ 实测含量为 4.63 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a9",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "composition",
+"property_name": "actual K₂O content",
+"value_type": "numeric",
+"property_value": "0.80",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ru/CeO₂ 的 K₂O 实测含量为 0.80 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a10",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "composition",
+"property_name": "actual CeO₂ content",
+"value_type": "numeric",
+"property_value": "92.91",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，K-Ru/CeO₂ 的 CeO₂ 实测含量为 92.91 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a11",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "composition",
+"property_name": "actual RuO₂ content",
+"value_type": "numeric",
+"property_value": "4.55",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，K-Ru/CeO₂ 的 RuO₂ 实测含量为 4.55 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a12",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "composition",
+"property_name": "actual K₂O content",
+"value_type": "numeric",
+"property_value": "2.54",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，K-Ru/CeO₂ 的 K₂O 实测含量为 2.54 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a13",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "composition",
+"property_name": "actual CeO₂ content",
+"value_type": "numeric",
+"property_value": "90.13",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F-Ru/CeO₂ 的 CeO₂ 实测含量为 90.13 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a14",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "composition",
+"property_name": "actual RuO₂ content",
+"value_type": "numeric",
+"property_value": "4.36",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F-Ru/CeO₂ 的 RuO₂ 实测含量为 4.36 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a15",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "composition",
+"property_name": "actual K₂O content",
+"value_type": "numeric",
+"property_value": "4.10",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F-Ru/CeO₂ 的 K₂O 实测含量为 4.10 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a16",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "composition",
+"property_name": "actual F content",
+"value_type": "numeric",
+"property_value": "1.41",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F-Ru/CeO₂ 的 F 实测含量为 1.41 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a17",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "composition",
+"property_name": "actual CeO₂ content",
+"value_type": "numeric",
+"property_value": "92.58",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ba-Ru/CeO₂ 的 CeO₂ 实测含量为 92.58 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a18",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "composition",
+"property_name": "actual RuO₂ content",
+"value_type": "numeric",
+"property_value": "4.50",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ba-Ru/CeO₂ 的 RuO₂ 实测含量为 4.50 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a19",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "composition",
+"property_name": "actual K₂O content",
+"value_type": "numeric",
+"property_value": "0.77",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ba-Ru/CeO₂ 的 K₂O 实测含量为 0.77 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a20",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "composition",
+"property_name": "actual BaO content",
+"value_type": "numeric",
+"property_value": "2.15",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ba-Ru/CeO₂ 的 BaO 实测含量为 2.15 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a21",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "composition",
+"property_name": "actual CeO₂ content",
+"value_type": "numeric",
+"property_value": "91.69",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Cs-Ru/CeO₂ 的 CeO₂ 实测含量为 91.69 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a22",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "composition",
+"property_name": "actual RuO₂ content",
+"value_type": "numeric",
+"property_value": "4.48",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Cs-Ru/CeO₂ 的 RuO₂ 实测含量为 4.48 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a23",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "composition",
+"property_name": "actual K₂O content",
+"value_type": "numeric",
+"property_value": "0.76",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Cs-Ru/CeO₂ 的 K₂O 实测含量为 0.76 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a24",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "composition",
+"property_name": "actual Cs₂O content",
+"value_type": "numeric",
+"property_value": "3.07",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Cs-Ru/CeO₂ 的 Cs₂O 实测含量为 3.07 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a25",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "composition",
+"property_name": "actual CeO₂ content",
+"value_type": "numeric",
+"property_value": "88.17",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F+Ba-Ru/CeO₂ 的 CeO₂ 实测含量为 88.17 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a26",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "composition",
+"property_name": "actual RuO₂ content",
+"value_type": "numeric",
+"property_value": "4.30",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F+Ba-Ru/CeO₂ 的 RuO₂ 实测含量为 4.30 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a27",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "composition",
+"property_name": "actual K₂O content",
+"value_type": "numeric",
+"property_value": "4.08",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F+Ba-Ru/CeO₂ 的 K₂O 实测含量为 4.08 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a28",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "composition",
+"property_name": "actual F content",
+"value_type": "numeric",
+"property_value": "1.39",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F+Ba-Ru/CeO₂ 的 F 实测含量为 1.39 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a29",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "composition",
+"property_name": "actual BaO content",
+"value_type": "numeric",
+"property_value": "2.06",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F+Ba-Ru/CeO₂ 的 BaO 实测含量为 2.06 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a30",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "composition",
+"property_name": "actual CeO₂ content",
+"value_type": "numeric",
+"property_value": "88.02",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F+Cs-Ru/CeO₂ 的 CeO₂ 实测含量为 88.02 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a31",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "composition",
+"property_name": "actual RuO₂ content",
+"value_type": "numeric",
+"property_value": "4.28",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F+Cs-Ru/CeO₂ 的 RuO₂ 实测含量为 4.28 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a32",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "composition",
+"property_name": "actual K₂O content",
+"value_type": "numeric",
+"property_value": "3.39",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F+Cs-Ru/CeO₂ 的 K₂O 实测含量为 3.39 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a33",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "composition",
+"property_name": "actual F content",
+"value_type": "numeric",
+"property_value": "1.38",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F+Cs-Ru/CeO₂ 的 F 实测含量为 1.38 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a34",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "composition",
+"property_name": "actual Cs₂O content",
+"value_type": "numeric",
+"property_value": "2.93",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，F+Cs-Ru/CeO₂ 的 Cs₂O 实测含量为 2.93 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a35",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "composition",
+"property_name": "actual CeO₂ content",
+"value_type": "numeric",
+"property_value": "89.76",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ba+Cs-Ru/CeO₂ 的 CeO₂ 实测含量为 89.76 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a36",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "composition",
+"property_name": "actual RuO₂ content",
+"value_type": "numeric",
+"property_value": "4.38",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ba+Cs-Ru/CeO₂ 的 RuO₂ 实测含量为 4.38 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a37",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "composition",
+"property_name": "actual K₂O content",
+"value_type": "numeric",
+"property_value": "0.76",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ba+Cs-Ru/CeO₂ 的 K₂O 实测含量为 0.76 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a38",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "composition",
+"property_name": "actual BaO content",
+"value_type": "numeric",
+"property_value": "2.10",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ba+Cs-Ru/CeO₂ 的 BaO 实测含量为 2.10 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a39",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "composition",
+"property_name": "actual Cs₂O content",
+"value_type": "numeric",
+"property_value": "3.00",
+"unit": "wt%",
+"method": "XRF",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 1 的 XRF 结果显示，Ba+Cs-Ru/CeO₂ 的 Cs₂O 实测含量为 3.00 wt%。",
+"evidence_anchor": "表 1"
+},
+{
+"assertion_id": "a40",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "characterization",
+"property_name": "BET surface area",
+"value_type": "numeric",
+"property_value": "120",
+"unit": "m²·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ru/CeO₂ 的 BET surface area 为 120 m²·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a41",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "characterization",
+"property_name": "pore volume",
+"value_type": "numeric",
+"property_value": "0.18",
+"unit": "cm³·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ru/CeO₂ 的 pore volume 为 0.18 cm³·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a42",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "characterization",
+"property_name": "pore size",
+"value_type": "numeric",
+"property_value": "3.05",
+"unit": "nm",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ru/CeO₂ 的 pore size 为 3.05 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a43",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "characterization",
+"property_name": "particle size",
+"value_type": "numeric",
+"property_value": "7.7",
+"unit": "nm",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ru/CeO₂ 的 particle size 为 7.7 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a44",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "characterization",
+"property_name": "BET surface area",
+"value_type": "numeric",
+"property_value": "100",
+"unit": "m²·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 K-Ru/CeO₂ 的 BET surface area 为 100 m²·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a45",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "characterization",
+"property_name": "pore volume",
+"value_type": "numeric",
+"property_value": "0.22",
+"unit": "cm³·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 K-Ru/CeO₂ 的 pore volume 为 0.22 cm³·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a46",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "characterization",
+"property_name": "pore size",
+"value_type": "numeric",
+"property_value": "4.40",
+"unit": "nm",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 K-Ru/CeO₂ 的 pore size 为 4.40 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a47",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "characterization",
+"property_name": "particle size",
+"value_type": "numeric",
+"property_value": "9.3",
+"unit": "nm",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 K-Ru/CeO₂ 的 particle size 为 9.3 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a48",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "characterization",
+"property_name": "BET surface area",
+"value_type": "numeric",
+"property_value": "94",
+"unit": "m²·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F-Ru/CeO₂ 的 BET surface area 为 94 m²·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a49",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "characterization",
+"property_name": "pore volume",
+"value_type": "numeric",
+"property_value": "0.14",
+"unit": "cm³·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F-Ru/CeO₂ 的 pore volume 为 0.14 cm³·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a50",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "characterization",
+"property_name": "pore size",
+"value_type": "numeric",
+"property_value": "3.03",
+"unit": "nm",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F-Ru/CeO₂ 的 pore size 为 3.03 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a51",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "characterization",
+"property_name": "particle size",
+"value_type": "numeric",
+"property_value": "7.5",
+"unit": "nm",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F-Ru/CeO₂ 的 particle size 为 7.5 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a52",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "characterization",
+"property_name": "BET surface area",
+"value_type": "numeric",
+"property_value": "109",
+"unit": "m²·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ba-Ru/CeO₂ 的 BET surface area 为 109 m²·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a53",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "characterization",
+"property_name": "pore volume",
+"value_type": "numeric",
+"property_value": "0.15",
+"unit": "cm³·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ba-Ru/CeO₂ 的 pore volume 为 0.15 cm³·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a54",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "characterization",
+"property_name": "pore size",
+"value_type": "numeric",
+"property_value": "2.80",
+"unit": "nm",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ba-Ru/CeO₂ 的 pore size 为 2.80 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a55",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "characterization",
+"property_name": "particle size",
+"value_type": "numeric",
+"property_value": "7.3",
+"unit": "nm",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ba-Ru/CeO₂ 的 particle size 为 7.3 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a56",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "characterization",
+"property_name": "BET surface area",
+"value_type": "numeric",
+"property_value": "95",
+"unit": "m²·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Cs-Ru/CeO₂ 的 BET surface area 为 95 m²·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a57",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "characterization",
+"property_name": "pore volume",
+"value_type": "numeric",
+"property_value": "0.11",
+"unit": "cm³·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Cs-Ru/CeO₂ 的 pore volume 为 0.11 cm³·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a58",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "characterization",
+"property_name": "pore size",
+"value_type": "numeric",
+"property_value": "2.56",
+"unit": "nm",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Cs-Ru/CeO₂ 的 pore size 为 2.56 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a59",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "characterization",
+"property_name": "particle size",
+"value_type": "numeric",
+"property_value": "7.2",
+"unit": "nm",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Cs-Ru/CeO₂ 的 particle size 为 7.2 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a60",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "characterization",
+"property_name": "BET surface area",
+"value_type": "numeric",
+"property_value": "87",
+"unit": "m²·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F+Ba-Ru/CeO₂ 的 BET surface area 为 87 m²·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a61",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "characterization",
+"property_name": "pore volume",
+"value_type": "numeric",
+"property_value": "0.14",
+"unit": "cm³·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F+Ba-Ru/CeO₂ 的 pore volume 为 0.14 cm³·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a62",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "characterization",
+"property_name": "pore size",
+"value_type": "numeric",
+"property_value": "3.22",
+"unit": "nm",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F+Ba-Ru/CeO₂ 的 pore size 为 3.22 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a63",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "characterization",
+"property_name": "particle size",
+"value_type": "numeric",
+"property_value": "6.5",
+"unit": "nm",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F+Ba-Ru/CeO₂ 的 particle size 为 6.5 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a64",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "characterization",
+"property_name": "BET surface area",
+"value_type": "numeric",
+"property_value": "76",
+"unit": "m²·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F+Cs-Ru/CeO₂ 的 BET surface area 为 76 m²·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a65",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "characterization",
+"property_name": "pore volume",
+"value_type": "numeric",
+"property_value": "0.16",
+"unit": "cm³·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F+Cs-Ru/CeO₂ 的 pore volume 为 0.16 cm³·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a66",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "characterization",
+"property_name": "pore size",
+"value_type": "numeric",
+"property_value": "4.18",
+"unit": "nm",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F+Cs-Ru/CeO₂ 的 pore size 为 4.18 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a67",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "characterization",
+"property_name": "particle size",
+"value_type": "numeric",
+"property_value": "7.9",
+"unit": "nm",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 F+Cs-Ru/CeO₂ 的 particle size 为 7.9 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a68",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "characterization",
+"property_name": "BET surface area",
+"value_type": "numeric",
+"property_value": "89",
+"unit": "m²·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ba+Cs-Ru/CeO₂ 的 BET surface area 为 89 m²·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a69",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "characterization",
+"property_name": "pore volume",
+"value_type": "numeric",
+"property_value": "0.15",
+"unit": "cm³·g⁻¹",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ba+Cs-Ru/CeO₂ 的 pore volume 为 0.15 cm³·g⁻¹。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a70",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "characterization",
+"property_name": "pore size",
+"value_type": "numeric",
+"property_value": "3.50",
+"unit": "nm",
+"method": "N₂ physisorption / BET / BJH",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ba+Cs-Ru/CeO₂ 的 pore size 为 3.50 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a71",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "characterization",
+"property_name": "particle size",
+"value_type": "numeric",
+"property_value": "7.0",
+"unit": "nm",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 2 显示 Ba+Cs-Ru/CeO₂ 的 particle size 为 7.0 nm。",
+"evidence_anchor": "表 2"
+},
+{
+"assertion_id": "a72",
+"sample_refs": [
+"s2",
+"s3"
+],
+"assertion_type": "comparison",
+"property_name": "lattice constant change magnitude",
+"value_type": "ranking",
+"property_value": "K- and F-promoted samples changed most",
+"unit": "",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "among single promoters",
+"source_type": "text",
+"support_level": "comparison_based",
+"evidence_text": "2.3 节写明，以 KNO₃ 和 KF 为前驱体助剂的样品晶胞参数变化最大。",
+"evidence_anchor": "正文 2.3"
+},
+{
+"assertion_id": "a73",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5"
+],
+"assertion_type": "characterization",
+"property_name": "crystal phase",
+"value_type": "text_conclusion",
+"property_value": "all single-promoted catalysts show CeO₂ fluorite structure and no additional diffraction peaks",
+"unit": "",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "2.3 节写明图 4 中各单助剂催化剂均表现出二氧化铈萤石结构，没有出现其他衍射峰。",
+"evidence_anchor": "正文 2.3 + 图 4"
+},
+{
+"assertion_id": "a74",
+"sample_refs": [
+"s1",
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "characterization",
+"property_name": "crystal phase",
+"value_type": "text_conclusion",
+"property_value": "all double-promoted catalysts show no promoter diffraction peaks",
+"unit": "",
+"method": "XRD",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "2.3 节写明图 5 中双助剂催化剂也没有出现助剂成分的衍射峰。",
+"evidence_anchor": "正文 2.3 + 图 5"
+},
+{
+"assertion_id": "a75",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "characterization",
+"property_name": "Ru dispersion",
+"value_type": "numeric",
+"property_value": "45.6",
+"unit": "%",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ru/CeO₂ 的 Ru dispersion 为 45.6 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a76",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "characterization",
+"property_name": "Ru surface area",
+"value_type": "numeric",
+"property_value": "167",
+"unit": "m²·g⁻¹",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ru/CeO₂ 的 Ru surface area 为 167 m²·g⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a77",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 400 °C",
+"value_type": "numeric",
+"property_value": "7.7",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ru/CeO₂ 的 NH3 concentration at 400 °C 为 7.7 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a78",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 425 °C",
+"value_type": "numeric",
+"property_value": "12.6",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ru/CeO₂ 的 NH3 concentration at 425 °C 为 12.6 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a79",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 400 °C",
+"value_type": "numeric",
+"property_value": "4.9",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ru/CeO₂ 的 TOF at 400 °C 为 4.9 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a80",
+"sample_refs": [
+"s1"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 425 °C",
+"value_type": "numeric",
+"property_value": "7.7",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ru/CeO₂ 的 TOF at 425 °C 为 7.7 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a81",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "characterization",
+"property_name": "Ru dispersion",
+"value_type": "numeric",
+"property_value": "39.7",
+"unit": "%",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 K-Ru/CeO₂ 的 Ru dispersion 为 39.7 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a82",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "characterization",
+"property_name": "Ru surface area",
+"value_type": "numeric",
+"property_value": "145",
+"unit": "m²·g⁻¹",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 K-Ru/CeO₂ 的 Ru surface area 为 145 m²·g⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a83",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 400 °C",
+"value_type": "numeric",
+"property_value": "7.8",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 K-Ru/CeO₂ 的 NH3 concentration at 400 °C 为 7.8 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a84",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 425 °C",
+"value_type": "numeric",
+"property_value": "13.7",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 K-Ru/CeO₂ 的 NH3 concentration at 425 °C 为 13.7 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a85",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 400 °C",
+"value_type": "numeric",
+"property_value": "5.7",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 K-Ru/CeO₂ 的 TOF at 400 °C 为 5.7 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a86",
+"sample_refs": [
+"s2"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 425 °C",
+"value_type": "numeric",
+"property_value": "9.5",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 K-Ru/CeO₂ 的 TOF at 425 °C 为 9.5 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a87",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "characterization",
+"property_name": "Ru dispersion",
+"value_type": "numeric",
+"property_value": "37.8",
+"unit": "%",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F-Ru/CeO₂ 的 Ru dispersion 为 37.8 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a88",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "characterization",
+"property_name": "Ru surface area",
+"value_type": "numeric",
+"property_value": "137",
+"unit": "m²·g⁻¹",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F-Ru/CeO₂ 的 Ru surface area 为 137 m²·g⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a89",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 400 °C",
+"value_type": "numeric",
+"property_value": "8.4",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F-Ru/CeO₂ 的 NH3 concentration at 400 °C 为 8.4 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a90",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 425 °C",
+"value_type": "numeric",
+"property_value": "14.0",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F-Ru/CeO₂ 的 NH3 concentration at 425 °C 为 14.0 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a91",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 400 °C",
+"value_type": "numeric",
+"property_value": "6.4",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F-Ru/CeO₂ 的 TOF at 400 °C 为 6.4 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a92",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 425 °C",
+"value_type": "numeric",
+"property_value": "10.2",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F-Ru/CeO₂ 的 TOF at 425 °C 为 10.2 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a93",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "characterization",
+"property_name": "Ru dispersion",
+"value_type": "numeric",
+"property_value": "42.1",
+"unit": "%",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba-Ru/CeO₂ 的 Ru dispersion 为 42.1 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a94",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "characterization",
+"property_name": "Ru surface area",
+"value_type": "numeric",
+"property_value": "153",
+"unit": "m²·g⁻¹",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba-Ru/CeO₂ 的 Ru surface area 为 153 m²·g⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a95",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 400 °C",
+"value_type": "numeric",
+"property_value": "8.3",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba-Ru/CeO₂ 的 NH3 concentration at 400 °C 为 8.3 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a96",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 425 °C",
+"value_type": "numeric",
+"property_value": "13.6",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba-Ru/CeO₂ 的 NH3 concentration at 425 °C 为 13.6 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a97",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 400 °C",
+"value_type": "numeric",
+"property_value": "5.7",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba-Ru/CeO₂ 的 TOF at 400 °C 为 5.7 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a98",
+"sample_refs": [
+"s4"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 425 °C",
+"value_type": "numeric",
+"property_value": "8.9",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba-Ru/CeO₂ 的 TOF at 425 °C 为 8.9 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a99",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "characterization",
+"property_name": "Ru dispersion",
+"value_type": "numeric",
+"property_value": "37.4",
+"unit": "%",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Cs-Ru/CeO₂ 的 Ru dispersion 为 37.4 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a100",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "characterization",
+"property_name": "Ru surface area",
+"value_type": "numeric",
+"property_value": "136",
+"unit": "m²·g⁻¹",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Cs-Ru/CeO₂ 的 Ru surface area 为 136 m²·g⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a101",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 400 °C",
+"value_type": "numeric",
+"property_value": "10.5",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Cs-Ru/CeO₂ 的 NH3 concentration at 400 °C 为 10.5 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a102",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 425 °C",
+"value_type": "numeric",
+"property_value": "16.0",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Cs-Ru/CeO₂ 的 NH3 concentration at 425 °C 为 16.0 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a103",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 400 °C",
+"value_type": "numeric",
+"property_value": "7.9",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Cs-Ru/CeO₂ 的 TOF at 400 °C 为 7.9 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a104",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 425 °C",
+"value_type": "numeric",
+"property_value": "11.5",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Cs-Ru/CeO₂ 的 TOF at 425 °C 为 11.5 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a105",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "characterization",
+"property_name": "Ru dispersion",
+"value_type": "numeric",
+"property_value": "31.5",
+"unit": "%",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Ba-Ru/CeO₂ 的 Ru dispersion 为 31.5 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a106",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "characterization",
+"property_name": "Ru surface area",
+"value_type": "numeric",
+"property_value": "115",
+"unit": "m²·g⁻¹",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Ba-Ru/CeO₂ 的 Ru surface area 为 115 m²·g⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a107",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 400 °C",
+"value_type": "numeric",
+"property_value": "9.6",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Ba-Ru/CeO₂ 的 NH3 concentration at 400 °C 为 9.6 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a108",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 425 °C",
+"value_type": "numeric",
+"property_value": "13.3",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Ba-Ru/CeO₂ 的 NH3 concentration at 425 °C 为 13.3 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a109",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 400 °C",
+"value_type": "numeric",
+"property_value": "8.7",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Ba-Ru/CeO₂ 的 TOF at 400 °C 为 8.7 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a110",
+"sample_refs": [
+"s6"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 425 °C",
+"value_type": "numeric",
+"property_value": "11.7",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Ba-Ru/CeO₂ 的 TOF at 425 °C 为 11.7 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a111",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "characterization",
+"property_name": "Ru dispersion",
+"value_type": "numeric",
+"property_value": "29.7",
+"unit": "%",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Cs-Ru/CeO₂ 的 Ru dispersion 为 29.7 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a112",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "characterization",
+"property_name": "Ru surface area",
+"value_type": "numeric",
+"property_value": "108",
+"unit": "m²·g⁻¹",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Cs-Ru/CeO₂ 的 Ru surface area 为 108 m²·g⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a113",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 400 °C",
+"value_type": "numeric",
+"property_value": "12.9",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Cs-Ru/CeO₂ 的 NH3 concentration at 400 °C 为 12.9 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a114",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 425 °C",
+"value_type": "numeric",
+"property_value": "16.2",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Cs-Ru/CeO₂ 的 NH3 concentration at 425 °C 为 16.2 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a115",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 400 °C",
+"value_type": "numeric",
+"property_value": "12.0",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Cs-Ru/CeO₂ 的 TOF at 400 °C 为 12.0 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a116",
+"sample_refs": [
+"s7"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 425 °C",
+"value_type": "numeric",
+"property_value": "14.7",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 F+Cs-Ru/CeO₂ 的 TOF at 425 °C 为 14.7 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a117",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "characterization",
+"property_name": "Ru dispersion",
+"value_type": "numeric",
+"property_value": "29.9",
+"unit": "%",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba+Cs-Ru/CeO₂ 的 Ru dispersion 为 29.9 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a118",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "characterization",
+"property_name": "Ru surface area",
+"value_type": "numeric",
+"property_value": "109",
+"unit": "m²·g⁻¹",
+"method": "CO chemisorption",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba+Cs-Ru/CeO₂ 的 Ru surface area 为 109 m²·g⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a119",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 400 °C",
+"value_type": "numeric",
+"property_value": "13.3",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba+Cs-Ru/CeO₂ 的 NH3 concentration at 400 °C 为 13.3 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a120",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration at 425 °C",
+"value_type": "numeric",
+"property_value": "15.9",
+"unit": "%",
+"method": "",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba+Cs-Ru/CeO₂ 的 NH3 concentration at 425 °C 为 15.9 %，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a121",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 400 °C",
+"value_type": "numeric",
+"property_value": "12.3",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba+Cs-Ru/CeO₂ 的 TOF at 400 °C 为 12.3 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 400 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a122",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "performance",
+"property_name": "TOF at 425 °C",
+"value_type": "numeric",
+"property_value": "14.4",
+"unit": "10⁻² s⁻¹",
+"method": "CO chemisorption + catalytic test",
+"condition_context": "10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C",
+"comparison_context": "",
+"source_type": "table",
+"support_level": "direct",
+"evidence_text": "表 3 显示 Ba+Cs-Ru/CeO₂ 的 TOF at 425 °C 为 14.4 10⁻² s⁻¹，测试条件为 10 MPa; GHSV 10 000 h⁻¹; H₂:N₂ = 3:1; 425 °C。",
+"evidence_anchor": "表 3"
+},
+{
+"assertion_id": "a123",
+"sample_refs": [
+"s9"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "9.9",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 0.5 wt% Cs-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 9.9%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a124",
+"sample_refs": [
+"s10"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "10.0",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 1.0 wt% Cs-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 10.0%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a125",
+"sample_refs": [
+"s11"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "10.2",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 1.5 wt% Cs-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 10.2%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a126",
+"sample_refs": [
+"s12"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "10.1",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 2.0 wt% Cs-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 10.1%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a127",
+"sample_refs": [
+"s13"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "10.0",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 2.5 wt% Cs-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 10.0%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a128",
+"sample_refs": [
+"s14"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "7.8",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 0.5 wt% F-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 7.8%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a129",
+"sample_refs": [
+"s15"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "8.1",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 1.0 wt% F-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 8.1%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a130",
+"sample_refs": [
+"s16"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "8.2",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 2.0 wt% F-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 8.2%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a131",
+"sample_refs": [
+"s17"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "7.9",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 2.5 wt% F-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 7.9%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a132",
+"sample_refs": [
+"s18"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "7.7",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 3.0 wt% F-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 7.7%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a133",
+"sample_refs": [
+"s19"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "7.1",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 0.5 wt% Ba-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 7.1%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a134",
+"sample_refs": [
+"s20"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "7.3",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 1.0 wt% Ba-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 7.3%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a135",
+"sample_refs": [
+"s21"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "8.2",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 1.5 wt% Ba-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 8.2%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a136",
+"sample_refs": [
+"s22"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "8.3",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 2.5 wt% Ba-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 8.3%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a137",
+"sample_refs": [
+"s23"
+],
+"assertion_type": "performance",
+"property_name": "NH3 concentration",
+"value_type": "numeric",
+"property_value": "8.2",
+"unit": "%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Figure 1 promoter-content series",
+"source_type": "figure_body",
+"support_level": "direct",
+"evidence_text": "图 1 给出 3.0 wt% Ba-Ru/CeO₂ 在 400 °C、10 MPa、10 000 h⁻¹ 下的出口氨体积分数为 8.2%。",
+"evidence_anchor": "图 1"
+},
+{
+"assertion_id": "a138",
+"sample_refs": [
+"s3",
+"s14",
+"s15",
+"s16",
+"s17",
+"s18"
+],
+"assertion_type": "comparison",
+"property_name": "optimal F content",
+"value_type": "numeric",
+"property_value": "1.5",
+"unit": "wt%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within F content series",
+"source_type": "mixed",
+"support_level": "comparison_based",
+"evidence_text": "2.1 节与图 1 表明，F 含量为 1.5% 时 KF 助剂样品出口氨体积分数最高。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"assertion_id": "a139",
+"sample_refs": [
+"s4",
+"s19",
+"s20",
+"s21",
+"s22",
+"s23"
+],
+"assertion_type": "comparison",
+"property_name": "optimal Ba content",
+"value_type": "numeric",
+"property_value": "2",
+"unit": "wt%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Ba content series",
+"source_type": "mixed",
+"support_level": "comparison_based",
+"evidence_text": "2.1 节与图 1 表明，Ba 含量为 2.0% 时 Ba 助剂样品出口氨体积分数最高。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"assertion_id": "a140",
+"sample_refs": [
+"s5",
+"s9",
+"s10",
+"s11",
+"s12",
+"s13"
+],
+"assertion_type": "comparison",
+"property_name": "optimal Cs content",
+"value_type": "numeric",
+"property_value": "3",
+"unit": "wt%",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "within Cs content series",
+"source_type": "mixed",
+"support_level": "comparison_based",
+"evidence_text": "2.1 节与图 1 表明，Cs 最佳含量为 3%，出口氨体积分数达到 10.5%。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"assertion_id": "a141",
+"sample_refs": [
+"s2",
+"s3",
+"s4",
+"s5"
+],
+"assertion_type": "comparison",
+"property_name": "single-promoter effectiveness ranking",
+"value_type": "ranking",
+"property_value": "CsNO₃ > KF > Ba(NO₃)₂ = KNO₃",
+"unit": "",
+"method": "",
+"condition_context": "400 °C TOF comparison among single promoters",
+"comparison_context": "among single promoters",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "3 节结论与 2.5 节表明，四种单助剂对 Ru/CeO₂ 催化剂的电子促进作用大小顺序为 CsNO₃ > KF > Ba(NO₃)₂ = KNO₃。",
+"evidence_anchor": "2.5 + 3 结论"
+},
+{
+"assertion_id": "a142",
+"sample_refs": [
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "comparison",
+"property_name": "double-promoter effectiveness ranking",
+"value_type": "ranking",
+"property_value": "Ba+Cs > F+Cs > F+Ba",
+"unit": "",
+"method": "",
+"condition_context": "400 °C TOF / NH₃ comparison among double promoters",
+"comparison_context": "among double promoters",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "2.5 节与 3 节结论写明，双助剂促进作用最大的是 Ba+Cs，F+Cs 次之，最小为 F+Ba。",
+"evidence_anchor": "2.5 + 3 结论"
+},
+{
+"assertion_id": "a143",
+"sample_refs": [
+"s5"
+],
+"assertion_type": "comparison",
+"property_name": "best single-promoted catalyst",
+"value_type": "categorical",
+"property_value": "Cs-Ru/CeO₂",
+"unit": "",
+"method": "",
+"condition_context": "425 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "among single promoters",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "摘要与 2.2 节写明，四种单助剂中以 CsNO₃ 前驱体为助剂的促进效果最好。",
+"evidence_anchor": "摘要 + 正文 2.2"
+},
+{
+"assertion_id": "a144",
+"sample_refs": [
+"s8"
+],
+"assertion_type": "comparison",
+"property_name": "best double-promoted catalyst",
+"value_type": "categorical",
+"property_value": "Ba+Cs-Ru/CeO₂",
+"unit": "",
+"method": "",
+"condition_context": "400 °C; 10 MPa; GHSV 10 000 h⁻¹",
+"comparison_context": "among double promoters",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "摘要与 2.2 节写明，双助剂中 Ba+Cs 的促进效果最明显，在 400 °C、10 MPa、10 000 h⁻¹ 下出口氨浓度达到 13.3%。",
+"evidence_anchor": "摘要 + 正文 2.2"
+},
+{
+"assertion_id": "a145",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "mechanism",
+"property_name": "dominant catalytic factor",
+"value_type": "text_conclusion",
+"property_value": "electronic effect rather than structural factors",
+"unit": "",
+"method": "",
+"condition_context": "",
+"comparison_context": "",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "摘要、2.4、2.5 和 3 节均表明，结构因素不是影响 Ru/CeO₂ 催化剂氨合成活性的主要因素，电子效应才是主要因素。",
+"evidence_anchor": "摘要 + 正文 2.4 + 正文 2.5 + 3 结论"
+},
+{
+"assertion_id": "a146",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "characterization",
+"property_name": "effect of promoters on Ru dispersion",
+"value_type": "text_conclusion",
+"property_value": "Ru dispersion decreases after promoter addition",
+"unit": "",
+"method": "CO chemisorption",
+"condition_context": "",
+"comparison_context": "vs Ru/CeO₂",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "2.5 节写明，添加助剂后各催化剂 Ru 分散度都有所降低；双助剂催化剂的 Ru 分散度都比单助剂催化剂更低。",
+"evidence_anchor": "正文 2.5 + 表 3"
+},
+{
+"assertion_id": "a147",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"assertion_type": "characterization",
+"property_name": "effect of promoters on surface area",
+"value_type": "text_conclusion",
+"property_value": "BET surface area decreases after promoter loading",
+"unit": "",
+"method": "N₂ physisorption / BET",
+"condition_context": "",
+"comparison_context": "vs Ru/CeO₂",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "2.4 节写明，负载助剂之后各催化剂的比表面积都有所下降。",
+"evidence_anchor": "正文 2.4 + 表 2"
+},
+{
+"assertion_id": "a148",
+"sample_refs": [
+"s3"
+],
+"assertion_type": "mechanism",
+"property_name": "F promoter role",
+"value_type": "text_conclusion",
+"property_value": "F can promote Ru/CeO₂ ammonia synthesis and does not poison the catalyst",
+"unit": "",
+"method": "",
+"condition_context": "",
+"comparison_context": "vs KNO₃-promoted sample",
+"source_type": "text",
+"support_level": "direct",
+"evidence_text": "2.2 节写明，以 KF 为助剂的钌催化剂活性比 KNO₃ 为助剂的活性高，说明电负性比 Cl 高的 F 不会使 Ru/CeO₂ 催化剂中毒。",
+"evidence_anchor": "正文 2.2"
+}
+],
+"figure_assertions": [
+{
+"figure_assertion_id": "f1",
+"figure_id": "图 1",
+"sample_refs": [
+"s3",
+"s4",
+"s5",
+"s9",
+"s10",
+"s11",
+"s12",
+"s13",
+"s14",
+"s15",
+"s16",
+"s17",
+"s18",
+"s19",
+"s20",
+"s21",
+"s22",
+"s23"
+],
+"figure_type": "performance_curve",
+"visual_information": "图 1 展示 Cs、F、Ba 三类助剂含量变化与出口氨体积分数的关系，测试条件为 400 °C、10 MPa、10 000 h⁻¹。",
+"conclusion": "Cs、F、Ba 的最佳含量分别为 3 wt%、1.5 wt%、2 wt%，且 Cs 系列整体活性最高。",
+"evidence_text": "图 1 表和正文 2.1 同时给出三条含量序列，Cs 在 3.0% 时达到 10.5%，F 在 1.5% 时达到 8.4%，Ba 在 2.0% 时达到 8.4%。",
+"evidence_anchor": "图 1 + 正文 2.1"
+},
+{
+"figure_assertion_id": "f2",
+"figure_id": "图 3",
+"sample_refs": [
+"s1",
+"s6",
+"s7",
+"s8"
+],
+"figure_type": "performance_comparison",
+"visual_information": "图 3 比较了未加助剂样品与三种双助剂样品的出口氨体积分数。",
+"conclusion": "在 400 °C 下，Ba+Cs-Ru/CeO₂ 的氨浓度最高，F+Cs 次之，F+Ba 最低，三者均高于 Ru/CeO₂。",
+"evidence_text": "图 3 的表格数据为 Ru/CeO₂ 7.6%，F+Ba-Ru/CeO₂ 9.6%，F+Cs-Ru/CeO₂ 12.8%，Ba+Cs-Ru/CeO₂ 13.2%。",
+"evidence_anchor": "图 3"
+},
+{
+"figure_assertion_id": "f3",
+"figure_id": "图 4 + 图 5",
+"sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"figure_type": "xrd_pattern",
+"visual_information": "图 4 和图 5 为单助剂与双助剂样品的 XRD 谱图。",
+"conclusion": "图谱未显示助剂组分的独立衍射峰，作者据此认为助剂粒子较小，不足以被检测到。",
+"evidence_text": "2.3 节写明，图 4 中各催化剂均表现出 CeO₂ 萤石结构且无其他衍射峰；图 5 中双助剂样品也没有出现助剂成分的衍射峰。",
+"evidence_anchor": "图 4 + 图 5 + 正文 2.3"
+}
+],
+"review_flags": [
+{
+"flag_id": "r1",
+"related_sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5"
+],
+"issue_type": "text_figure_conflict",
+"issue": "图 2 的结构化表格数值与正文 2.2、表 3 的 425 °C 氨浓度不完全一致，尤其 K-Ru/CeO₂ 与 Ba-Ru/CeO₂ 的数值差异较明显，应以原始图或 PDF 复核。",
+"evidence_text": "图 2 表格给出 KNO₃ 12.9%、Ba(NO₃)₂ 14.0%；而表 3 在 425 °C 下给出 K-Ru/CeO₂ 13.7%、Ba-Ru/CeO₂ 13.6%，正文 2.2 对未加助剂样品写为 12.6%。",
+"evidence_anchor": "图 2 + 表 3 + 正文 2.2"
+},
+{
+"flag_id": "r2",
+"related_sample_refs": [
+"s6",
+"s7",
+"s8"
+],
+"issue_type": "text_figure_conflict",
+"issue": "图 3 结构化表格与正文 2.2、表 3 的双助剂 400 °C 氨浓度存在 0.1 个百分点级别差异，疑似四舍五入或 OCR 误差。",
+"evidence_text": "图 3 表格给出 F+Cs-Ru/CeO₂ 12.8%、Ba+Cs-Ru/CeO₂ 13.2%；正文 2.2 和表 3 分别给出 12.9% 与 13.3%。",
+"evidence_anchor": "图 3 + 表 3 + 正文 2.2"
+},
+{
+"flag_id": "r3",
+"related_sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"issue_type": "ocr_suspected_error",
+"issue": "表 2 中晶格常数写为 0.054 13、0.054 19 等，存在明显空格与格式异常，且脚注公式疑似 OCR 错误，不宜作为确定数值断言直接使用。",
+"evidence_text": "表 2 的 lattice constant 一列出现“0.054 13”“0.054 19”等格式，脚注写为“α = √2 sin(ωt + φ) (λ / sinθ)”，与常见晶格常数计算公式不符。",
+"evidence_anchor": "表 2"
+},
+{
+"flag_id": "r4",
+"related_sample_refs": [],
+"issue_type": "table_alignment_unclear",
+"issue": "图 6 的结构化表格列头与图例符号重复且绑定关系不清，无法稳定恢复每条孔径分布曲线对应的具体样品，不建议据此生成正式数值断言。",
+"evidence_text": "图 6 表格列头连续出现多组 ■、▲、♦、○、△，而图例仅给出少量符号与样品的对应关系，结构化 markdown 中难以重建完整映射。",
+"evidence_anchor": "图 6"
+},
+{
+"flag_id": "r5",
+"related_sample_refs": [
+"s1",
+"s2",
+"s3",
+"s4",
+"s5",
+"s6",
+"s7",
+"s8"
+],
+"issue_type": "ocr_suspected_error",
+"issue": "正文存在多处“钉分散度”“单ia synthesis”等 OCR 噪声，抽取时已尽量只使用可由表格和上下文稳定确认的信息。",
+"evidence_text": "正文 2.4、2.5 多处将“Ru 分散度”识别为“钉分散度”，英文关键词中还出现“monia synthesis”等明显缺字现象。",
+"evidence_anchor": "摘要 + 正文 2.4 + 正文 2.5"
+}
+]
+}

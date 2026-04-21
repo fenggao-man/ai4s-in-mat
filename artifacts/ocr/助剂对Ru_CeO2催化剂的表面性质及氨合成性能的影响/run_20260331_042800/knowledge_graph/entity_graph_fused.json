@@ -1,0 +1,1736 @@
+{
+  "document": {
+    "doc_id": "run_20260331_042800",
+    "title": "助剂对 Ru/CeO_{2} 催化剂的表面性质及氨合成性能的影响",
+    "source": "OCR",
+    "filename": "document.md"
+  },
+  "nodes": [
+    {
+      "id": "fused:文档:1",
+      "type": "文档",
+      "level": "root",
+      "properties": {
+        "doc_id": "run_20260331_042800",
+        "title": "助剂对 Ru/CeO_{2} 催化剂的表面性质及氨合成性能的影响",
+        "source": "OCR",
+        "filename": "document.md",
+        "aliases": [],
+        "source_node_ids": [
+          "文档:1"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:催化剂:2",
+      "type": "催化剂",
+      "level": "root",
+      "properties": {
+        "doc_id": "run_20260331_042800",
+        "name": "Ru/CeO₂",
+        "original_name": "Ru/CeO₂",
+        "display_name": "Ru/CeO₂",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "Ru/CeO₂"
+        ],
+        "source_node_ids": [
+          "催化剂:2"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:活性组分:3",
+      "type": "活性组分",
+      "level": "child",
+      "properties": {
+        "name": "Ru",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Ru",
+        "display_name": "Ru",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "Ru"
+        ],
+        "source_node_ids": [
+          "活性组分:3"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:前驱体:4",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "name": "K₂RuO₄",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "K₂RuO₄",
+        "display_name": "K₂RuO₄",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "K₂RuO₄"
+        ],
+        "source_node_ids": [
+          "前驱体:4"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:前驱体:5",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "name": "Ce(NO₃)₃·6H₂O",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Ce(NO₃)₃·6H₂O",
+        "display_name": "Ce(NO₃)₃·6H₂O",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "Ce(NO₃)₃·6H₂O"
+        ],
+        "source_node_ids": [
+          "前驱体:5"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:前驱体:6",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "name": "KF",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "KF",
+        "display_name": "KF",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "KF"
+        ],
+        "source_node_ids": [
+          "前驱体:6"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:前驱体:7",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "name": "KNO₃",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "KNO₃",
+        "display_name": "KNO₃",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "KNO₃"
+        ],
+        "source_node_ids": [
+          "前驱体:7"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:前驱体:8",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "name": "Ba(NO₃)₂",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Ba(NO₃)₂",
+        "display_name": "Ba(NO₃)₂",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "Ba(NO₃)₂"
+        ],
+        "source_node_ids": [
+          "前驱体:8"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:前驱体:9",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "name": "CsNO₃",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "CsNO₃",
+        "display_name": "CsNO₃",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "CsNO₃"
+        ],
+        "source_node_ids": [
+          "前驱体:9"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:晶相结构:10",
+      "type": "晶相结构",
+      "level": "child",
+      "properties": {
+        "name": "CeO₂ 萤石结构",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "CeO₂ 萤石结构",
+        "display_name": "CeO₂萤石结构",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "CeO₂ 萤石结构",
+          "CeO₂萤石结构"
+        ],
+        "source_node_ids": [
+          "晶相结构:10"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:比表面积:11",
+      "type": "比表面积",
+      "level": "child",
+      "properties": {
+        "value": "120",
+        "unit": "m²/g",
+        "sample": "Ru/CeO₂",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "120m²/g",
+        "display_name": "120 m²/g",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "120 m²/g",
+          "120m²/g"
+        ],
+        "source_node_ids": [
+          "比表面积:11"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:比表面积:12",
+      "type": "比表面积",
+      "level": "child",
+      "properties": {
+        "value": "76",
+        "unit": "m²/g",
+        "sample": "F+Cs-Ru/CeO₂",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "76m²/g",
+        "display_name": "76 m²/g",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "76 m²/g",
+          "76m²/g"
+        ],
+        "source_node_ids": [
+          "比表面积:12"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:比表面积:13",
+      "type": "比表面积",
+      "level": "child",
+      "properties": {
+        "value": "100",
+        "unit": "m²/g",
+        "sample": "K-Ru/CeO₂",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "100m²/g",
+        "display_name": "100 m²/g",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "100 m²/g",
+          "100m²/g"
+        ],
+        "source_node_ids": [
+          "比表面积:13"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:孔结构:14",
+      "type": "孔结构",
+      "level": "child",
+      "properties": {
+        "value": "0.18",
+        "unit": "cm³/g",
+        "sample": "Ru/CeO₂",
+        "type": "Pore Volume",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "0.18",
+        "display_name": "0.18",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "0.18"
+        ],
+        "source_node_ids": [
+          "孔结构:14"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:孔结构:15",
+      "type": "孔结构",
+      "level": "child",
+      "properties": {
+        "value": "3.05",
+        "unit": "nm",
+        "sample": "Ru/CeO₂",
+        "type": "Pore Size",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "3.05",
+        "display_name": "3.05",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "3.05"
+        ],
+        "source_node_ids": [
+          "孔结构:15"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:孔结构:16",
+      "type": "孔结构",
+      "level": "child",
+      "properties": {
+        "value": "4.40",
+        "unit": "nm",
+        "sample": "K-Ru/CeO₂",
+        "type": "Pore Size",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "4.40",
+        "display_name": "4.40",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "4.40"
+        ],
+        "source_node_ids": [
+          "孔结构:16"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:孔结构:17",
+      "type": "孔结构",
+      "level": "child",
+      "properties": {
+        "value": "2.56",
+        "unit": "nm",
+        "sample": "Cs-Ru/CeO₂",
+        "type": "Pore Size",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "2.56",
+        "display_name": "2.56",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "2.56"
+        ],
+        "source_node_ids": [
+          "孔结构:17"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:粒径:18",
+      "type": "粒径",
+      "level": "child",
+      "properties": {
+        "value": "7.7",
+        "unit": "nm",
+        "sample": "Ru/CeO₂",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "7.7nm",
+        "display_name": "7.7 nm",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "7.7 nm",
+          "7.7nm"
+        ],
+        "source_node_ids": [
+          "粒径:18"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:粒径:19",
+      "type": "粒径",
+      "level": "child",
+      "properties": {
+        "value": "9.3",
+        "unit": "nm",
+        "sample": "K-Ru/CeO₂",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "9.3nm",
+        "display_name": "9.3 nm",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "9.3 nm",
+          "9.3nm"
+        ],
+        "source_node_ids": [
+          "粒径:19"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:粒径:20",
+      "type": "粒径",
+      "level": "child",
+      "properties": {
+        "value": "6.5",
+        "unit": "nm",
+        "sample": "F+Ba-Ru/CeO₂",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "6.5nm",
+        "display_name": "6.5 nm",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "6.5 nm",
+          "6.5nm"
+        ],
+        "source_node_ids": [
+          "粒径:20"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂:21",
+      "type": "助剂",
+      "level": "root",
+      "properties": {
+        "name": "K",
+        "助剂种类": [
+          {
+            "name": "碱金属"
+          }
+        ],
+        "助剂含量": [
+          {
+            "value": "1.5",
+            "unit": "%",
+            "description": "Optimal content"
+          }
+        ],
+        "添加方式": [
+          {
+            "name": "等体积浸渍法"
+          }
+        ],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "K",
+        "display_name": "K",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "K"
+        ],
+        "source_node_ids": [
+          "助剂:21"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂含量:22",
+      "type": "助剂含量",
+      "level": "child",
+      "properties": {
+        "value": "1.5",
+        "unit": "%",
+        "description": "Optimal content",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "1.5%",
+        "display_name": "1.5 %",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "1.5 %",
+          "1.5%"
+        ],
+        "source_node_ids": [
+          "助剂含量:22"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂种类:23",
+      "type": "助剂种类",
+      "level": "child",
+      "properties": {
+        "name": "碱金属",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "碱金属",
+        "display_name": "碱金属",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "碱金属"
+        ],
+        "source_node_ids": [
+          "助剂种类:23"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:添加方式:24",
+      "type": "添加方式",
+      "level": "child",
+      "properties": {
+        "name": "等体积浸渍法",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "等体积浸渍法",
+        "display_name": "等体积浸渍法",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "等体积浸渍法"
+        ],
+        "source_node_ids": [
+          "添加方式:24"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂:25",
+      "type": "助剂",
+      "level": "root",
+      "properties": {
+        "name": "F",
+        "助剂种类": [
+          {
+            "name": "卤素"
+          }
+        ],
+        "助剂含量": [
+          {
+            "value": "1.5",
+            "unit": "%",
+            "description": "Optimal content"
+          }
+        ],
+        "添加方式": [
+          {
+            "name": "等体积浸渍法"
+          }
+        ],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "F",
+        "display_name": "F",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "F"
+        ],
+        "source_node_ids": [
+          "助剂:25"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂种类:26",
+      "type": "助剂种类",
+      "level": "child",
+      "properties": {
+        "name": "卤素",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "卤素",
+        "display_name": "卤素",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "卤素"
+        ],
+        "source_node_ids": [
+          "助剂种类:27"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂:27",
+      "type": "助剂",
+      "level": "root",
+      "properties": {
+        "name": "Ba",
+        "助剂种类": [
+          {
+            "name": "碱土金属"
+          }
+        ],
+        "助剂含量": [
+          {
+            "value": "2.0",
+            "unit": "%",
+            "description": "Optimal content"
+          }
+        ],
+        "添加方式": [
+          {
+            "name": "等体积浸渍法"
+          }
+        ],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Ba",
+        "display_name": "Ba",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "Ba"
+        ],
+        "source_node_ids": [
+          "助剂:29"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂含量:28",
+      "type": "助剂含量",
+      "level": "child",
+      "properties": {
+        "value": "2.0",
+        "unit": "%",
+        "description": "Optimal content",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "2.0%",
+        "display_name": "2.0 %",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "2.0 %",
+          "2.0%"
+        ],
+        "source_node_ids": [
+          "助剂含量:30"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂种类:29",
+      "type": "助剂种类",
+      "level": "child",
+      "properties": {
+        "name": "碱土金属",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "碱土金属",
+        "display_name": "碱土金属",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "碱土金属"
+        ],
+        "source_node_ids": [
+          "助剂种类:31"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂:30",
+      "type": "助剂",
+      "level": "root",
+      "properties": {
+        "name": "Cs",
+        "助剂种类": [
+          {
+            "name": "碱金属"
+          }
+        ],
+        "助剂含量": [
+          {
+            "value": "3.0",
+            "unit": "%",
+            "description": "Optimal content"
+          }
+        ],
+        "添加方式": [
+          {
+            "name": "等体积浸渍法"
+          }
+        ],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Cs",
+        "display_name": "Cs",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "Cs"
+        ],
+        "source_node_ids": [
+          "助剂:33"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂含量:31",
+      "type": "助剂含量",
+      "level": "child",
+      "properties": {
+        "value": "3.0",
+        "unit": "%",
+        "description": "Optimal content",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "3.0%",
+        "display_name": "3.0 %",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "3.0 %",
+          "3.0%"
+        ],
+        "source_node_ids": [
+          "助剂含量:34"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂:32",
+      "type": "助剂",
+      "level": "root",
+      "properties": {
+        "name": "Ba+Cs",
+        "助剂种类": [
+          {
+            "name": "双助剂"
+          }
+        ],
+        "助剂含量": [
+          {
+            "value": "2.0(Ba), 3.0(Cs)",
+            "unit": "%",
+            "description": "Double promoter content"
+          }
+        ],
+        "添加方式": [
+          {
+            "name": "等体积浸渍法"
+          }
+        ],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Ba+Cs",
+        "display_name": "Ba+Cs",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "Ba+Cs"
+        ],
+        "source_node_ids": [
+          "助剂:37"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂含量:33",
+      "type": "助剂含量",
+      "level": "child",
+      "properties": {
+        "value": "2.0(Ba), 3.0(Cs)",
+        "unit": "%",
+        "description": "Double promoter content",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "2.0(Ba), 3.0(Cs)%",
+        "display_name": "2.0(Ba), 3.0(Cs) %",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "2.0(Ba), 3.0(Cs) %",
+          "2.0(Ba), 3.0(Cs)%"
+        ],
+        "source_node_ids": [
+          "助剂含量:38"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:助剂种类:34",
+      "type": "助剂种类",
+      "level": "child",
+      "properties": {
+        "name": "双助剂",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "双助剂",
+        "display_name": "双助剂",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "双助剂"
+        ],
+        "source_node_ids": [
+          "助剂种类:39"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:表征方法:35",
+      "type": "表征方法",
+      "level": "root",
+      "properties": {
+        "name": "XRD",
+        "XRD": [],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "XRD",
+        "display_name": "XRD",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "XRD"
+        ],
+        "source_node_ids": [
+          "表征方法:41"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:表征方法:36",
+      "type": "表征方法",
+      "level": "root",
+      "properties": {
+        "name": "BET",
+        "BET": [],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "BET",
+        "display_name": "BET",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "BET"
+        ],
+        "source_node_ids": [
+          "表征方法:42"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:制备工艺:37",
+      "type": "制备工艺",
+      "level": "root",
+      "properties": {
+        "name": "Preparation Process",
+        "原料选择": [
+          {
+            "name": "Ru powder, KOH, KNO₃, Ce(NO₃)₃·6H₂O"
+          }
+        ],
+        "混合方式": [
+          {
+            "name": "氧化还原共沉淀法"
+          }
+        ],
+        "焙烧温度": [
+          {
+            "value": "500",
+            "unit": "℃",
+            "time": "1 h"
+          }
+        ],
+        "还原活化": [
+          {
+            "value": "200-500",
+            "unit": "℃",
+            "gas": "H₂",
+            "time": "2 h"
+          }
+        ],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Preparation Process",
+        "display_name": "Preparation Process",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "Preparation Process"
+        ],
+        "source_node_ids": [
+          "制备工艺:43"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:原料选择:38",
+      "type": "原料选择",
+      "level": "child",
+      "properties": {
+        "name": "Ru powder, KOH, KNO₃, Ce(NO₃)₃·6H₂O",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Ru powder, KOH, KNO₃, Ce(NO₃)₃·6H₂O",
+        "display_name": "Ru powder, KOH, KNO₃, Ce(NO₃)₃·6H₂O",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "Ru powder, KOH, KNO₃, Ce(NO₃)₃·6H₂O"
+        ],
+        "source_node_ids": [
+          "原料选择:44"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:混合方式:39",
+      "type": "混合方式",
+      "level": "child",
+      "properties": {
+        "name": "氧化还原共沉淀法",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "氧化还原共沉淀法",
+        "display_name": "氧化还原共沉淀法",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "氧化还原共沉淀法"
+        ],
+        "source_node_ids": [
+          "混合方式:45"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:焙烧温度:40",
+      "type": "焙烧温度",
+      "level": "child",
+      "properties": {
+        "value": "500",
+        "unit": "℃",
+        "time": "1 h",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "500",
+        "display_name": "500",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "500"
+        ],
+        "source_node_ids": [
+          "焙烧温度:46"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:还原活化:41",
+      "type": "还原活化",
+      "level": "child",
+      "properties": {
+        "value": "200-500",
+        "unit": "℃",
+        "gas": "H₂",
+        "time": "2 h",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "200-500",
+        "display_name": "200-500",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "200-500"
+        ],
+        "source_node_ids": [
+          "还原活化:47"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:反应条件:42",
+      "type": "反应条件",
+      "level": "root",
+      "properties": {
+        "name": "Standard Condition",
+        "温度": [
+          {
+            "value": "400",
+            "unit": "℃"
+          },
+          {
+            "value": "425",
+            "unit": "℃"
+          }
+        ],
+        "压力": [
+          {
+            "value": "10",
+            "unit": "MPa"
+          }
+        ],
+        "空速": [
+          {
+            "value": "10000",
+            "unit": "h⁻¹"
+          }
+        ],
+        "氢氮比": [
+          {
+            "value": "3:1",
+            "unit": "mol ratio"
+          }
+        ],
+        "反应时间": [
+          {
+            "value": "2",
+            "unit": "h",
+            "description": "Stabilization time"
+          }
+        ],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Standard Condition",
+        "display_name": "Standard Condition",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "Standard Condition"
+        ],
+        "source_node_ids": [
+          "反应条件:48"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:温度:43",
+      "type": "温度",
+      "level": "child",
+      "properties": {
+        "value": "400",
+        "unit": "℃",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "400℃",
+        "display_name": "400 ℃",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "400 ℃",
+          "400℃"
+        ],
+        "source_node_ids": [
+          "温度:49"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:温度:44",
+      "type": "温度",
+      "level": "child",
+      "properties": {
+        "value": "425",
+        "unit": "℃",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "425℃",
+        "display_name": "425 ℃",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "425 ℃",
+          "425℃"
+        ],
+        "source_node_ids": [
+          "温度:50"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:压力:45",
+      "type": "压力",
+      "level": "child",
+      "properties": {
+        "value": "10",
+        "unit": "MPa",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "10MPa",
+        "display_name": "10 MPa",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "10 MPa",
+          "10MPa"
+        ],
+        "source_node_ids": [
+          "压力:51"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:空速:46",
+      "type": "空速",
+      "level": "child",
+      "properties": {
+        "value": "10000",
+        "unit": "h⁻¹",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "10000h⁻¹",
+        "display_name": "10000 h⁻¹",
+        "normalization_method": "format_standard",
+        "aliases": [
+          "10000 h⁻¹",
+          "10000h⁻¹"
+        ],
+        "source_node_ids": [
+          "空速:52"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:氢氮比:47",
+      "type": "氢氮比",
+      "level": "child",
+      "properties": {
+        "value": "3:1",
+        "unit": "mol ratio",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "3:1",
+        "display_name": "3:1",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "3:1"
+        ],
+        "source_node_ids": [
+          "氢氮比:53"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:反应时间:48",
+      "type": "反应时间",
+      "level": "child",
+      "properties": {
+        "value": "2",
+        "unit": "h",
+        "description": "Stabilization time",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "2",
+        "display_name": "2",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "2"
+        ],
+        "source_node_ids": [
+          "反应时间:54"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:反应机理:49",
+      "type": "反应机理",
+      "level": "root",
+      "properties": {
+        "name": "Electronic Effect",
+        "活性位模型": [
+          {
+            "name": "电子效应"
+          }
+        ],
+        "解离吸附": [
+          {
+            "name": "N₂ 解离"
+          }
+        ],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Electronic Effect",
+        "display_name": "Electronic Effect",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "Electronic Effect"
+        ],
+        "source_node_ids": [
+          "反应机理:55"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:解离吸附:50",
+      "type": "解离吸附",
+      "level": "child",
+      "properties": {
+        "name": "N₂ 解离",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "N₂ 解离",
+        "display_name": "N₂ 解离",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "N₂ 解离"
+        ],
+        "source_node_ids": [
+          "解离吸附:56"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:活性位模型:51",
+      "type": "活性位模型",
+      "level": "child",
+      "properties": {
+        "name": "电子效应",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "电子效应",
+        "display_name": "电子效应",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "电子效应"
+        ],
+        "source_node_ids": [
+          "活性位模型:57"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:催化性能:52",
+      "type": "催化性能",
+      "level": "root",
+      "properties": {
+        "name": "Ammonia Synthesis Activity",
+        "氨合成活性": [
+          {
+            "value": "13.3",
+            "unit": "%",
+            "condition": "400 ℃, Ba+Cs promoter"
+          },
+          {
+            "value": "16.0",
+            "unit": "%",
+            "condition": "425 ℃, Cs promoter"
+          },
+          {
+            "value": "12.6",
+            "unit": "%",
+            "condition": "425 ℃, No promoter"
+          }
+        ],
+        "转化率": [
+          {
+            "value": "TOF 12.3",
+            "unit": "10⁻² s⁻¹",
+            "condition": "400 ℃, Ba+Cs promoter"
+          }
+        ],
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "Ammonia Synthesis Activity",
+        "display_name": "Ammonia Synthesis Activity",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "Ammonia Synthesis Activity"
+        ],
+        "source_node_ids": [
+          "催化性能:58"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:氨合成活性:53",
+      "type": "氨合成活性",
+      "level": "child",
+      "properties": {
+        "value": "13.3",
+        "unit": "%",
+        "condition": "400 ℃, Ba+Cs promoter",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "13.3",
+        "display_name": "13.3",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "13.3"
+        ],
+        "source_node_ids": [
+          "氨合成活性:59"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:氨合成活性:54",
+      "type": "氨合成活性",
+      "level": "child",
+      "properties": {
+        "value": "16.0",
+        "unit": "%",
+        "condition": "425 ℃, Cs promoter",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "16.0",
+        "display_name": "16.0",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "16.0"
+        ],
+        "source_node_ids": [
+          "氨合成活性:60"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:氨合成活性:55",
+      "type": "氨合成活性",
+      "level": "child",
+      "properties": {
+        "value": "12.6",
+        "unit": "%",
+        "condition": "425 ℃, No promoter",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "12.6",
+        "display_name": "12.6",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "12.6"
+        ],
+        "source_node_ids": [
+          "氨合成活性:61"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    },
+    {
+      "id": "fused:转化率:56",
+      "type": "转化率",
+      "level": "child",
+      "properties": {
+        "value": "TOF 12.3",
+        "unit": "10⁻² s⁻¹",
+        "condition": "400 ℃, Ba+Cs promoter",
+        "doc_id": "run_20260331_042800",
+        "catalyst_name": "Ru/CeO₂",
+        "original_name": "TOF 12.3",
+        "display_name": "TOF 12.3",
+        "normalization_method": "pass_through",
+        "aliases": [
+          "TOF 12.3"
+        ],
+        "source_node_ids": [
+          "转化率:62"
+        ],
+        "merged_from_count": 1,
+        "fusion_status": "single"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "fused:文档:1",
+      "relation": "提及",
+      "target": "fused:催化剂:2"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有活性组分",
+      "target": "fused:活性组分:3"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:4"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:5"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:6"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:7"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:8"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:9"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有晶相结构",
+      "target": "fused:晶相结构:10"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有比表面积",
+      "target": "fused:比表面积:11"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有比表面积",
+      "target": "fused:比表面积:12"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有比表面积",
+      "target": "fused:比表面积:13"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有孔结构",
+      "target": "fused:孔结构:14"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有孔结构",
+      "target": "fused:孔结构:15"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有孔结构",
+      "target": "fused:孔结构:16"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有孔结构",
+      "target": "fused:孔结构:17"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有粒径",
+      "target": "fused:粒径:18"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有粒径",
+      "target": "fused:粒径:19"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有粒径",
+      "target": "fused:粒径:20"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有助剂",
+      "target": "fused:助剂:21"
+    },
+    {
+      "source": "fused:助剂:21",
+      "relation": "有助剂含量",
+      "target": "fused:助剂含量:22"
+    },
+    {
+      "source": "fused:助剂:21",
+      "relation": "有助剂种类",
+      "target": "fused:助剂种类:23"
+    },
+    {
+      "source": "fused:助剂:21",
+      "relation": "有添加方式",
+      "target": "fused:添加方式:24"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有助剂",
+      "target": "fused:助剂:25"
+    },
+    {
+      "source": "fused:助剂:25",
+      "relation": "有助剂含量",
+      "target": "fused:助剂含量:22"
+    },
+    {
+      "source": "fused:助剂:25",
+      "relation": "有助剂种类",
+      "target": "fused:助剂种类:26"
+    },
+    {
+      "source": "fused:助剂:25",
+      "relation": "有添加方式",
+      "target": "fused:添加方式:24"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有助剂",
+      "target": "fused:助剂:27"
+    },
+    {
+      "source": "fused:助剂:27",
+      "relation": "有助剂含量",
+      "target": "fused:助剂含量:28"
+    },
+    {
+      "source": "fused:助剂:27",
+      "relation": "有助剂种类",
+      "target": "fused:助剂种类:29"
+    },
+    {
+      "source": "fused:助剂:27",
+      "relation": "有添加方式",
+      "target": "fused:添加方式:24"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有助剂",
+      "target": "fused:助剂:30"
+    },
+    {
+      "source": "fused:助剂:30",
+      "relation": "有助剂含量",
+      "target": "fused:助剂含量:31"
+    },
+    {
+      "source": "fused:助剂:30",
+      "relation": "有助剂种类",
+      "target": "fused:助剂种类:23"
+    },
+    {
+      "source": "fused:助剂:30",
+      "relation": "有添加方式",
+      "target": "fused:添加方式:24"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有助剂",
+      "target": "fused:助剂:32"
+    },
+    {
+      "source": "fused:助剂:32",
+      "relation": "有助剂含量",
+      "target": "fused:助剂含量:33"
+    },
+    {
+      "source": "fused:助剂:32",
+      "relation": "有助剂种类",
+      "target": "fused:助剂种类:34"
+    },
+    {
+      "source": "fused:助剂:32",
+      "relation": "有添加方式",
+      "target": "fused:添加方式:24"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有表征方法",
+      "target": "fused:表征方法:35"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有表征方法",
+      "target": "fused:表征方法:36"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有制备工艺",
+      "target": "fused:制备工艺:37"
+    },
+    {
+      "source": "fused:制备工艺:37",
+      "relation": "有原料选择",
+      "target": "fused:原料选择:38"
+    },
+    {
+      "source": "fused:制备工艺:37",
+      "relation": "有混合方式",
+      "target": "fused:混合方式:39"
+    },
+    {
+      "source": "fused:制备工艺:37",
+      "relation": "有焙烧温度",
+      "target": "fused:焙烧温度:40"
+    },
+    {
+      "source": "fused:制备工艺:37",
+      "relation": "有还原活化",
+      "target": "fused:还原活化:41"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有反应条件",
+      "target": "fused:反应条件:42"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有温度",
+      "target": "fused:温度:43"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有温度",
+      "target": "fused:温度:44"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有压力",
+      "target": "fused:压力:45"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有空速",
+      "target": "fused:空速:46"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有氢氮比",
+      "target": "fused:氢氮比:47"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有反应时间",
+      "target": "fused:反应时间:48"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有反应机理",
+      "target": "fused:反应机理:49"
+    },
+    {
+      "source": "fused:反应机理:49",
+      "relation": "有解离吸附",
+      "target": "fused:解离吸附:50"
+    },
+    {
+      "source": "fused:反应机理:49",
+      "relation": "有活性位模型",
+      "target": "fused:活性位模型:51"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有催化性能",
+      "target": "fused:催化性能:52"
+    },
+    {
+      "source": "fused:催化性能:52",
+      "relation": "有氨合成活性",
+      "target": "fused:氨合成活性:53"
+    },
+    {
+      "source": "fused:催化性能:52",
+      "relation": "有氨合成活性",
+      "target": "fused:氨合成活性:54"
+    },
+    {
+      "source": "fused:催化性能:52",
+      "relation": "有氨合成活性",
+      "target": "fused:氨合成活性:55"
+    },
+    {
+      "source": "fused:催化性能:52",
+      "relation": "有转化率",
+      "target": "fused:转化率:56"
+    }
+  ]
+}

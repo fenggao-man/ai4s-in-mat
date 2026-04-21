@@ -1,0 +1,920 @@
+{
+  "document": {
+    "doc_id": "run_20260331_042800",
+    "title": "助剂对 Ru/CeO_{2} 催化剂的表面性质及氨合成性能的影响",
+    "source": "OCR",
+    "filename": "document.md"
+  },
+  "nodes": [
+    {
+      "id": "fused:文档:1",
+      "type": "文档",
+      "level": "root",
+      "properties": {
+        "doc_id": "run_20260331_042800",
+        "source": "OCR",
+        "filename": "document.md",
+        "title": "助剂对 Ru/CeO_{2} 催化剂的表面性质及氨合成性能的影响"
+      }
+    },
+    {
+      "id": "fused:催化剂:2",
+      "type": "催化剂",
+      "level": "root",
+      "properties": {
+        "display_name": "Ru/CeO₂",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Ru/CeO₂"
+      }
+    },
+    {
+      "id": "fused:活性组分:3",
+      "type": "活性组分",
+      "level": "child",
+      "properties": {
+        "display_name": "Ru",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Ru"
+      }
+    },
+    {
+      "id": "fused:前驱体:4",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "display_name": "K₂RuO₄",
+        "doc_id": "run_20260331_042800",
+        "original_name": "K₂RuO₄"
+      }
+    },
+    {
+      "id": "fused:前驱体:5",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "display_name": "Ce(NO₃)₃·6H₂O",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Ce(NO₃)₃·6H₂O"
+      }
+    },
+    {
+      "id": "fused:前驱体:6",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "display_name": "KF",
+        "doc_id": "run_20260331_042800",
+        "original_name": "KF"
+      }
+    },
+    {
+      "id": "fused:前驱体:7",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "display_name": "KNO₃",
+        "doc_id": "run_20260331_042800",
+        "original_name": "KNO₃"
+      }
+    },
+    {
+      "id": "fused:前驱体:8",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "display_name": "Ba(NO₃)₂",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Ba(NO₃)₂"
+      }
+    },
+    {
+      "id": "fused:前驱体:9",
+      "type": "前驱体",
+      "level": "child",
+      "properties": {
+        "display_name": "CsNO₃",
+        "doc_id": "run_20260331_042800",
+        "original_name": "CsNO₃"
+      }
+    },
+    {
+      "id": "fused:晶相结构:10",
+      "type": "晶相结构",
+      "level": "child",
+      "properties": {
+        "display_name": "CeO₂萤石结构",
+        "doc_id": "run_20260331_042800",
+        "original_name": "CeO₂ 萤石结构"
+      }
+    },
+    {
+      "id": "fused:比表面积:11",
+      "type": "比表面积",
+      "level": "child",
+      "properties": {
+        "value": "120",
+        "doc_id": "run_20260331_042800",
+        "unit": "m²/g",
+        "display_name": "120 m²/g",
+        "original_name": "120m²/g"
+      }
+    },
+    {
+      "id": "fused:比表面积:12",
+      "type": "比表面积",
+      "level": "child",
+      "properties": {
+        "value": "76",
+        "doc_id": "run_20260331_042800",
+        "unit": "m²/g",
+        "display_name": "76 m²/g",
+        "original_name": "76m²/g"
+      }
+    },
+    {
+      "id": "fused:比表面积:13",
+      "type": "比表面积",
+      "level": "child",
+      "properties": {
+        "value": "100",
+        "doc_id": "run_20260331_042800",
+        "unit": "m²/g",
+        "display_name": "100 m²/g",
+        "original_name": "100m²/g"
+      }
+    },
+    {
+      "id": "fused:孔结构:14",
+      "type": "孔结构",
+      "level": "child",
+      "properties": {
+        "display_name": "0.18",
+        "doc_id": "run_20260331_042800",
+        "original_name": "0.18"
+      }
+    },
+    {
+      "id": "fused:孔结构:15",
+      "type": "孔结构",
+      "level": "child",
+      "properties": {
+        "display_name": "3.05",
+        "doc_id": "run_20260331_042800",
+        "original_name": "3.05"
+      }
+    },
+    {
+      "id": "fused:孔结构:16",
+      "type": "孔结构",
+      "level": "child",
+      "properties": {
+        "display_name": "4.40",
+        "doc_id": "run_20260331_042800",
+        "original_name": "4.40"
+      }
+    },
+    {
+      "id": "fused:孔结构:17",
+      "type": "孔结构",
+      "level": "child",
+      "properties": {
+        "display_name": "2.56",
+        "doc_id": "run_20260331_042800",
+        "original_name": "2.56"
+      }
+    },
+    {
+      "id": "fused:粒径:18",
+      "type": "粒径",
+      "level": "child",
+      "properties": {
+        "value": "7.7",
+        "doc_id": "run_20260331_042800",
+        "unit": "nm",
+        "display_name": "7.7 nm",
+        "original_name": "7.7nm"
+      }
+    },
+    {
+      "id": "fused:粒径:19",
+      "type": "粒径",
+      "level": "child",
+      "properties": {
+        "value": "9.3",
+        "doc_id": "run_20260331_042800",
+        "unit": "nm",
+        "display_name": "9.3 nm",
+        "original_name": "9.3nm"
+      }
+    },
+    {
+      "id": "fused:粒径:20",
+      "type": "粒径",
+      "level": "child",
+      "properties": {
+        "value": "6.5",
+        "doc_id": "run_20260331_042800",
+        "unit": "nm",
+        "display_name": "6.5 nm",
+        "original_name": "6.5nm"
+      }
+    },
+    {
+      "id": "fused:助剂:21",
+      "type": "助剂",
+      "level": "root",
+      "properties": {
+        "display_name": "K",
+        "doc_id": "run_20260331_042800",
+        "original_name": "K"
+      }
+    },
+    {
+      "id": "fused:助剂含量:22",
+      "type": "助剂含量",
+      "level": "child",
+      "properties": {
+        "value": "1.5",
+        "doc_id": "run_20260331_042800",
+        "unit": "%",
+        "display_name": "1.5 %",
+        "original_name": "1.5%"
+      }
+    },
+    {
+      "id": "fused:助剂种类:23",
+      "type": "助剂种类",
+      "level": "child",
+      "properties": {
+        "display_name": "碱金属",
+        "doc_id": "run_20260331_042800",
+        "original_name": "碱金属"
+      }
+    },
+    {
+      "id": "fused:添加方式:24",
+      "type": "添加方式",
+      "level": "child",
+      "properties": {
+        "display_name": "等体积浸渍法",
+        "doc_id": "run_20260331_042800",
+        "original_name": "等体积浸渍法"
+      }
+    },
+    {
+      "id": "fused:助剂:25",
+      "type": "助剂",
+      "level": "root",
+      "properties": {
+        "display_name": "F",
+        "doc_id": "run_20260331_042800",
+        "original_name": "F"
+      }
+    },
+    {
+      "id": "fused:助剂种类:26",
+      "type": "助剂种类",
+      "level": "child",
+      "properties": {
+        "display_name": "卤素",
+        "doc_id": "run_20260331_042800",
+        "original_name": "卤素"
+      }
+    },
+    {
+      "id": "fused:助剂:27",
+      "type": "助剂",
+      "level": "root",
+      "properties": {
+        "display_name": "Ba",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Ba"
+      }
+    },
+    {
+      "id": "fused:助剂含量:28",
+      "type": "助剂含量",
+      "level": "child",
+      "properties": {
+        "value": "2.0",
+        "doc_id": "run_20260331_042800",
+        "unit": "%",
+        "display_name": "2.0 %",
+        "original_name": "2.0%"
+      }
+    },
+    {
+      "id": "fused:助剂种类:29",
+      "type": "助剂种类",
+      "level": "child",
+      "properties": {
+        "display_name": "碱土金属",
+        "doc_id": "run_20260331_042800",
+        "original_name": "碱土金属"
+      }
+    },
+    {
+      "id": "fused:助剂:30",
+      "type": "助剂",
+      "level": "root",
+      "properties": {
+        "display_name": "Cs",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Cs"
+      }
+    },
+    {
+      "id": "fused:助剂含量:31",
+      "type": "助剂含量",
+      "level": "child",
+      "properties": {
+        "value": "3.0",
+        "doc_id": "run_20260331_042800",
+        "unit": "%",
+        "display_name": "3.0 %",
+        "original_name": "3.0%"
+      }
+    },
+    {
+      "id": "fused:助剂:32",
+      "type": "助剂",
+      "level": "root",
+      "properties": {
+        "display_name": "Ba+Cs",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Ba+Cs"
+      }
+    },
+    {
+      "id": "fused:助剂含量:33",
+      "type": "助剂含量",
+      "level": "child",
+      "properties": {
+        "value": "2.0(Ba), 3.0(Cs)",
+        "doc_id": "run_20260331_042800",
+        "unit": "%",
+        "display_name": "2.0(Ba), 3.0(Cs) %",
+        "original_name": "2.0(Ba), 3.0(Cs)%"
+      }
+    },
+    {
+      "id": "fused:助剂种类:34",
+      "type": "助剂种类",
+      "level": "child",
+      "properties": {
+        "display_name": "双助剂",
+        "doc_id": "run_20260331_042800",
+        "original_name": "双助剂"
+      }
+    },
+    {
+      "id": "fused:表征方法:35",
+      "type": "表征方法",
+      "level": "root",
+      "properties": {
+        "display_name": "XRD",
+        "doc_id": "run_20260331_042800",
+        "original_name": "XRD"
+      }
+    },
+    {
+      "id": "fused:表征方法:36",
+      "type": "表征方法",
+      "level": "root",
+      "properties": {
+        "display_name": "BET",
+        "doc_id": "run_20260331_042800",
+        "original_name": "BET"
+      }
+    },
+    {
+      "id": "fused:制备工艺:37",
+      "type": "制备工艺",
+      "level": "root",
+      "properties": {
+        "display_name": "Preparation Process",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Preparation Process"
+      }
+    },
+    {
+      "id": "fused:原料选择:38",
+      "type": "原料选择",
+      "level": "child",
+      "properties": {
+        "display_name": "Ru powder, KOH, KNO₃, Ce(NO₃)₃·6H₂O",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Ru powder, KOH, KNO₃, Ce(NO₃)₃·6H₂O"
+      }
+    },
+    {
+      "id": "fused:混合方式:39",
+      "type": "混合方式",
+      "level": "child",
+      "properties": {
+        "display_name": "氧化还原共沉淀法",
+        "doc_id": "run_20260331_042800",
+        "original_name": "氧化还原共沉淀法"
+      }
+    },
+    {
+      "id": "fused:焙烧温度:40",
+      "type": "焙烧温度",
+      "level": "child",
+      "properties": {
+        "value": "500",
+        "doc_id": "run_20260331_042800",
+        "unit": "℃",
+        "display_name": "500",
+        "original_name": "500"
+      }
+    },
+    {
+      "id": "fused:还原活化:41",
+      "type": "还原活化",
+      "level": "child",
+      "properties": {
+        "value": "200-500",
+        "doc_id": "run_20260331_042800",
+        "unit": "℃",
+        "display_name": "200-500",
+        "original_name": "200-500"
+      }
+    },
+    {
+      "id": "fused:反应条件:42",
+      "type": "反应条件",
+      "level": "root",
+      "properties": {
+        "display_name": "Standard Condition",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Standard Condition"
+      }
+    },
+    {
+      "id": "fused:温度:43",
+      "type": "温度",
+      "level": "child",
+      "properties": {
+        "value": "400",
+        "doc_id": "run_20260331_042800",
+        "unit": "℃",
+        "display_name": "400 ℃",
+        "original_name": "400℃"
+      }
+    },
+    {
+      "id": "fused:温度:44",
+      "type": "温度",
+      "level": "child",
+      "properties": {
+        "value": "425",
+        "doc_id": "run_20260331_042800",
+        "unit": "℃",
+        "display_name": "425 ℃",
+        "original_name": "425℃"
+      }
+    },
+    {
+      "id": "fused:压力:45",
+      "type": "压力",
+      "level": "child",
+      "properties": {
+        "value": "10",
+        "doc_id": "run_20260331_042800",
+        "unit": "MPa",
+        "display_name": "10 MPa",
+        "original_name": "10MPa"
+      }
+    },
+    {
+      "id": "fused:空速:46",
+      "type": "空速",
+      "level": "child",
+      "properties": {
+        "value": "10000",
+        "doc_id": "run_20260331_042800",
+        "unit": "h⁻¹",
+        "display_name": "10000 h⁻¹",
+        "original_name": "10000h⁻¹"
+      }
+    },
+    {
+      "id": "fused:氢氮比:47",
+      "type": "氢氮比",
+      "level": "child",
+      "properties": {
+        "display_name": "3:1",
+        "doc_id": "run_20260331_042800",
+        "original_name": "3:1"
+      }
+    },
+    {
+      "id": "fused:反应时间:48",
+      "type": "反应时间",
+      "level": "child",
+      "properties": {
+        "value": "2",
+        "doc_id": "run_20260331_042800",
+        "unit": "h",
+        "display_name": "2",
+        "original_name": "2"
+      }
+    },
+    {
+      "id": "fused:反应机理:49",
+      "type": "反应机理",
+      "level": "root",
+      "properties": {
+        "display_name": "Electronic Effect",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Electronic Effect"
+      }
+    },
+    {
+      "id": "fused:解离吸附:50",
+      "type": "解离吸附",
+      "level": "child",
+      "properties": {
+        "display_name": "N₂ 解离",
+        "doc_id": "run_20260331_042800",
+        "original_name": "N₂ 解离"
+      }
+    },
+    {
+      "id": "fused:活性位模型:51",
+      "type": "活性位模型",
+      "level": "child",
+      "properties": {
+        "display_name": "电子效应",
+        "doc_id": "run_20260331_042800",
+        "original_name": "电子效应"
+      }
+    },
+    {
+      "id": "fused:催化性能:52",
+      "type": "催化性能",
+      "level": "root",
+      "properties": {
+        "display_name": "Ammonia Synthesis Activity",
+        "doc_id": "run_20260331_042800",
+        "original_name": "Ammonia Synthesis Activity"
+      }
+    },
+    {
+      "id": "fused:氨合成活性:53",
+      "type": "氨合成活性",
+      "level": "child",
+      "properties": {
+        "value": "13.3",
+        "doc_id": "run_20260331_042800",
+        "unit": "%",
+        "display_name": "13.3",
+        "original_name": "13.3"
+      }
+    },
+    {
+      "id": "fused:氨合成活性:54",
+      "type": "氨合成活性",
+      "level": "child",
+      "properties": {
+        "value": "16.0",
+        "doc_id": "run_20260331_042800",
+        "unit": "%",
+        "display_name": "16.0",
+        "original_name": "16.0"
+      }
+    },
+    {
+      "id": "fused:氨合成活性:55",
+      "type": "氨合成活性",
+      "level": "child",
+      "properties": {
+        "value": "12.6",
+        "doc_id": "run_20260331_042800",
+        "unit": "%",
+        "display_name": "12.6",
+        "original_name": "12.6"
+      }
+    },
+    {
+      "id": "fused:转化率:56",
+      "type": "转化率",
+      "level": "child",
+      "properties": {
+        "value": "TOF 12.3",
+        "doc_id": "run_20260331_042800",
+        "unit": "10⁻² s⁻¹",
+        "display_name": "TOF 12.3",
+        "original_name": "TOF 12.3"
+      }
+    }
+  ],
+  "edges": [
+    {
+      "source": "fused:文档:1",
+      "relation": "提及",
+      "target": "fused:催化剂:2"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有活性组分",
+      "target": "fused:活性组分:3"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:4"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:5"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:6"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:7"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:8"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有前驱体",
+      "target": "fused:前驱体:9"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有晶相结构",
+      "target": "fused:晶相结构:10"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有比表面积",
+      "target": "fused:比表面积:11"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有比表面积",
+      "target": "fused:比表面积:12"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有比表面积",
+      "target": "fused:比表面积:13"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有孔结构",
+      "target": "fused:孔结构:14"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有孔结构",
+      "target": "fused:孔结构:15"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有孔结构",
+      "target": "fused:孔结构:16"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有孔结构",
+      "target": "fused:孔结构:17"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有粒径",
+      "target": "fused:粒径:18"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有粒径",
+      "target": "fused:粒径:19"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有粒径",
+      "target": "fused:粒径:20"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有助剂",
+      "target": "fused:助剂:21"
+    },
+    {
+      "source": "fused:助剂:21",
+      "relation": "有助剂含量",
+      "target": "fused:助剂含量:22"
+    },
+    {
+      "source": "fused:助剂:21",
+      "relation": "有助剂种类",
+      "target": "fused:助剂种类:23"
+    },
+    {
+      "source": "fused:助剂:21",
+      "relation": "有添加方式",
+      "target": "fused:添加方式:24"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有助剂",
+      "target": "fused:助剂:25"
+    },
+    {
+      "source": "fused:助剂:25",
+      "relation": "有助剂含量",
+      "target": "fused:助剂含量:22"
+    },
+    {
+      "source": "fused:助剂:25",
+      "relation": "有助剂种类",
+      "target": "fused:助剂种类:26"
+    },
+    {
+      "source": "fused:助剂:25",
+      "relation": "有添加方式",
+      "target": "fused:添加方式:24"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有助剂",
+      "target": "fused:助剂:27"
+    },
+    {
+      "source": "fused:助剂:27",
+      "relation": "有助剂含量",
+      "target": "fused:助剂含量:28"
+    },
+    {
+      "source": "fused:助剂:27",
+      "relation": "有助剂种类",
+      "target": "fused:助剂种类:29"
+    },
+    {
+      "source": "fused:助剂:27",
+      "relation": "有添加方式",
+      "target": "fused:添加方式:24"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有助剂",
+      "target": "fused:助剂:30"
+    },
+    {
+      "source": "fused:助剂:30",
+      "relation": "有助剂含量",
+      "target": "fused:助剂含量:31"
+    },
+    {
+      "source": "fused:助剂:30",
+      "relation": "有助剂种类",
+      "target": "fused:助剂种类:23"
+    },
+    {
+      "source": "fused:助剂:30",
+      "relation": "有添加方式",
+      "target": "fused:添加方式:24"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有助剂",
+      "target": "fused:助剂:32"
+    },
+    {
+      "source": "fused:助剂:32",
+      "relation": "有助剂含量",
+      "target": "fused:助剂含量:33"
+    },
+    {
+      "source": "fused:助剂:32",
+      "relation": "有助剂种类",
+      "target": "fused:助剂种类:34"
+    },
+    {
+      "source": "fused:助剂:32",
+      "relation": "有添加方式",
+      "target": "fused:添加方式:24"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有表征方法",
+      "target": "fused:表征方法:35"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有表征方法",
+      "target": "fused:表征方法:36"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有制备工艺",
+      "target": "fused:制备工艺:37"
+    },
+    {
+      "source": "fused:制备工艺:37",
+      "relation": "有原料选择",
+      "target": "fused:原料选择:38"
+    },
+    {
+      "source": "fused:制备工艺:37",
+      "relation": "有混合方式",
+      "target": "fused:混合方式:39"
+    },
+    {
+      "source": "fused:制备工艺:37",
+      "relation": "有焙烧温度",
+      "target": "fused:焙烧温度:40"
+    },
+    {
+      "source": "fused:制备工艺:37",
+      "relation": "有还原活化",
+      "target": "fused:还原活化:41"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有反应条件",
+      "target": "fused:反应条件:42"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有温度",
+      "target": "fused:温度:43"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有温度",
+      "target": "fused:温度:44"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有压力",
+      "target": "fused:压力:45"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有空速",
+      "target": "fused:空速:46"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有氢氮比",
+      "target": "fused:氢氮比:47"
+    },
+    {
+      "source": "fused:反应条件:42",
+      "relation": "有反应时间",
+      "target": "fused:反应时间:48"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有反应机理",
+      "target": "fused:反应机理:49"
+    },
+    {
+      "source": "fused:反应机理:49",
+      "relation": "有解离吸附",
+      "target": "fused:解离吸附:50"
+    },
+    {
+      "source": "fused:反应机理:49",
+      "relation": "有活性位模型",
+      "target": "fused:活性位模型:51"
+    },
+    {
+      "source": "fused:催化剂:2",
+      "relation": "有催化性能",
+      "target": "fused:催化性能:52"
+    },
+    {
+      "source": "fused:催化性能:52",
+      "relation": "有氨合成活性",
+      "target": "fused:氨合成活性:53"
+    },
+    {
+      "source": "fused:催化性能:52",
+      "relation": "有氨合成活性",
+      "target": "fused:氨合成活性:54"
+    },
+    {
+      "source": "fused:催化性能:52",
+      "relation": "有氨合成活性",
+      "target": "fused:氨合成活性:55"
+    },
+    {
+      "source": "fused:催化性能:52",
+      "relation": "有转化率",
+      "target": "fused:转化率:56"
+    }
+  ]
+}

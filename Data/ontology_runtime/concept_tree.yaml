@@ -1,0 +1,75 @@
+version: 0.1.0
+status: active
+concept_tree:
+  - root: 催化剂
+    concepts:
+      - 活性组分
+      - 前驱体
+      - 晶相结构
+      - 铁比
+      - 比表面积
+      - 孔结构
+      - 粒径
+      - 制备方式
+      - 机械强度
+
+  - root: 助剂
+    concepts:
+      - 助剂含量
+      - 助剂种类
+      - 添加方式
+
+  - root: 反应条件
+    concepts:
+      - 温度
+      - 压力
+      - 空速
+      - 氢氮比
+      - 进料组成
+      - 气体纯度
+      - 反应时间
+
+  - root: 催化性能
+    concepts:
+      - 氨合成活性
+      - 转化率
+      - 选择性
+      - 稳定性
+      - 寿命
+      - 抗毒性
+
+  - root: 表征方法
+    concepts:
+      - XRD
+      - BET
+      - TEM
+      - SEM
+      - XPS
+      - H2-TPR
+      - N2-TPD
+      - NH3-TPD
+      - Mössbauer
+      - Raman
+      - FT-IR
+
+  - root: 反应机理
+    concepts:
+      - 解离吸附
+      - 缔合吸附
+      - 加氢步骤
+      - 脱附机理
+      - 活性位模型
+      - 速率控制步骤
+      - 活化能
+      - 反应级数
+      - 吸附热
+      - 指前因子
+      - 动力学参数
+
+  - root: 制备工艺
+    concepts:
+      - 原料选择
+      - 混合方式
+      - 成型工艺
+      - 焙烧温度
+      - 还原活化

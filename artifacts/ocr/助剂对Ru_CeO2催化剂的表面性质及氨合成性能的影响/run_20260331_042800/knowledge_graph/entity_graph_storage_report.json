@@ -1,0 +1,9 @@
+{
+  "graph_path": "/Users/nakilea/Desktop/Code/KG2/artifacts/ocr/助剂对Ru_CeO2催化剂的表面性质及氨合成性能的影响/run_20260331_042800/knowledge_graph/entity_graph_fused.json",
+  "storage_ready_path": "/Users/nakilea/Desktop/Code/KG2/artifacts/ocr/助剂对Ru_CeO2催化剂的表面性质及氨合成性能的影响/run_20260331_042800/knowledge_graph/entity_graph_storage_ready.json",
+  "database": "neo4j",
+  "uri": "bolt://192.168.66.148:7687",
+  "node_count": 56,
+  "edge_count": 61,
+  "status": "stored"
+}

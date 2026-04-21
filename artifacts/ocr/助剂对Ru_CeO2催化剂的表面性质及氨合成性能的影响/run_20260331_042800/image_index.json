@@ -1,0 +1,44 @@
+[
+  {
+    "page": 3,
+    "image_path": "imgs/img_in_chart_box_109_649_551_955.jpg",
+    "context_before": "5%时出口氨体积分数最高，但是当 F 含量高于 1.5% 后，出口氨体积分数迅速下降。通过比较图 1 结果可以发现，$\\mathrm{CsNO_{3}-Ba(NO_{3})_{2}-KF}$ 三种单助剂的最佳添加量明显不同，分别为 3%、2%、1.5%。其中，助剂 Cs 添加量大于 Ba 添加量的可能原因是助剂前驱体硝酸盐在加热分解过程中生成的 CsOH 熔点较低（272 ℃），易于流淌$^{[19]}$，容易吸附在 $\\mathrm{CeO_{2}}$ 表面，只有添加量足够大才可能充分附在钌粒子与 $\\mathrm{CeO_{2}}$ 载体的界面，有效地发挥促进作用。而 Ba（$\\mathrm{NO_{3}}_{2}$ 的分解产物 BaO 熔点较高（2013 ℃），不易流淌，少量的助剂就能附在钌粒子与 $\\mathrm{CeO_{2}}$ 载体的界面，过量的助剂有可能会覆盖催化剂的表面活性中心，减少钌活性位与反应气的有效接触，从而使催化剂的活性下降$^{[20]}$。",
+    "context_after": "<div style=\"text-align: center;\">图 1 助剂含量对 4% Ru/CeO_{2} 催化剂氨合成催化活性的影响</div>"
+  },
+  {
+    "page": 3,
+    "image_path": "imgs/img_in_chart_box_660_439_1089_746.jpg",
+    "context_before": "以 KF 为助剂的钌催化剂活性比  $ KNO_{3} $ 为助剂的氨合成活性高，说明电负性比 Cl 高的 F 不会使  $  \\mathrm{Ru}/\\mathrm{CeO}_{2}  $ 催化剂中毒。林敬东等 $ ^{[13]} $ 认为，KF-Ru/MgO 催化剂中的 F 与氧化镁载体的 O 能够发生交换，改变了载体的结构和表面性质，从而导致金属载体相互作用情况的不同，因而有利于催化活性的提高。而在 F-Ru/ $ CeO_{2} $ 催化剂中，KF 在焙烧过程中会同时生产  $ K_{2}O $ 和 F 化物，能够起到双重助剂的作用，所以比  $ KNO_{3} $ 有更好的促进作用。",
+    "context_after": "<div style=\"text-align: center;\">图 2 单助剂对 4% Ru/CeO_{2} 催化剂氨合成催化活性的影响</div>"
+  },
+  {
+    "page": 4,
+    "image_path": "imgs/img_in_chart_box_117_576_557_892.jpg",
+    "context_before": "双助剂在钌基氨合成催化剂中的研究也比较广泛，为了解双助剂对  $ \\mathrm{Ru/CeO_{2}} $ 催化剂的影响，以上述三种助剂两两组合制备了  $ \\mathrm{F+Ba-Ru/CeO_{2}, F+Cs-Ru/CeO_{2}} $ 和  $ \\mathrm{Ba+Cs-Ru/CeO_{2}} $ 催化剂，催化剂活性结果见图3。从图3中可以看出，在低温400℃，10 MPa，10000 h $ ^{-1} $ 反应条件下， $ \\mathrm{Ba+Cs-Ru/CeO_{2}, F+Cs-Ru/CeO_{2}, F+Ba-Ru/CeO_{2}} $ 三种催化剂的出口氨体积分数分别为13.3%、12.9%、9.6%，与  $ \\mathrm{Ru/CeO_{2}} $ 催化剂相比，分别提高了72.7%、67.5%、和24.7%。通过比较单双助剂催化剂的氨合成活性还可以看出，双助剂的促进作用明显大于单助剂。",
+    "context_after": "<div style=\"text-align: center;\">图 3 双助剂催化剂氨合成催化活性的影响</div>"
+  },
+  {
+    "page": 4,
+    "image_path": "imgs/img_in_chart_box_625_298_1072_584.jpg",
+    "context_before": "图4和图5为单助剂和双助剂催化剂的XRD谱图。从图4可以看出，各催化剂均表现出二氧化铈萤石结构，没有出现其他的衍射峰，说明各催化剂中助剂粒子较小不足以被仪器检测出。但含不同助剂的催化剂X射线衍射峰强度不同，经谢乐公式计算催化剂粒径除添加$\\mathrm{KNO}_{3}$助剂的催化剂粒径较大为9.3 nm，其余各催化剂粒径大小几乎相同。加入助剂后各催化剂的晶胞参数都有所变化，其中，以$\\mathrm{KNO}_{3}$和KF为前驱体助剂的样品晶胞参数变化最大，说明$\\mathrm{KNO}_{3}$在焙烧过程中生成强碱性$\\mathrm{K}_{2}\\mathrm{O}$与$\\mathrm{CeO}_{2}$的相互作用影响了$\\mathrm{CeO}_{2}$的晶粒，所以催化剂的晶胞参数变化较大。林敬东等$^{[13]}$研究F-Ru/MgO时，发现F离子可以与$\\mathrm{MgO}$中的O交换。而对F-Ru/$\\mathrm{CeO}_{2}$催化剂，也能生产$\\mathrm{K}_{2}\\mathrm{O}$，而且F离子也可以与$\\mathrm{CeO}_{2}$中的O进行交换，从而引起催化剂的晶胞参数变化。而以$\\mathrm{Ba}(\\mathrm{NO}_{3})_{2}$和$\\mathrm{CsNO}_{3}$为助剂前驱体的催化剂晶胞参数基本无变化，这可能是因为$\\mathrm{Ba}$和$\\mathrm{Cs}$能够较稳定地存在于催化剂表面，没有与$\\mathrm{CeO}_{2}$发生反应。",
+    "context_after": "<div style=\"text-align: center;\">图 4 单助剂 Ru/CeO_{2} 催化剂的 XRD 谱图</div>"
+  },
+  {
+    "page": 4,
+    "image_path": "imgs/img_in_chart_box_634_923_1074_1219.jpg",
+    "context_before": "图 5 为双助剂催化剂的 XRD 谱图，结果与单助剂催化剂一样，各催化剂也都没有出现助剂成分的衍射峰，说明尽管助剂含量增多，但是各助剂成分粒径在  $ Ru/CeO_{2} $ 催化剂中还很小，不足以被检测到。",
+    "context_after": "<div style=\"text-align: center;\">图 5 双助剂 Ru/CeO_{2} 催化剂的 XRD 谱图</div>"
+  },
+  {
+    "page": 5,
+    "image_path": "imgs/img_in_chart_box_104_905_549_1206.jpg",
+    "context_before": "$ ^{a} $determined by the expression  $ \\alpha = \\sqrt{2} \\sin(\\mathrm{h}^2 + \\mathrm{k}^2 + \\mathrm{l}^2) $ ( $ \\lambda / \\sin\\theta $)",
+    "context_after": "<div style=\"text-align: center;\">图 6 不同含量单助剂样品的孔径分布</div>"
+  },
+  {
+    "page": 5,
+    "image_path": "imgs/img_in_chart_box_640_1073_1099_1383.jpg",
+    "context_before": "为了更好地了解各助剂对  $  \\mathrm{Ru}/\\mathrm{CeO}_{2}  $ 催化剂的影响，又设计了 CO 脉冲吸附实验。表 3 显示了含不同助剂各催化剂的 CO 脉冲吸附结果和氨合成转化频率值（TOF）。从 CO 脉冲吸附结果可以看出，添加助剂后各催化剂钉分散度都有所降低。这一结果与 Liang 等 $ ^{[22]} $ 研究  $  \\mathrm{Ba}(\\mathrm{NO}_{3})_{2}  $、KOH、 $  \\mathrm{KNO}_{3}  $ 对 Ru/AC 催化剂的钉分散度的影响结果相一致。对于单助剂催化剂，与  $  \\mathrm{Ru}/\\mathrm{CeO}_{2}  $ 催化剂钉分散度（45.6%）相比，含助剂催化剂的钉分散度降低的幅度较小。",
+    "context_after": "<div style=\"text-align: center;\">图 7 双助剂 Ru/CeO_{2} 孔径分布</div>"
+  }
+]

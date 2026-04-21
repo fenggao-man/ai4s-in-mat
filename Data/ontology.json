@@ -1,0 +1,384 @@
+{
+  "Entities": {
+    "Formula": {
+      "Attributes": [
+        "name",
+        "category",
+        "development_stage",
+        "source_type",
+        "sample_id",
+        "formula_name",
+        "promoter_count",
+        "note"
+      ],
+      "Description": {
+        "name": "【核心去重字段】必须是标准化化学式命名，格式严格为：活性金属-助剂/载体（如 Ru-Ba/CeO2）。规则：1. 用 '-' 连接助剂；2. 用 '/' 分隔载体；3. 禁止空格、wt%、中文、小数；4. 元素符号首字母大写，其余小写。示例：Ru/CeO2、Ru-Ba-K/CeO2、Fe-K/Al2O3、Co-Mo/MgO",
+        "category": "【强制枚举，四选一】必须从以下取值中选择一个：Ru-based（钌基）、Fe-based（铁基）、Co-based（钴基）、Other（其他或未明确）。判断依据：活性金属是什么。",
+        "development_stage": "【三选一，可缺省】Lab（实验室阶段）、Pilot（中试阶段）、Industrial（工业化）。若文献未明确，填 Lab。",
+        "source_type": "【四选一，可缺省】Literature（学术文献）、Patent（专利）、Dataset（数据集）、Experiment（实验数据）。默认 Literature。",
+        "sample_id": "【仅限实验数据】实验唯一编号，如 CAT-2026-001。文献数据填 None。",
+        "formula_name": "【可选】配方缩写，如 Fe-AlKCa。用于快速识别。",
+        "promoter_count": "【仅限实验数据】助剂数量（3, 4, 5），用于分类分析。文献数据填 None。",
+        "note": "【可选自由文本】存放原始描述、别名或特殊说明。例如：'文献中称为 5wt% Ru-3wt% Ba/CeO2 双促体系' 或 '高温高压测试专用'。不参与去重，仅作备注。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "name + category"
+        ],
+        "description": "Formula 以 name+category 去重，但必须结合子图完整匹配。"
+      },
+      "require_subgraph_match": true,
+      "subgraph_fields": [
+        "Composition",
+        "PreparationMethod",
+        "ReactionCondition",
+        "NH3Rate",
+        "TOF",
+        "ActivationEnergy",
+        "Stability",
+        "NH3OutletVolPct",
+        "Characterization"
+      ]
+    },
+    "Composition": {
+      "Attributes": [
+        "symbol",
+        "element",
+        "role",
+        "loading_wt_pct",
+        "content_wt_pct",
+        "loading_wt_pct_unit",
+        "molar_ratio",
+        "phase_purity",
+        "note"
+      ],
+      "Description": {
+        "symbol": "【必填】化学元素或化合物符号，严格使用标准化学命名。活性金属：Ru、Fe、Co；助剂：Ba、K、Cs；载体：CeO2、Al2O3、MgO。首字母大写，其余小写，禁止空格或下标。",
+        "element": "【别名】与 symbol 等价，用于实验数据导入兼容。优先使用 symbol。",
+        "role": "【强制枚举，六选一】必须从以下取值中选择一个：ActiveMetal（活性金属）、ActiveMatrix（活性基体，如 Fe3O4）、ElectronicPromoter（电子助剂）、StructuralPromoter（结构助剂）、Support（载体）、Other（其他）。",
+        "loading_wt_pct": "【可选，数值】元素或化合物的质量百分比含量，纯数字，如 5.0、3.2。若未明确，填 None。",
+        "content_wt_pct": "【别名】与 loading_wt_pct 等价，用于实验数据导入兼容。",
+        "loading_wt_pct_unit": "【可选，单位】默认 wt%，仅在非 wt% 时填写，如 mol%、atom%。若为 wt% 或未说明，填 None。",
+        "molar_ratio": "【可选，数值】摩尔比，通常用于助剂间比例，如 Ba/Ru = 0.3。纯数字，若无则填 None。",
+        "phase_purity": "【可选】载体或化合物的晶型/相纯度，如 Cubic、Amorphous、>95%。若未表征，填 None。",
+        "note": "【可选自由文本】存放原始描述、别名或特殊说明，如 '文献中记为 5wt% Ru on CeO2' 或 '高温还原后生成 BaCO3'。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "symbol + role + loading_wt_pct + loading_wt_pct_unit + molar_ratio"
+        ],
+        "description": "Composition 以 symbol+role+loading 等去重，允许共享。"
+      }
+    },
+    "PreparationMethod": {
+      "Attributes": [
+        "method",
+        "precursor",
+        "solvent",
+        "impregnation_time_h",
+        "drying_temp_c",
+        "drying_time_h",
+        "calcination_temp_c",
+        "calcination_time_h",
+        "calcination_atmosphere",
+        "fusion_temp_c",
+        "reduction_temp_c",
+        "reduction_time_h",
+        "reduction_gas",
+        "note"
+      ],
+      "Description": {
+        "method": "【强制枚举】制备方法，必须从以下取值中选择一个：WetImpregnation（湿法浸渍）、CoPrecipitation（共沉淀）、SolGel（溶胶-凝胶）、Hydrothermal（水热法）、MeltingMethod（熔融法）、Other（其他）。",
+        "precursor": "前驱体化合物，如 Ru(NO3)3, Ba(NO3)2, Ce(NO3)3。",
+        "solvent": "溶剂，如 Deionized water, Ethanol。",
+        "impregnation_time_h": "浸渍时间 (h)，纯数字，若无填 None。",
+        "drying_temp_c": "干燥温度 (°C)，纯数字，若无填 None。",
+        "drying_time_h": "干燥时间 (h)，纯数字，若无填 None。",
+        "calcination_temp_c": "煅烧温度 (°C)，纯数字，若无填 None。",
+        "calcination_time_h": "煅烧时间 (h)，纯数字，若无填 None。",
+        "calcination_atmosphere": "煅烧氛围，如 Air, N2, Ar。",
+        "reduction_temp_c": "还原温度 (°C)，纯数字，若无填 None。",
+        "reduction_time_h": "还原时间 (h)，纯数字，若无填 None。",
+        "reduction_gas": "还原气体，如 H2, H2/N2。",
+        "note": "备注。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "method + precursor + calcination_temp_c + reduction_temp_c"
+        ],
+        "description": "PreparationMethod 以关键步骤去重。"
+      }
+    },
+    "ReactionCondition": {
+      "Attributes": [
+        "temperature_c",
+        "pressure_mpa",
+        "h2_n2_ratio",
+        "gas_ratio",
+        "ghsv_h_inv",
+        "catalyst_mass_g",
+        "reaction_time_h",
+        "test_type",
+        "note"
+      ],
+      "Description": {
+        "temperature_c": "【必填】反应温度 (°C)，纯数字，如 425。",
+        "pressure_mpa": "【必填】反应压力 (MPa)，纯数字，如 5.0。",
+        "h2_n2_ratio": "【必填】H2/N2 比例，格式如 '3:1'。",
+        "gas_ratio": "【别名】与 h2_n2_ratio 等价，用于实验数据导入兼容。",
+        "ghsv_h_inv": "【可选】GHSV (h⁻¹)，纯数字，如 18000，若无填 None。",
+        "catalyst_mass_g": "【可选】催化剂质量 (g)，纯数字，如 0.5，若无填 None。",
+        "reaction_time_h": "【可选】反应时间 (h)，纯数字，如 100，若无填 None。",
+        "test_type": "【枚举】测试类型：Lab_Research, Pilot_Test, Industrial。",
+        "note": "备注。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "temperature_c + pressure_mpa + h2_n2_ratio + ghsv_h_inv"
+        ],
+        "description": "ReactionCondition 以条件四元组去重。"
+      }
+    },
+    "NH3Rate": {
+      "Attributes": [
+        "value",
+        "unit",
+        "measurement_method",
+        "note"
+      ],
+      "Description": {
+        "value": "【必填】氨合成速率值，纯数字，如 12.5。",
+        "unit": "【必填】单位，如 'mmol·g⁻¹·h⁻¹'。",
+        "measurement_method": "【可选】测量方法，如 GasChromatography，若无填 None。",
+        "note": "备注。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "value + unit + measurement_method"
+        ],
+        "description": "NH3Rate 以 value+unit+method 去重。"
+      }
+    },
+    "TOF": {
+      "Attributes": [
+        "value",
+        "unit",
+        "calculation_method",
+        "dispersion_pct",
+        "note"
+      ],
+      "Description": {
+        "value": "【必填】TOF 值，纯数字，如 0.082。",
+        "unit": "【必填】单位，如 's⁻¹'。",
+        "calculation_method": "【可选】计算方法，如 CO_Chemisorption，若无填 None。",
+        "dispersion_pct": "【可选】分散度 (%), 如 48.2，若无填 None。",
+        "note": "备注。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "value + unit + calculation_method"
+        ],
+        "description": "TOF 以 value+unit+method 去重。"
+      }
+    },
+    "ActivationEnergy": {
+      "Attributes": [
+        "value",
+        "unit",
+        "calculation_method",
+        "note"
+      ],
+      "Description": {
+        "value": "【必填】活化能值，纯数字，如 50.0。",
+        "unit": "【必填】单位，如 'kJ/mol'。",
+        "calculation_method": "【可选】计算方法，如 Arrhenius，若无填 None。",
+        "note": "备注。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "value + unit + calculation_method"
+        ],
+        "description": "ActivationEnergy 以 value+unit+method 去重。"
+      }
+    },
+    "Stability": {
+      "Attributes": [
+        "time_h",
+        "deactivation_rate_pct",
+        "test_condition",
+        "note"
+      ],
+      "Description": {
+        "time_h": "【必填】稳定性测试时间 (h)，纯数字，如 100。",
+        "deactivation_rate_pct": "【可选】失活率 (%), 如 5.0，若无填 None。",
+        "test_condition": "【可选】测试条件描述，若无填 None。",
+        "note": "备注。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "time_h + deactivation_rate_pct + test_condition"
+        ],
+        "description": "Stability 以 time+deactivation+condition 去重。"
+      }
+    },
+    "NH3OutletVolPct": {
+      "Attributes": [
+        "value",
+        "unit",
+        "measurement_method",
+        "note"
+      ],
+      "Description": {
+        "value": "【必填】出口氨体积百分比值，纯数字，如 1.5。",
+        "unit": "【必填】单位，如 '%'。",
+        "measurement_method": "【可选】测量方法，若无填 None。",
+        "note": "备注。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "value + unit + measurement_method"
+        ],
+        "description": "NH3OutletVolPct 以 value+unit+method 去重。"
+      }
+    },
+    "Characterization": {
+      "Attributes": [
+        "method",
+        "result",
+        "note"
+      ],
+      "Description": {
+        "method": "【必填】表征方法，如 XRD, TEM。",
+        "result": "【可选】结果描述，若无填 None。",
+        "note": "备注。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "method + result[:200]"
+        ],
+        "description": "Characterization 以 method+result 去重。"
+      }
+    },
+    "Publication": {
+      "Attributes": [
+        "Title",
+        "Authors",
+        "Journal",
+        "Year",
+        "Volume",
+        "Pages",
+        "DOI",
+        "Affiliation",
+        "Key_words"
+      ],
+      "Description": {
+        "Title": "【保留原文，严禁翻译】中文文献必须完整保留中文标题，英文文献保留英文标题，禁止任何改写、缩写或翻译！",
+        "Authors": "【保留原文】作者列表保持文献原貌，中文作者写全名，英文作者按原文顺序。多个作者用逗号分隔。例如：张三, 李四, Wang Wu",
+        "Journal": "【保留原文】期刊名称保持文献原貌，中文期刊写全称，英文期刊按原文缩写或全称均可。",
+        "Year": "【四位数字】出版年份，必须为完整四位数，如 2023。若无则填 None。",
+        "Volume": "【可选】卷号，直接填写数字或数字+字母，如 44 或 120(5)。若无则填 None。",
+        "Pages": "【可选】起止页码，格式如 123-134 或 114567。若无则填 None。",
+        "DOI": "【优先级最高】数字对象标识符，格式如 10.1016/j.cattod.2023.114567。若无则填 None。",
+        "Affiliation": "【保留原文】第一作者或通讯作者单位，中文保持中文，英文保持英文。",
+        "Key_words": "【保留原文】文献关键词，多个用逗号分隔，中文保持中文，英文保持英文。"
+      },
+      "merge_strategy": {
+        "type": "exact_key",
+        "fields": [
+          "DOI",
+          "Title.lower() + Year"
+        ],
+        "description": "Publication 以 DOI 为首选去重键，无 DOI 时使用 Title.lower()[:200] + Year 组合。"
+      }
+    }
+  },
+  "Relations": [
+    {
+      "subject": "Formula",
+      "predicate": "COMPOSED_OF",
+      "object": "Composition",
+      "description": "配方由多个组成组件构成。一个 Formula 对应多个 Composition（活性金属 + 助剂 + 载体）。",
+      "cardinality": "Formula (one) → Composition (many)"
+    },
+    {
+      "subject": "Formula",
+      "predicate": "HAS_NH3_RATE",
+      "object": "NH3Rate",
+      "description": "配方具有氨合成速率性能。一个 Formula 可有多个性能指标（不同条件）。",
+      "cardinality": "Formula (one) → NH3Rate (many)"
+    },
+    {
+      "subject": "ReactionCondition",
+      "predicate": "MEASURED_WITH",
+      "object": "NH3Rate",
+      "description": "反应条件下的性能测量结果。一个 ReactionCondition 可对应多个性能指标（如 NH3Rate + TOF）。",
+      "cardinality": "ReactionCondition (one) → NH3Rate (one)"
+    },
+    {
+      "subject": "Formula",
+      "predicate": "TESTED_UNDER",
+      "object": "ReactionCondition",
+      "description": "配方在特定反应条件下测试。一个 Formula 可在多个 ReactionCondition 下测试，每组条件对应一组性能数据。",
+      "cardinality": "Formula (one) → ReactionCondition (many)"
+    },
+    {
+      "subject": "Formula",
+      "predicate": "PREPARED_BY",
+      "object": "PreparationMethod",
+      "description": "配方通过某种制备方法获得。一个 Formula 通常对应一个 PreparationMethod（同一配方不同制备方法视为不同 Formula）。",
+      "cardinality": "Formula (one) → PreparationMethod (one)"
+    },
+    {
+      "subject": "Formula",
+      "predicate": "FROM",
+      "object": "Publication",
+      "description": "配方来源于哪篇文献。一个 Formula 可以来自多篇文献（不同测试条件），一篇 Publication 可包含多个 Formula。",
+      "cardinality": "Formula (many) ← Publication (many)"
+    },
+    {
+      "subject": "Formula",
+      "predicate": "HAS_TOF",
+      "object": "TOF",
+      "description": "配方具有 TOF 性能。",
+      "cardinality": "Formula (one) → TOF (one)"
+    },
+    {
+      "subject": "Formula",
+      "predicate": "HAS_ACTIVATION_ENERGY",
+      "object": "ActivationEnergy",
+      "description": "配方具有活化能性能。",
+      "cardinality": "Formula (one) → ActivationEnergy (one)"
+    },
+    {
+      "subject": "Formula",
+      "predicate": "HAS_STABILITY",
+      "object": "Stability",
+      "description": "配方具有稳定性性能。",
+      "cardinality": "Formula (one) → Stability (one)"
+    },
+    {
+      "subject": "Formula",
+      "predicate": "HAS_NH3_OUTLET",
+      "object": "NH3OutletVolPct",
+      "description": "配方具有出口氨体积百分比性能。",
+      "cardinality": "Formula (one) → NH3OutletVolPct (one)"
+    },
+    {
+      "subject": "Formula",
+      "predicate": "CHARACTERIZED_BY",
+      "object": "Characterization",
+      "description": "配方通过表征方法表征。",
+      "cardinality": "Formula (one) → Characterization (many)"
+    }
+  ]
+}

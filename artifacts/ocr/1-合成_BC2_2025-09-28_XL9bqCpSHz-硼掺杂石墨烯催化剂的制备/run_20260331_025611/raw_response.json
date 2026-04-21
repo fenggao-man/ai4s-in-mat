@@ -1,0 +1,1285 @@
+{
+  "logId": "ba0eb879-b00a-4c1e-bc05-8ec9f07d32ab",
+  "errorCode": 0,
+  "errorMsg": "Success",
+  "result": {
+    "layoutParsingResults": [
+      {
+        "prunedResult": {
+          "page_count": 1,
+          "width": 1191,
+          "height": 1684,
+          "model_settings": {
+            "use_doc_preprocessor": true,
+            "use_layout_detection": true,
+            "use_chart_recognition": false,
+            "use_seal_recognition": false,
+            "use_ocr_for_image_block": false,
+            "format_block_content": false,
+            "merge_layout_blocks": true,
+            "markdown_ignore_labels": [
+              "number",
+              "footnote",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image",
+              "aside_text"
+            ],
+            "return_layout_polygon_points": true
+          },
+          "parsing_res_list": [
+            {
+              "block_label": "paragraph_title",
+              "block_content": "硼掺杂石墨烯催化剂的制备",
+              "block_bbox": [
+                380,
+                122,
+                827,
+                167
+              ],
+              "block_id": 0,
+              "block_order": 1,
+              "group_id": 0,
+              "block_polygon_points": [
+                [
+                  380.0,
+                  122.0
+                ],
+                [
+                  827.0,
+                  122.0
+                ],
+                [
+                  827.0,
+                  167.0
+                ],
+                [
+                  380.0,
+                  167.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "实验开始时间：2025年8月12日",
+              "block_bbox": [
+                118,
+                226,
+                661,
+                270
+              ],
+              "block_id": 1,
+              "block_order": 2,
+              "group_id": 1,
+              "block_polygon_points": [
+                [
+                  118.0,
+                  226.0
+                ],
+                [
+                  661.0,
+                  226.0
+                ],
+                [
+                  661.0,
+                  270.0
+                ],
+                [
+                  118.0,
+                  270.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "实验结束时间：2025年8月23日",
+              "block_bbox": [
+                118,
+                326,
+                660,
+                370
+              ],
+              "block_id": 2,
+              "block_order": 3,
+              "group_id": 2,
+              "block_polygon_points": [
+                [
+                  118.0,
+                  326.0
+                ],
+                [
+                  660.0,
+                  326.0
+                ],
+                [
+                  660.0,
+                  370.0
+                ],
+                [
+                  118.0,
+                  370.0
+                ]
+              ]
+            },
+            {
+              "block_label": "paragraph_title",
+              "block_content": "(1) 实验药品",
+              "block_bbox": [
+                133,
+                427,
+                369,
+                471
+              ],
+              "block_id": 3,
+              "block_order": 4,
+              "group_id": 3,
+              "block_polygon_points": [
+                [
+                  133.0,
+                  427.0
+                ],
+                [
+                  369.0,
+                  427.0
+                ],
+                [
+                  369.0,
+                  471.0
+                ],
+                [
+                  133.0,
+                  471.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "记录药品的纯度等级、品牌",
+              "block_bbox": [
+                116,
+                493,
+                565,
+                538
+              ],
+              "block_id": 4,
+              "block_order": 5,
+              "group_id": 4,
+              "block_polygon_points": [
+                [
+                  116.0,
+                  493.0
+                ],
+                [
+                  565.0,
+                  493.0
+                ],
+                [
+                  565.0,
+                  538.0
+                ],
+                [
+                  116.0,
+                  538.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "硼酸（99%，国药）；氧化石墨烯（单层，深圳穗衡石墨烯科技）；去离子水；液氮；",
+              "block_bbox": [
+                116,
+                563,
+                1077,
+                677
+              ],
+              "block_id": 5,
+              "block_order": 6,
+              "group_id": 5,
+              "block_polygon_points": [
+                [
+                  116.0,
+                  563.0
+                ],
+                [
+                  1077.0,
+                  563.0
+                ],
+                [
+                  1077.0,
+                  677.0
+                ],
+                [
+                  116.0,
+                  677.0
+                ]
+              ]
+            },
+            {
+              "block_label": "paragraph_title",
+              "block_content": "(2) 实验步骤",
+              "block_bbox": [
+                135,
+                732,
+                369,
+                774
+              ],
+              "block_id": 6,
+              "block_order": 7,
+              "group_id": 6,
+              "block_polygon_points": [
+                [
+                  135.0,
+                  732.0
+                ],
+                [
+                  369.0,
+                  732.0
+                ],
+                [
+                  369.0,
+                  774.0
+                ],
+                [
+                  135.0,
+                  774.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "8.12 a. 硼酸和氧化石墨烯的质量比 1:2 在去离子水中超声分散 1 小时，形成均匀混合物；",
+              "block_bbox": [
+                114,
+                800,
+                1065,
+                913
+              ],
+              "block_id": 7,
+              "block_order": 8,
+              "group_id": 7,
+              "block_polygon_points": [
+                [
+                  114.0,
+                  800.0
+                ],
+                [
+                  1065.0,
+                  800.0
+                ],
+                [
+                  1065.0,
+                  913.0
+                ],
+                [
+                  114.0,
+                  913.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "b. 冷冻干燥：将混合物冷冻过夜，然后干燥，获得前驱体粉末；",
+              "block_bbox": [
+                114,
+                938,
+                1077,
+                1050
+              ],
+              "block_id": 8,
+              "block_order": 9,
+              "group_id": 8,
+              "block_polygon_points": [
+                [
+                  113.14337921142578,
+                  946.0071411132812
+                ],
+                [
+                  1075.9998779296875,
+                  937.9999389648438
+                ],
+                [
+                  1076.8563232421875,
+                  1040.992919921875
+                ],
+                [
+                  113.9998779296875,
+                  1049.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "8.22 c. 高温热解：将前驱体粉末在  $ H_{2}-Ar $ 气氛下以  $ 5\\,^{\\circ}C $  $ min^{-1} $ 的升温速率加热至  $ 700\\,^{\\circ}C $，并保持 3 小时。",
+              "block_bbox": [
+                113,
+                1075,
+                1072,
+                1190
+              ],
+              "block_id": 9,
+              "block_order": 10,
+              "group_id": 9,
+              "block_polygon_points": [
+                [
+                  113.0,
+                  1075.0
+                ],
+                [
+                  1072.0,
+                  1075.0
+                ],
+                [
+                  1072.0,
+                  1190.0
+                ],
+                [
+                  113.0,
+                  1190.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "d. 冷却：样品自然冷却至室温。",
+              "block_bbox": [
+                206,
+                1216,
+                722,
+                1259
+              ],
+              "block_id": 10,
+              "block_order": 11,
+              "group_id": 10,
+              "block_polygon_points": [
+                [
+                  205.23065185546875,
+                  1219.7567138671875
+                ],
+                [
+                  720.8668823242188,
+                  1209.3846435546875
+                ],
+                [
+                  721.7036743164062,
+                  1250.9857177734375
+                ],
+                [
+                  206.06744384765625,
+                  1261.3577880859375
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "8.23 e. 后处理：产物在去离子水中洗涤四次，去除  $ B_{2}O_{3} $ 残留物。",
+              "block_bbox": [
+                115,
+                1282,
+                1076,
+                1397
+              ],
+              "block_id": 11,
+              "block_order": 12,
+              "group_id": 11,
+              "block_polygon_points": [
+                [
+                  115.0,
+                  1282.0
+                ],
+                [
+                  1076.0,
+                  1282.0
+                ],
+                [
+                  1076.0,
+                  1397.0
+                ],
+                [
+                  115.0,
+                  1397.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "f. 干燥：在  $ 40\\,^{\\circ}C $ 下真空干燥，获得最终产物。",
+              "block_bbox": [
+                203,
+                1423,
+                998,
+                1469
+              ],
+              "block_id": 12,
+              "block_order": 13,
+              "group_id": 12,
+              "block_polygon_points": [
+                [
+                  203.0,
+                  1423.0
+                ],
+                [
+                  998.0,
+                  1423.0
+                ],
+                [
+                  998.0,
+                  1469.0
+                ],
+                [
+                  203.0,
+                  1469.0
+                ]
+              ]
+            }
+          ],
+          "doc_preprocessor_res": {
+            "model_settings": {
+              "use_doc_orientation_classify": true,
+              "use_doc_unwarping": true
+            },
+            "angle": 0
+          },
+          "layout_det_res": {
+            "boxes": [
+              {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.6281141042709351,
+                "coordinate": [
+                  380,
+                  122,
+                  827,
+                  167
+                ],
+                "order": 1,
+                "polygon_points": [
+                  [
+                    380.0,
+                    122.0
+                  ],
+                  [
+                    827.0,
+                    122.0
+                  ],
+                  [
+                    827.0,
+                    167.0
+                  ],
+                  [
+                    380.0,
+                    167.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8449515700340271,
+                "coordinate": [
+                  118,
+                  226,
+                  661,
+                  270
+                ],
+                "order": 2,
+                "polygon_points": [
+                  [
+                    118.0,
+                    226.0
+                  ],
+                  [
+                    661.0,
+                    226.0
+                  ],
+                  [
+                    661.0,
+                    270.0
+                  ],
+                  [
+                    118.0,
+                    270.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8308809995651245,
+                "coordinate": [
+                  118,
+                  326,
+                  660,
+                  370
+                ],
+                "order": 3,
+                "polygon_points": [
+                  [
+                    118.0,
+                    326.0
+                  ],
+                  [
+                    660.0,
+                    326.0
+                  ],
+                  [
+                    660.0,
+                    370.0
+                  ],
+                  [
+                    118.0,
+                    370.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7668090462684631,
+                "coordinate": [
+                  133,
+                  427,
+                  369,
+                  471
+                ],
+                "order": 4,
+                "polygon_points": [
+                  [
+                    133.0,
+                    427.0
+                  ],
+                  [
+                    369.0,
+                    427.0
+                  ],
+                  [
+                    369.0,
+                    471.0
+                  ],
+                  [
+                    133.0,
+                    471.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8313965797424316,
+                "coordinate": [
+                  116,
+                  493,
+                  565,
+                  538
+                ],
+                "order": 5,
+                "polygon_points": [
+                  [
+                    116.0,
+                    493.0
+                  ],
+                  [
+                    565.0,
+                    493.0
+                  ],
+                  [
+                    565.0,
+                    538.0
+                  ],
+                  [
+                    116.0,
+                    538.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9152507185935974,
+                "coordinate": [
+                  116,
+                  563,
+                  1077,
+                  677
+                ],
+                "order": 6,
+                "polygon_points": [
+                  [
+                    116.0,
+                    563.0
+                  ],
+                  [
+                    1077.0,
+                    563.0
+                  ],
+                  [
+                    1077.0,
+                    677.0
+                  ],
+                  [
+                    116.0,
+                    677.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.7506892085075378,
+                "coordinate": [
+                  135,
+                  732,
+                  369,
+                  774
+                ],
+                "order": 7,
+                "polygon_points": [
+                  [
+                    135.0,
+                    732.0
+                  ],
+                  [
+                    369.0,
+                    732.0
+                  ],
+                  [
+                    369.0,
+                    774.0
+                  ],
+                  [
+                    135.0,
+                    774.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9154459238052368,
+                "coordinate": [
+                  114,
+                  800,
+                  1065,
+                  913
+                ],
+                "order": 8,
+                "polygon_points": [
+                  [
+                    114.0,
+                    800.0
+                  ],
+                  [
+                    1065.0,
+                    800.0
+                  ],
+                  [
+                    1065.0,
+                    913.0
+                  ],
+                  [
+                    114.0,
+                    913.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9102584719657898,
+                "coordinate": [
+                  114,
+                  938,
+                  1077,
+                  1050
+                ],
+                "order": 9,
+                "polygon_points": [
+                  [
+                    113.14337921142578,
+                    946.0071411132812
+                  ],
+                  [
+                    1075.9998779296875,
+                    937.9999389648438
+                  ],
+                  [
+                    1076.8563232421875,
+                    1040.992919921875
+                  ],
+                  [
+                    113.9998779296875,
+                    1049.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9104692935943604,
+                "coordinate": [
+                  113,
+                  1075,
+                  1072,
+                  1190
+                ],
+                "order": 10,
+                "polygon_points": [
+                  [
+                    113.0,
+                    1075.0
+                  ],
+                  [
+                    1072.0,
+                    1075.0
+                  ],
+                  [
+                    1072.0,
+                    1190.0
+                  ],
+                  [
+                    113.0,
+                    1190.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6122784614562988,
+                "coordinate": [
+                  990,
+                  1077,
+                  1069,
+                  1114
+                ],
+                "order": 11,
+                "polygon_points": [
+                  [
+                    990,
+                    1077
+                  ],
+                  [
+                    990,
+                    1113
+                  ],
+                  [
+                    1068,
+                    1113
+                  ],
+                  [
+                    1068,
+                    1077
+                  ]
+                ]
+              },
+              {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7030683159828186,
+                "coordinate": [
+                  118,
+                  1145,
+                  195,
+                  1186
+                ],
+                "order": 12,
+                "polygon_points": [
+                  [
+                    118.0,
+                    1145.0
+                  ],
+                  [
+                    195.0,
+                    1145.0
+                  ],
+                  [
+                    195.0,
+                    1186.0
+                  ],
+                  [
+                    118.0,
+                    1186.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6979506015777588,
+                "coordinate": [
+                  508,
+                  1147,
+                  622,
+                  1184
+                ],
+                "order": 13,
+                "polygon_points": [
+                  [
+                    508.0,
+                    1147.0
+                  ],
+                  [
+                    622.0,
+                    1147.0
+                  ],
+                  [
+                    622.0,
+                    1184.0
+                  ],
+                  [
+                    508.0,
+                    1184.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8299001455307007,
+                "coordinate": [
+                  206,
+                  1216,
+                  722,
+                  1259
+                ],
+                "order": 14,
+                "polygon_points": [
+                  [
+                    205.23065185546875,
+                    1219.7567138671875
+                  ],
+                  [
+                    720.8668823242188,
+                    1209.3846435546875
+                  ],
+                  [
+                    721.7036743164062,
+                    1250.9857177734375
+                  ],
+                  [
+                    206.06744384765625,
+                    1261.3577880859375
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.9237768650054932,
+                "coordinate": [
+                  115,
+                  1282,
+                  1076,
+                  1397
+                ],
+                "order": 15,
+                "polygon_points": [
+                  [
+                    115.0,
+                    1282.0
+                  ],
+                  [
+                    1076.0,
+                    1282.0
+                  ],
+                  [
+                    1076.0,
+                    1397.0
+                  ],
+                  [
+                    115.0,
+                    1397.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.7693295478820801,
+                "coordinate": [
+                  958,
+                  1286,
+                  1021,
+                  1323
+                ],
+                "order": 16,
+                "polygon_points": [
+                  [
+                    958,
+                    1286
+                  ],
+                  [
+                    958,
+                    1322
+                  ],
+                  [
+                    1020,
+                    1322
+                  ],
+                  [
+                    1020,
+                    1286
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8546167016029358,
+                "coordinate": [
+                  203,
+                  1423,
+                  998,
+                  1469
+                ],
+                "order": 17,
+                "polygon_points": [
+                  [
+                    203.0,
+                    1423.0
+                  ],
+                  [
+                    998.0,
+                    1423.0
+                  ],
+                  [
+                    998.0,
+                    1469.0
+                  ],
+                  [
+                    203.0,
+                    1469.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 15,
+                "label": "inline_formula",
+                "score": 0.6452710032463074,
+                "coordinate": [
+                  420,
+                  1428,
+                  517,
+                  1466
+                ],
+                "order": 18,
+                "polygon_points": [
+                  [
+                    420,
+                    1428
+                  ],
+                  [
+                    420,
+                    1465
+                  ],
+                  [
+                    516,
+                    1465
+                  ],
+                  [
+                    516,
+                    1428
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "markdown": {
+          "text": "## 硼掺杂石墨烯催化剂的制备\n\n实验开始时间：2025年8月12日\n\n实验结束时间：2025年8月23日\n\n## (1) 实验药品\n\n记录药品的纯度等级、品牌\n\n硼酸（99%，国药）；氧化石墨烯（单层，深圳穗衡石墨烯科技）；去离子水；液氮；\n\n## (2) 实验步骤\n\n8.12 a. 硼酸和氧化石墨烯的质量比 1:2 在去离子水中超声分散 1 小时，形成均匀混合物；\n\nb. 冷冻干燥：将混合物冷冻过夜，然后干燥，获得前驱体粉末；\n\n8.22 c. 高温热解：将前驱体粉末在  $ H_{2}-Ar $ 气氛下以  $ 5\\,^{\\circ}C $  $ min^{-1} $ 的升温速率加热至  $ 700\\,^{\\circ}C $，并保持 3 小时。\n\nd. 冷却：样品自然冷却至室温。\n\n8.23 e. 后处理：产物在去离子水中洗涤四次，去除  $ B_{2}O_{3} $ 残留物。\n\nf. 干燥：在  $ 40\\,^{\\circ}C $ 下真空干燥，获得最终产物。",
+          "images": {}
+        },
+        "outputImages": {
+          "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-15//23b54024-a8c5-4489-99e9-44bc709bd839/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2026-03-31T06%3A39%3A38Z%2F-1%2F%2F7854a80adb23fe1ec8ea180d0b784bd58f09a2070e1c55e0cfb41c09b07e9e6f"
+        },
+        "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-15//23b54024-a8c5-4489-99e9-44bc709bd839/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2026-03-31T06%3A39%3A39Z%2F-1%2F%2Ff584debc2ea3c173e85bcbbc9d37c15bcae07e3c07837058cb8809d92c5a017e"
+      },
+      {
+        "prunedResult": {
+          "page_count": 1,
+          "width": 1191,
+          "height": 1684,
+          "model_settings": {
+            "use_doc_preprocessor": true,
+            "use_layout_detection": true,
+            "use_chart_recognition": false,
+            "use_seal_recognition": false,
+            "use_ocr_for_image_block": false,
+            "format_block_content": false,
+            "merge_layout_blocks": true,
+            "markdown_ignore_labels": [
+              "number",
+              "footnote",
+              "header",
+              "header_image",
+              "footer",
+              "footer_image",
+              "aside_text"
+            ],
+            "return_layout_polygon_points": true
+          },
+          "parsing_res_list": [
+            {
+              "block_label": "paragraph_title",
+              "block_content": "（3）实验设备：",
+              "block_bbox": [
+                107,
+                87,
+                368,
+                138
+              ],
+              "block_id": 0,
+              "block_order": 1,
+              "group_id": 0,
+              "block_polygon_points": [
+                [
+                  107.0,
+                  87.0
+                ],
+                [
+                  368.0,
+                  87.0
+                ],
+                [
+                  368.0,
+                  138.0
+                ],
+                [
+                  107.0,
+                  138.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "超声波清洗仪、冷冻干燥机、管式炉、真空干燥箱、电子\n天平",
+              "block_bbox": [
+                95,
+                161,
+                1034,
+                274
+              ],
+              "block_id": 1,
+              "block_order": 2,
+              "group_id": 1,
+              "block_polygon_points": [
+                [
+                  95.0,
+                  161.0
+                ],
+                [
+                  1034.0,
+                  161.0
+                ],
+                [
+                  1034.0,
+                  274.0
+                ],
+                [
+                  95.0,
+                  274.0
+                ]
+              ]
+            },
+            {
+              "block_label": "text",
+              "block_content": "（4）异常或值得注意的实验现象\n无",
+              "block_bbox": [
+                99,
+                327,
+                645,
+                439
+              ],
+              "block_id": 2,
+              "block_order": 3,
+              "group_id": 2,
+              "block_polygon_points": [
+                [
+                  105,
+                  327
+                ],
+                [
+                  99,
+                  438
+                ],
+                [
+                  644,
+                  438
+                ],
+                [
+                  644,
+                  388
+                ],
+                [
+                  644,
+                  327
+                ]
+              ]
+            }
+          ],
+          "doc_preprocessor_res": {
+            "model_settings": {
+              "use_doc_orientation_classify": true,
+              "use_doc_unwarping": true
+            },
+            "angle": 0
+          },
+          "layout_det_res": {
+            "boxes": [
+              {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.581007719039917,
+                "coordinate": [
+                  107,
+                  87,
+                  368,
+                  138
+                ],
+                "order": 1,
+                "polygon_points": [
+                  [
+                    107.0,
+                    87.0
+                  ],
+                  [
+                    368.0,
+                    87.0
+                  ],
+                  [
+                    368.0,
+                    138.0
+                  ],
+                  [
+                    107.0,
+                    138.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.8362665176391602,
+                "coordinate": [
+                  95,
+                  161,
+                  1034,
+                  274
+                ],
+                "order": 2,
+                "polygon_points": [
+                  [
+                    95.0,
+                    161.0
+                  ],
+                  [
+                    1034.0,
+                    161.0
+                  ],
+                  [
+                    1034.0,
+                    274.0
+                  ],
+                  [
+                    95.0,
+                    274.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 17,
+                "label": "paragraph_title",
+                "score": 0.42849236726760864,
+                "coordinate": [
+                  116,
+                  326,
+                  645,
+                  371
+                ],
+                "order": 3,
+                "polygon_points": [
+                  [
+                    116.0,
+                    326.0
+                  ],
+                  [
+                    645.0,
+                    326.0
+                  ],
+                  [
+                    645.0,
+                    371.0
+                  ],
+                  [
+                    116.0,
+                    371.0
+                  ]
+                ]
+              },
+              {
+                "cls_id": 22,
+                "label": "text",
+                "score": 0.38827282190322876,
+                "coordinate": [
+                  99,
+                  327,
+                  645,
+                  439
+                ],
+                "order": 4,
+                "polygon_points": [
+                  [
+                    105,
+                    327
+                  ],
+                  [
+                    99,
+                    438
+                  ],
+                  [
+                    644,
+                    438
+                  ],
+                  [
+                    644,
+                    388
+                  ],
+                  [
+                    644,
+                    327
+                  ]
+                ]
+              }
+            ]
+          }
+        },
+        "markdown": {
+          "text": "## （3） 实验设备：\n\n超声波清洗仪、冷冻干燥机、管式炉、真空干燥箱、电子\n\n天平\n\n（4）异常或值得注意的实验现象\n\n无",
+          "images": {}
+        },
+        "outputImages": {
+          "layout_det_res": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-15//6fb3cfd2-9a50-4b89-a953-88be636c6aca/layout_det_res_0.jpg?authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2026-03-31T06%3A39%3A37Z%2F-1%2F%2F1e0860c3ec11b06c91a253b05fc7257b5eb619efe58d85563d846d9926fa4286"
+        },
+        "inputImage": "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-15//6fb3cfd2-9a50-4b89-a953-88be636c6aca/input_img_0.jpg?authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2026-03-31T06%3A39%3A38Z%2F-1%2F%2F64b625ff620fc1bd06b4324ba442fce9350ca649d494399c972aabb5e88a1903"
+      }
+    ],
+    "preprocessedImages": [
+      "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-15//23b54024-a8c5-4489-99e9-44bc709bd839/preprocessed_img_0.jpg?authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2026-03-31T06%3A39%3A38Z%2F-1%2F%2Feef8b8dc6dbf92d844b0ff997bd5615a8f7e47457c5468e884178c7179f80903",
+      "https://pplines-online.bj.bcebos.com/deploy/official/paddleocr/pp-ocr-vl-15//6fb3cfd2-9a50-4b89-a953-88be636c6aca/preprocessed_img_0.jpg?authorization=bce-auth-v1%2FALTAKzReLNvew3ySINYJ0fuAMN%2F2026-03-31T06%3A39%3A37Z%2F-1%2F%2Fa3b48dd2bdf074ac2bcf83dae08e168928ad420e4be08d1b87b3448b922eb0e1"
+    ],
+    "dataInfo": {
+      "type": "pdf",
+      "numPages": 2,
+      "pages": [
+        {
+          "width": 1191,
+          "height": 1684
+        },
+        {
+          "width": 1191,
+          "height": 1684
+        }
+      ]
+    }
+  }
+}

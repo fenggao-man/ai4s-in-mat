@@ -1,0 +1,128 @@
+version: 0.1.0-draft
+status: review
+scope: display_format_only
+notes:
+  - 该文件只定义第一版通用书写标准，不定义复杂实体对齐逻辑。
+  - 当前目标是统一展示格式、抽取输出格式与人工审核格式。
+  - original_name 保留原文写法，display_name 使用本文件规定的标准写法。
+  - canonical_name、signature、跨文档融合规则暂不在本文件中定义。
+
+field_policy:
+  required_name_fields:
+    - original_name
+    - display_name
+  description:
+    original_name: 保留原文或原始抽取结果中的写法，不做改写。
+    display_name: 按本标准统一后的展示写法，用于图谱展示与人工审核。
+
+chemical_formula:
+  element_symbol_case: 元素符号使用标准大小写，例如 Ru、Ce、Fe。
+  subscript_digits: 化学式中的计量数字使用 Unicode 下标字符，例如 CeO₂、Fe₂O₃、Fe₃O₄。
+  standard_display_rule: 普通数字形式不是标准展示写法，例如 CeO2 需要改写为 CeO₂。
+  gas_formula_rule: 气体分子也使用下标，例如 H₂、N₂、NH₃。
+  examples:
+    - original_name: CeO2
+      display_name: CeO₂
+    - original_name: Fe2O3
+      display_name: Fe₂O₃
+    - original_name: Fe3O4
+      display_name: Fe₃O₄
+    - original_name: NH3
+      display_name: NH₃
+
+catalyst_name:
+  primary_pattern: 活性组分/载体
+  separator_policy:
+    standard: /
+    non_standard:
+      - ":"
+      - "-"
+  multi_promoter_pattern: 活性组分/载体-助剂1-助剂2
+  naming_boundary:
+    include:
+      - 活性组分
+      - 载体或核心支撑组成
+      - 助剂种类
+    exclude:
+      - 助剂含量
+      - 温度
+      - 压力
+      - 制备方式
+      - 反应条件
+  examples:
+    - original_name: Ru:CeO2
+      display_name: Ru/CeO₂
+    - original_name: Ru-CeO2
+      display_name: Ru/CeO₂
+    - original_name: Ru/CeO2-K
+      display_name: Ru/CeO₂-K
+    - original_name: Ru:CeO2-K-Cs
+      display_name: Ru/CeO₂-K-Cs
+
+component_name:
+  active_component_rule: 活性组分优先使用标准化学式或公认简称。
+  promoter_rule: 助剂种类优先使用标准化学式或公认简称。
+  oxide_policy: 如果原文明确写为氧化物形式，则展示名保留氧化物形式。
+  non_goal:
+    - 第一版不强制将 K 与 K₂O 归并为同一展示名。
+    - 第一版不处理化学等价归并。
+  examples:
+    - original_name: K
+      display_name: K
+    - original_name: K2O
+      display_name: K₂O
+    - original_name: Al2O3
+      display_name: Al₂O₃
+
+value_unit:
+  spacing_rule: 数值与单位之间保留一个空格。
+  preferred_units:
+    温度: °C
+    压力: MPa
+    粒径: nm
+    比表面积: m²/g
+    空速: h⁻¹
+    助剂含量: wt%
+  percentage_rule: wt% 前保留数值与单位空格，例如 1 wt%。
+  examples:
+    - original_name: 450C
+      display_name: 450 °C
+    - original_name: 10MPa
+      display_name: 10 MPa
+    - original_name: 1wt% K
+      display_name: 1 wt% K
+    - original_name: 120m2/g
+      display_name: 120 m²/g
+    - original_name: 15000h-1
+      display_name: 15000 h⁻¹
+
+characterization_method:
+  standard_forms:
+    - XRD
+    - BET
+    - TEM
+    - SEM
+    - XPS
+    - H₂-TPR
+    - N₂-TPD
+    - NH₃-TPD
+    - Mössbauer
+    - Raman
+    - FT-IR
+  rule:
+    - 表征方法优先使用领域常见标准简称。
+    - 含化学式的简称使用下标字符。
+  examples:
+    - original_name: H2-TPR
+      display_name: H₂-TPR
+    - original_name: N2-TPD
+      display_name: N₂-TPD
+    - original_name: NH3-TPD
+      display_name: NH₃-TPD
+
+non_goals:
+  - 不定义 canonical_name。
+  - 不定义跨文档实体融合规则。
+  - 不定义组合实体 signature 结构。
+  - 不处理复杂别名推理。
+  - 不处理化学等价或反应机理级归并。

@@ -1,0 +1,330 @@
+
+
+{
+  "document": {
+    "title": "助剂对 Ru/CeO_{2} 催化剂的表面性质及氨合成性能的影响",
+    "authors": "林建新，张留明，王自庆，王榕，魏可镁",
+    "affiliation": "福州大学化肥催化剂国家工程研究中心"
+  },
+  "催化剂": [
+    {
+      "name": "Ru/CeO₂",
+      "活性组分": [
+        {
+          "name": "Ru"
+        }
+      ],
+      "前驱体": [
+        {
+          "name": "K₂RuO₄"
+        },
+        {
+          "name": "Ce(NO₃)₃·6H₂O"
+        },
+        {
+          "name": "KF"
+        },
+        {
+          "name": "KNO₃"
+        },
+        {
+          "name": "Ba(NO₃)₂"
+        },
+        {
+          "name": "CsNO₃"
+        }
+      ],
+      "晶相结构": [
+        {
+          "name": "CeO₂ 萤石结构"
+        }
+      ],
+      "比表面积": [
+        {
+          "value": "120",
+          "unit": "m²/g",
+          "sample": "Ru/CeO₂"
+        },
+        {
+          "value": "76",
+          "unit": "m²/g",
+          "sample": "F+Cs-Ru/CeO₂"
+        },
+        {
+          "value": "100",
+          "unit": "m²/g",
+          "sample": "K-Ru/CeO₂"
+        }
+      ],
+      "孔结构": [
+        {
+          "value": "0.18",
+          "unit": "cm³/g",
+          "sample": "Ru/CeO₂",
+          "type": "Pore Volume"
+        },
+        {
+          "value": "3.05",
+          "unit": "nm",
+          "sample": "Ru/CeO₂",
+          "type": "Pore Size"
+        },
+        {
+          "value": "4.40",
+          "unit": "nm",
+          "sample": "K-Ru/CeO₂",
+          "type": "Pore Size"
+        },
+        {
+          "value": "2.56",
+          "unit": "nm",
+          "sample": "Cs-Ru/CeO₂",
+          "type": "Pore Size"
+        }
+      ],
+      "粒径": [
+        {
+          "value": "7.7",
+          "unit": "nm",
+          "sample": "Ru/CeO₂"
+        },
+        {
+          "value": "9.3",
+          "unit": "nm",
+          "sample": "K-Ru/CeO₂"
+        },
+        {
+          "value": "6.5",
+          "unit": "nm",
+          "sample": "F+Ba-Ru/CeO₂"
+        }
+      ],
+      "助剂": [
+        {
+          "name": "K",
+          "助剂种类": [
+            {
+              "name": "碱金属"
+            }
+          ],
+          "助剂含量": [
+            {
+              "value": "1.5",
+              "unit": "%",
+              "description": "Optimal content"
+            }
+          ],
+          "添加方式": [
+            {
+              "name": "等体积浸渍法"
+            }
+          ]
+        },
+        {
+          "name": "F",
+          "助剂种类": [
+            {
+              "name": "卤素"
+            }
+          ],
+          "助剂含量": [
+            {
+              "value": "1.5",
+              "unit": "%",
+              "description": "Optimal content"
+            }
+          ],
+          "添加方式": [
+            {
+              "name": "等体积浸渍法"
+            }
+          ]
+        },
+        {
+          "name": "Ba",
+          "助剂种类": [
+            {
+              "name": "碱土金属"
+            }
+          ],
+          "助剂含量": [
+            {
+              "value": "2.0",
+              "unit": "%",
+              "description": "Optimal content"
+            }
+          ],
+          "添加方式": [
+            {
+              "name": "等体积浸渍法"
+            }
+          ]
+        },
+        {
+          "name": "Cs",
+          "助剂种类": [
+            {
+              "name": "碱金属"
+            }
+          ],
+          "助剂含量": [
+            {
+              "value": "3.0",
+              "unit": "%",
+              "description": "Optimal content"
+            }
+          ],
+          "添加方式": [
+            {
+              "name": "等体积浸渍法"
+            }
+          ]
+        },
+        {
+          "name": "Ba+Cs",
+          "助剂种类": [
+            {
+              "name": "双助剂"
+            }
+          ],
+          "助剂含量": [
+            {
+              "value": "2.0(Ba), 3.0(Cs)",
+              "unit": "%",
+              "description": "Double promoter content"
+            }
+          ],
+          "添加方式": [
+            {
+              "name": "等体积浸渍法"
+            }
+          ]
+        }
+      ],
+      "反应条件": [
+        {
+          "name": "Standard Condition",
+          "温度": [
+            {
+              "value": "400",
+              "unit": "℃"
+            },
+            {
+              "value": "425",
+              "unit": "℃"
+            }
+          ],
+          "压力": [
+            {
+              "value": "10",
+              "unit": "MPa"
+            }
+          ],
+          "空速": [
+            {
+              "value": "10000",
+              "unit": "h⁻¹"
+            }
+          ],
+          "氢氮比": [
+            {
+              "value": "3:1",
+              "unit": "mol ratio"
+            }
+          ],
+          "反应时间": [
+            {
+              "value": "2",
+              "unit": "h",
+              "description": "Stabilization time"
+            }
+          ]
+        }
+      ],
+      "催化性能": [
+        {
+          "name": "Ammonia Synthesis Activity",
+          "氨合成活性": [
+            {
+              "value": "13.3",
+              "unit": "%",
+              "condition": "400 ℃, Ba+Cs promoter"
+            },
+            {
+              "value": "16.0",
+              "unit": "%",
+              "condition": "425 ℃, Cs promoter"
+            },
+            {
+              "value": "12.6",
+              "unit": "%",
+              "condition": "425 ℃, No promoter"
+            }
+          ],
+          "转化率": [
+            {
+              "value": "TOF 12.3",
+              "unit": "10⁻² s⁻¹",
+              "condition": "400 ℃, Ba+Cs promoter"
+            }
+          ]
+        }
+      ],
+      "表征方法": [
+        {
+          "name": "XRD",
+          "XRD": []
+        },
+        {
+          "name": "BET",
+          "BET": []
+        }
+      ],
+      "反应机理": [
+        {
+          "name": "Electronic Effect",
+          "活性位模型": [
+            {
+              "name": "电子效应"
+            }
+          ],
+          "解离吸附": [
+            {
+              "name": "N₂ 解离"
+            }
+          ]
+        }
+      ],
+      "制备工艺": [
+        {
+          "name": "Preparation Process",
+          "原料选择": [
+            {
+              "name": "Ru powder, KOH, KNO₃, Ce(NO₃)₃·6H₂O"
+            }
+          ],
+          "混合方式": [
+            {
+              "name": "氧化还原共沉淀法"
+            }
+          ],
+          "焙烧温度": [
+            {
+              "value": "500",
+              "unit": "℃",
+              "time": "1 h"
+            }
+          ],
+          "还原活化": [
+            {
+              "value": "200-500",
+              "unit": "℃",
+              "gas": "H₂",
+              "time": "2 h"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

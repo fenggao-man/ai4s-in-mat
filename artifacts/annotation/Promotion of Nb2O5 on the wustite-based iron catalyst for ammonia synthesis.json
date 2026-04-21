@@ -1,0 +1,525 @@
+{
+"document": {
+"title": "Promotion of Nb2O5 on the wustite-based iron catalyst for ammonia synthesis",
+"source": "Applied Surface Science",
+"filename": "Promotion of Nb2O5 on the wustite-based iron catalyst for ammonia synthesis.pdf"
+},
+"nodes": [
+{
+"id": "n1",
+"type": "文档",
+"properties": {
+"title": "Promotion of Nb2O5 on the wustite-based iron catalyst for ammonia synthesis",
+"source": "Applied Surface Science",
+"filename": "Promotion of Nb2O5 on the wustite-based iron catalyst for ammonia synthesis.pdf",
+"evidence_text": "题名为“Promotion of Nb2O5 on the wustite-based iron catalyst for ammonia synthesis”，发表于 Applied Surface Science 353 (2015) 17–23。"
+}
+},
+{
+"id": "n2",
+"type": "催化剂",
+"properties": {
+"display_name": "WBC（Fe₁₋ₓO 基铁催化剂）",
+"original_name": "WBC",
+"evidence_text": "The WBC shows much higher activity and lower reduction temperature than the traditional magnetite-based catalysts."
+}
+},
+{
+"id": "n3",
+"type": "催化剂",
+"properties": {
+"display_name": "Nb-WBC（Nb₂O₅ 掺杂 Fe₁₋ₓO 基铁催化剂）",
+"original_name": "Nb-WBC",
+"evidence_text": "For Nb2O5 doped WBC, 0.6 wt% of Nb2O5 was added together with other promoters."
+}
+},
+{
+"id": "n4",
+"type": "活性组分",
+"properties": {
+"display_name": "Fe",
+"original_name": "iron",
+"evidence_text": "Niobium was selected and investigated as a potential promoter for wustite-based catalyst (WBC) for ammonia synthesis."
+}
+},
+{
+"id": "n5",
+"type": "前驱体",
+"properties": {
+"display_name": "Fe₁₋ₓO（wustite）",
+"original_name": "wustite (Fe1−xO)",
+"evidence_text": "Apparently, for both two catalysts, α-Fe forms directly from the reduction of wustite (Fe1−xO) precursor."
+}
+},
+{
+"id": "n6",
+"type": "助剂",
+"properties": {
+"display_name": "Nb₂O₅",
+"original_name": "Nb2O5",
+"evidence_text": "Niobium oxide was adopted as a promoter of fused iron catalysts and its effect on reduction behavior and the activities for ammonia synthesis were investigated."
+}
+},
+{
+"id": "n7",
+"type": "助剂含量",
+"properties": {
+"value": "0.6",
+"unit": "wt%",
+"display_name": "0.6 wt% Nb₂O₅",
+"original_name": "0.6 wt% of Nb2O5",
+"evidence_text": "For Nb2O5 doped WBC, 0.6 wt% of Nb2O5 was added together with other promoters."
+}
+},
+{
+"id": "n8",
+"type": "铁比",
+"properties": {
+"value": "7.06",
+"unit": "",
+"display_name": "Fe²⁺/Fe³⁺ = 7.06",
+"original_name": "Fe2+/Fe3+ = 7.06",
+"evidence_text": "Table 1 lists the Fe2+/Fe3+ ratio of WBC catalyst as 7.06."
+}
+},
+{
+"id": "n9",
+"type": "铁比",
+"properties": {
+"value": "7.10",
+"unit": "",
+"display_name": "Fe²⁺/Fe³⁺ = 7.10",
+"original_name": "Fe2+/Fe3+ = 7.10",
+"evidence_text": "Table 1 lists the Fe2+/Fe3+ ratio of Nb-WBC catalyst as 7.10."
+}
+},
+{
+"id": "n10",
+"type": "制备方式",
+"properties": {
+"display_name": "熔融法",
+"original_name": "fusing method",
+"evidence_text": "The wustite catalysts were prepared by mixing appropriate proportions of purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters, and melting in an electric resistance furnace at about 1600 ◦C."
+}
+},
+{
+"id": "n11",
+"type": "制备工艺",
+"properties": {
+"display_name": "WBC/Nb-WBC 制备与活化工艺",
+"original_name": "preparation and reduction procedure",
+"evidence_text": "The wustite catalysts were prepared by mixing appropriate proportions of purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters, and melting in an electric resistance furnace at about 1600 ◦C. The catalysts were reduced by the mixture of N2 and H2 (H2:N2 = 3:1) at 400, 425, 450, 475 and 500 ◦C for 2, 6, 10, 4 and 2 h, respectively."
+}
+},
+{
+"id": "n12",
+"type": "原料选择",
+"properties": {
+"display_name": "purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters",
+"original_name": "purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters",
+"evidence_text": "The wustite catalysts were prepared by mixing appropriate proportions of purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters."
+}
+},
+{
+"id": "n13",
+"type": "混合方式",
+"properties": {
+"display_name": "按比例混合并在约 1600 °C 熔融",
+"original_name": "mixing appropriate proportions and melting at about 1600 ◦C",
+"evidence_text": "The wustite catalysts were prepared by mixing appropriate proportions of purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters, and melting in an electric resistance furnace at about 1600 ◦C."
+}
+},
+{
+"id": "n14",
+"type": "还原活化",
+"properties": {
+"display_name": "N₂/H₂ 还原活化程序",
+"original_name": "The catalysts were reduced by the mixture of N2 and H2 (H2:N2 = 3:1) at 400, 425, 450, 475 and 500 ◦C for 2, 6, 10, 4 and 2 h",
+"evidence_text": "The catalysts were reduced by the mixture of N2 and H2 (H2:N2 = 3:1) at a pressure of 5.0 MPa and with a space velocity of 30,000 h−1 at 400, 425, 450, 475 and 500 ◦C for 2, 6, 10, 4 and 2 h, respectively."
+}
+},
+{
+"id": "n15",
+"type": "反应条件",
+"properties": {
+"display_name": "氨合成活性测试条件",
+"original_name": "temperature range of 400–500 ◦C, space velocity of 30,000 h−1 and pressure of 15 MPa",
+"evidence_text": "Ammonia synthesis reaction over the samples were investigated in a fixed-bed reactor with an inside diameter of 14 mm in the temperature range of 400–500 ◦C, space velocity of 30,000 h−1 and pressure of 15 MPa."
+}
+},
+{
+"id": "n16",
+"type": "温度",
+"properties": {
+"value": "400–500",
+"unit": "°C",
+"display_name": "400–500 °C",
+"original_name": "400–500 ◦C",
+"evidence_text": "Ammonia synthesis reaction over the samples were investigated in the temperature range of 400–500 ◦C."
+}
+},
+{
+"id": "n17",
+"type": "压力",
+"properties": {
+"value": "15",
+"unit": "MPa",
+"display_name": "15 MPa",
+"original_name": "15 MPa",
+"evidence_text": "Ammonia synthesis reaction over the samples were investigated with pressure of 15 MPa."
+}
+},
+{
+"id": "n18",
+"type": "空速",
+"properties": {
+"value": "30000",
+"unit": "h⁻¹",
+"display_name": "30000 h⁻¹",
+"original_name": "30,000 h−1",
+"evidence_text": "Ammonia synthesis reaction over the samples were investigated with space velocity of 30,000 h−1."
+}
+},
+{
+"id": "n19",
+"type": "表征方法",
+"properties": {
+"display_name": "表征方法",
+"original_name": "characterization methods",
+"evidence_text": "Experiments on reduction performance, activity test and H2-TGA, in situ XRD as well as XPS were carried out to obtain the promotion effect and mechanism involved. H2-TPD was also performed."
+}
+},
+{
+"id": "n20",
+"type": "XRD",
+"properties": {
+"display_name": "in situ XRD",
+"original_name": "in situ X-ray diffraction",
+"evidence_text": "The in situ X-ray diffraction patterns of WBC and Nb-WBC catalysts as a function of reduction temperature are shown in Figs. 2 and 3, respectively."
+}
+},
+{
+"id": "n21",
+"type": "XPS",
+"properties": {
+"display_name": "XPS",
+"original_name": "X-ray photoelectron spectroscopy",
+"evidence_text": "To further investigate the effect of Nb2O5 on the WBC wustite catalyst for ammonia synthesis, XPS experiments were carried out."
+}
+},
+{
+"id": "n22",
+"type": "H₂-TPD",
+"properties": {
+"display_name": "H₂-TPD",
+"original_name": "H2-TPD-MS",
+"evidence_text": "H2-TPD is served as a key analysis method for the relative number of active sites in iron catalysts for ammonia synthesis."
+}
+},
+{
+"id": "n23",
+"type": "催化性能",
+"properties": {
+"display_name": "WBC 氨合成性能",
+"original_name": "activity of WBC",
+"evidence_text": "Among the reaction temperatures studied, the activity of WBC is marginally higher than that of niobium-doped catalyst."
+}
+},
+{
+"id": "n24",
+"type": "氨合成活性",
+"properties": {
+"display_name": "WBC 活性略高于 Nb-WBC",
+"original_name": "the activity of WBC is marginally higher than that of niobium-doped catalyst",
+"evidence_text": "Among the reaction temperatures studied, the activity of WBC is marginally higher than that of niobium-doped catalyst."
+}
+},
+{
+"id": "n25",
+"type": "催化性能",
+"properties": {
+"display_name": "Nb-WBC 氨合成性能",
+"original_name": "activity keeps almost unchanged (or even marginally lower)",
+"evidence_text": "Although Nb2O5 improves the reduction of WBC catalyst, the activity keeps almost unchanged (or even marginally lower)."
+}
+},
+{
+"id": "n26",
+"type": "氨合成活性",
+"properties": {
+"display_name": "活性几乎不变或略低",
+"original_name": "almost unchanged (or even marginally lower)",
+"evidence_text": "Although Nb2O5 improves the reduction of WBC catalyst, the activity keeps almost unchanged (or even marginally lower)."
+}
+},
+{
+"id": "n27",
+"type": "反应机理",
+"properties": {
+"display_name": "平面结构敏感活性模型",
+"original_name": "structure sensitive reaction",
+"evidence_text": "As a structure sensitive reaction, ammonia synthesis activity of iron planes follows the order of [1 1 1] > [2 1 1] > [1 0 0] > [2 1 0] > [1 1 0]."
+}
+},
+{
+"id": "n28",
+"type": "活性位模型",
+"properties": {
+"display_name": "[1 1 1] 和 [2 1 1] 晶面更有利于氨合成",
+"original_name": "[1 1 1] and [2 1 1] planes are favorable for ammonia synthesis",
+"evidence_text": "As a structure sensitive reaction, [1 1 1] and [2 1 1] planes are favorable for ammonia synthesis."
+}
+},
+{
+"id": "n29",
+"type": "速率控制步骤",
+"properties": {
+"display_name": "N₂ 解离吸附",
+"original_name": "dissociate adsorption of N2",
+"evidence_text": "N2 dissociation is the rate-determining step for ammonia synthesis."
+}
+},
+{
+"id": "n30",
+"type": "反应机理",
+"properties": {
+"display_name": "Nb₂O₅ 促进还原的机理",
+"original_name": "Nb2O5 is not favorable for the segregation or formation of solid solutions on the catalyst surface, which are difficult to be reduced",
+"evidence_text": "It can be concluded that Nb2O5 partially inhibits the formation or segregation of these solid solution. As we all know, solid solutions are more difficult to be reduced than FeO during the activation or reaction operation of the catalysts. Hence, improved reduction is expected."
+}
+},
+{
+"id": "n31",
+"type": "反应机理",
+"properties": {
+"display_name": "Nb₂O₅ 不促进有利晶面的形成",
+"original_name": "niobium does not promote the growth of [2 1 1] plane",
+"evidence_text": "However, it seems that niobium does not promote the growth of [2 1 1] plane, which is active for ammonia synthesis."
+}
+}
+],
+"edges": [
+{
+"source": "n1",
+"relation": "提及",
+"target": "n2",
+"evidence_text": "The WBC shows much higher activity and lower reduction temperature than the traditional magnetite-based catalysts."
+},
+{
+"source": "n1",
+"relation": "提及",
+"target": "n3",
+"evidence_text": "For Nb2O5 doped WBC, 0.6 wt% of Nb2O5 was added together with other promoters."
+},
+{
+"source": "n2",
+"relation": "有活性组分",
+"target": "n4",
+"evidence_text": "Niobium was selected and investigated as a potential promoter for wustite-based catalyst (WBC) for ammonia synthesis."
+},
+{
+"source": "n3",
+"relation": "有活性组分",
+"target": "n4",
+"evidence_text": "Niobium oxide was adopted as a promoter of fused iron catalysts and its effect on reduction behavior and the activities for ammonia synthesis were investigated."
+},
+{
+"source": "n2",
+"relation": "有前驱体",
+"target": "n5",
+"evidence_text": "Apparently, for both two catalysts, α-Fe forms directly from the reduction of wustite (Fe1−xO) precursor."
+},
+{
+"source": "n3",
+"relation": "有前驱体",
+"target": "n5",
+"evidence_text": "Apparently, for both two catalysts, α-Fe forms directly from the reduction of wustite (Fe1−xO) precursor."
+},
+{
+"source": "n3",
+"relation": "有助剂",
+"target": "n6",
+"evidence_text": "For Nb2O5 doped WBC, 0.6 wt% of Nb2O5 was added together with other promoters."
+},
+{
+"source": "n3",
+"relation": "有助剂含量",
+"target": "n7",
+"evidence_text": "For Nb2O5 doped WBC, 0.6 wt% of Nb2O5 was added together with other promoters."
+},
+{
+"source": "n2",
+"relation": "有铁比",
+"target": "n8",
+"evidence_text": "Table 1 lists the Fe2+/Fe3+ ratio of WBC catalyst as 7.06."
+},
+{
+"source": "n3",
+"relation": "有铁比",
+"target": "n9",
+"evidence_text": "Table 1 lists the Fe2+/Fe3+ ratio of Nb-WBC catalyst as 7.10."
+},
+{
+"source": "n2",
+"relation": "有制备方式",
+"target": "n10",
+"evidence_text": "The wustite catalysts were prepared by mixing appropriate proportions of purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters, and melting in an electric resistance furnace at about 1600 ◦C."
+},
+{
+"source": "n3",
+"relation": "有制备方式",
+"target": "n10",
+"evidence_text": "The wustite catalysts were prepared by mixing appropriate proportions of purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters, and melting in an electric resistance furnace at about 1600 ◦C."
+},
+{
+"source": "n2",
+"relation": "有制备工艺",
+"target": "n11",
+"evidence_text": "The wustite catalysts were prepared by mixing appropriate proportions of purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters, and melting in an electric resistance furnace at about 1600 ◦C. The catalysts were reduced by the mixture of N2 and H2 (H2:N2 = 3:1) at 400, 425, 450, 475 and 500 ◦C for 2, 6, 10, 4 and 2 h, respectively."
+},
+{
+"source": "n3",
+"relation": "有制备工艺",
+"target": "n11",
+"evidence_text": "The wustite catalysts were prepared by mixing appropriate proportions of purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters, and melting in an electric resistance furnace at about 1600 ◦C. The catalysts were reduced by the mixture of N2 and H2 (H2:N2 = 3:1) at 400, 425, 450, 475 and 500 ◦C for 2, 6, 10, 4 and 2 h, respectively."
+},
+{
+"source": "n11",
+"relation": "有原料选择",
+"target": "n12",
+"evidence_text": "The wustite catalysts were prepared by mixing appropriate proportions of purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters."
+},
+{
+"source": "n11",
+"relation": "有混合方式",
+"target": "n13",
+"evidence_text": "The wustite catalysts were prepared by mixing appropriate proportions of purified magnetite, iron powder, alumina, potassium nitrate, calcium carbonate and other promoters, and melting in an electric resistance furnace at about 1600 ◦C."
+},
+{
+"source": "n11",
+"relation": "有还原活化",
+"target": "n14",
+"evidence_text": "The catalysts were reduced by the mixture of N2 and H2 (H2:N2 = 3:1) at a pressure of 5.0 MPa and with a space velocity of 30,000 h−1 at 400, 425, 450, 475 and 500 ◦C for 2, 6, 10, 4 and 2 h, respectively."
+},
+{
+"source": "n2",
+"relation": "有反应条件",
+"target": "n15",
+"evidence_text": "Ammonia synthesis reaction over the samples were investigated in a fixed-bed reactor in the temperature range of 400–500 ◦C, space velocity of 30,000 h−1 and pressure of 15 MPa."
+},
+{
+"source": "n3",
+"relation": "有反应条件",
+"target": "n15",
+"evidence_text": "Ammonia synthesis reaction over the samples were investigated in a fixed-bed reactor in the temperature range of 400–500 ◦C, space velocity of 30,000 h−1 and pressure of 15 MPa."
+},
+{
+"source": "n15",
+"relation": "有温度",
+"target": "n16",
+"evidence_text": "Ammonia synthesis reaction over the samples were investigated in the temperature range of 400–500 ◦C."
+},
+{
+"source": "n15",
+"relation": "有压力",
+"target": "n17",
+"evidence_text": "Ammonia synthesis reaction over the samples were investigated with pressure of 15 MPa."
+},
+{
+"source": "n15",
+"relation": "有空速",
+"target": "n18",
+"evidence_text": "Ammonia synthesis reaction over the samples were investigated with space velocity of 30,000 h−1."
+},
+{
+"source": "n2",
+"relation": "有表征方法",
+"target": "n19",
+"evidence_text": "Experiments on reduction performance, activity test and H2-TGA, in situ XRD as well as XPS were carried out to obtain the promotion effect and mechanism involved. H2-TPD was also performed."
+},
+{
+"source": "n3",
+"relation": "有表征方法",
+"target": "n19",
+"evidence_text": "Experiments on reduction performance, activity test and H2-TGA, in situ XRD as well as XPS were carried out to obtain the promotion effect and mechanism involved. H2-TPD was also performed."
+},
+{
+"source": "n19",
+"relation": "有XRD",
+"target": "n20",
+"evidence_text": "The in situ X-ray diffraction patterns of WBC and Nb-WBC catalysts as a function of reduction temperature are shown in Figs. 2 and 3, respectively."
+},
+{
+"source": "n19",
+"relation": "有XPS",
+"target": "n21",
+"evidence_text": "To further investigate the effect of Nb2O5 on the WBC wustite catalyst for ammonia synthesis, XPS experiments were carried out."
+},
+{
+"source": "n19",
+"relation": "有H₂-TPD",
+"target": "n22",
+"evidence_text": "H2-TPD is served as a key analysis method for the relative number of active sites in iron catalysts for ammonia synthesis."
+},
+{
+"source": "n2",
+"relation": "有催化性能",
+"target": "n23",
+"evidence_text": "Among the reaction temperatures studied, the activity of WBC is marginally higher than that of niobium-doped catalyst."
+},
+{
+"source": "n23",
+"relation": "有氨合成活性",
+"target": "n24",
+"evidence_text": "Among the reaction temperatures studied, the activity of WBC is marginally higher than that of niobium-doped catalyst."
+},
+{
+"source": "n3",
+"relation": "有催化性能",
+"target": "n25",
+"evidence_text": "Although Nb2O5 improves the reduction of WBC catalyst, the activity keeps almost unchanged (or even marginally lower)."
+},
+{
+"source": "n25",
+"relation": "有氨合成活性",
+"target": "n26",
+"evidence_text": "Although Nb2O5 improves the reduction of WBC catalyst, the activity keeps almost unchanged (or even marginally lower)."
+},
+{
+"source": "n2",
+"relation": "有反应机理",
+"target": "n27",
+"evidence_text": "As a structure sensitive reaction, ammonia synthesis activity of iron planes follows the order of [1 1 1] > [2 1 1] > [1 0 0] > [2 1 0] > [1 1 0]."
+},
+{
+"source": "n3",
+"relation": "有反应机理",
+"target": "n27",
+"evidence_text": "As a structure sensitive reaction, ammonia synthesis activity of iron planes follows the order of [1 1 1] > [2 1 1] > [1 0 0] > [2 1 0] > [1 1 0]."
+},
+{
+"source": "n27",
+"relation": "有活性位模型",
+"target": "n28",
+"evidence_text": "As a structure sensitive reaction, [1 1 1] and [2 1 1] planes are favorable for ammonia synthesis."
+},
+{
+"source": "n27",
+"relation": "有速率控制步骤",
+"target": "n29",
+"evidence_text": "N2 dissociation is the rate-determining step for ammonia synthesis."
+},
+{
+"source": "n3",
+"relation": "有反应机理",
+"target": "n30",
+"evidence_text": "It can be concluded that Nb2O5 partially inhibits the formation or segregation of these solid solution. As we all know, solid solutions are more difficult to be reduced than FeO during the activation or reaction operation of the catalysts. Hence, improved reduction is expected."
+},
+{
+"source": "n3",
+"relation": "有反应机理",
+"target": "n31",
+"evidence_text": "However, it seems that niobium does not promote the growth of [2 1 1] plane, which is active for ammonia synthesis."
+}
+]
+}
