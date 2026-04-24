@@ -1,99 +1,30 @@
-# Byte-compiled / optimized / compiled Python files
-*.py[cod]
-__pycache__/
-*.so
+.DS_Store
+.idea/
+.vscode/
 
-# Distribution / packaging
-.Python
-env/
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
+.env
+.env.*
+!.env.example
+.python-version
 
-# PyInstaller
-# Usually these files are written by a python script from a template
-# before PyInstaller builds the exe, so as to inject date/other infos into it.
-*.manifest
-*.spec
-
-# Installer logs
-pip-log.txt
-pip-delete-this-directory.txt
-
-# Unit test / coverage reports
-htmlcov/
+.venv/
+.ruff_cache/
+.pytest_cache/
+.mypy_cache/
+.hypothesis/
 .tox/
 .nox/
 .coverage
-*.cover
-*.py,cover
-.hypothesis/
-.pytest_cache/
-.local/
+.coverage.*
+htmlcov/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.log
 
-# Jupyter Notebook
-.ipynb_checkpoints
-
-# PyCharm
-.idea/
-
-# Environments
-.env
-.venv
-env/
-venv/
-ENV/
-env.bak/
-venv.bak/
-
-# VS Code
-.vscode/
-
-# MyPy
-.mypy_cache/
-.dmypy.json
-dmypy.json
-
-# Pyre
-.pyre/
-
-# Celery stuff
-celerybeat-schedule.*
-celerybeat.pid
-
-# SageMath parsed files
-*.sage.py
-
-# dotenv
-*.env
-
-# Spyder project settings
-.spyderproject
-.spyproject
-
-# Rope project settings
-.ropeproject
-
-# mkdocs documentation
-/site
-
-# pyenv
-.python-version
-
-# Virtualenv
-pip-selfcheck.json
-
-# pyenv-specific files
-.python-version
+Data/
+artifacts/
+build/
+dist/
+*.egg-info/
