@@ -6,6 +6,7 @@ import time
 from pathlib import Path
 
 import requests
+from requests import exceptions as requests_exceptions
 
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
@@ -18,12 +19,20 @@ def load_env_file(env_file: str | Path = DEFAULT_ENV_FILE) -> None:
     if not path.exists():
         return
 
-    for raw_line in path.read_text(encoding="utf-8").splitlines():
+    content = path.read_text(encoding="utf-8")
+    for raw_line in content.splitlines():
         line = raw_line.strip()
         if not line or line.startswith("#") or "=" not in line:
             continue
         key, value = line.split("=", 1)
-        os.environ.setdefault(key.strip(), value.strip())
+        key = key.strip()
+        value = value.strip()
+        
+        # Remove quotes if present
+        if (value.startswith('"') and value.endswith('"')) or (value.startswith("'") and value.endswith("'")):
+            value = value[1:-1]
+            
+        os.environ[key] = value
 
 
 def call_kg_llm(
@@ -45,6 +54,14 @@ def call_kg_llm(
     if not model_name:
         raise ValueError("KG_LLM_MODEL is required")
 
+    # Prepare URL and headers
+    url = api_url
+    if not url.endswith("/chat/completions"):
+        if "/v1" not in url:
+            url = url.rstrip("/") + "/v1/chat/completions"
+        else:
+            url = url.rstrip("/") + "/chat/completions"
+    
     headers = {"Content-Type": "application/json"}
     if api_key:
         headers["Authorization"] = f"Bearer {api_key}"
@@ -60,12 +77,18 @@ def call_kg_llm(
 
     if verbose:
         print(
-            f"[llm] request started: model={model_name}, timeout={timeout_value}s, api={api_url}",
+            f"[llm] request started: model={model_name}, timeout={timeout_value}s, api={url}",
             flush=True,
         )
 
     started_at = time.perf_counter()
-    response = requests.post(api_url, headers=headers, json=payload, timeout=timeout_value)
+    try:
+        response = requests.post(url, headers=headers, json=payload, timeout=timeout_value)
+    except requests_exceptions.RequestException as exc:
+        raise RuntimeError(
+            "KG LLM request failed. Check KG_LLM_API_URL, network connectivity, DNS, and proxy settings. "
+            f"api_url={url}"
+        ) from exc
     response.raise_for_status()
     data = response.json()
 

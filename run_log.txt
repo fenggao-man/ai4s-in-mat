@@ -1,0 +1,269 @@
+[preflight] data root: /Users/gaofeng_0524/Desktop/ai4s in mat/data
+[preflight] configuration/network checks passed
+[main] found 14 PDF files to process
+
+============================================================
+Processing: 1-合成_BC2_2025-09-28_XL9bqCpSHz-硼掺杂石墨烯催化剂的制备.pdf
+============================================================
+[ocr] found existing run for 1-合成_BC2_2025-09-28_XL9bqCpSHz-硼掺杂石墨烯催化剂的制备.pdf: run_20260331_025643
+[pipeline] starting extraction for run_20260331_025643...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/1-合成_BC2_2025-09-28_XL9bqCpSHz-硼掺杂石墨烯催化剂的制备/run_20260331_025643
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/1-合成_BC2_2025-09-28_XL9bqCpSHz-硼掺杂石墨烯催化剂的制备/run_20260331_025643/document.md
+[entity_extraction] markdown loaded: chars=509
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=7611
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.51s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process 1-合成_BC2_2025-09-28_XL9bqCpSHz-硼掺杂石墨烯催化剂的制备.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: 2.1 Angew Chem Int Ed - 2024 - Liu - One Iron for Two Iron Sites in a Metal Organic Framework Toward Simultaneous N2 H2.pdf
+============================================================
+[ocr] found existing run for 2.1 Angew Chem Int Ed - 2024 - Liu - One Iron for Two Iron Sites in a Metal Organic Framework Toward Simultaneous N2 H2.pdf: run_20260430_192237
+[pipeline] starting extraction for run_20260430_192237...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/2_1_Angew_Chem_Int_Ed_-_2024_-_Liu_-_One_Iron_for_Two_Iron_Sites_in_a_Metal_Organic_Framework_Toward_Simultaneous_N2_H2/run_20260430_192237
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/2_1_Angew_Chem_Int_Ed_-_2024_-_Liu_-_One_Iron_for_Two_Iron_Sites_in_a_Metal_Organic_Framework_Toward_Simultaneous_N2_H2/run_20260430_192237/document.md
+[entity_extraction] markdown loaded: chars=32104
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=39206
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.78s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process 2.1 Angew Chem Int Ed - 2024 - Liu - One Iron for Two Iron Sites in a Metal Organic Framework Toward Simultaneous N2 H2.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: 2.1 Highly efficient K-Fe_C catalysts derived from metal-organic frameworks towards ammonia synthesis.pdf
+============================================================
+[ocr] found existing run for 2.1 Highly efficient K-Fe_C catalysts derived from metal-organic frameworks towards ammonia synthesis.pdf: run_20260430_192624
+[pipeline] starting extraction for run_20260430_192624...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/2_1_Highly_efficient_K-Fe_C_catalysts_derived_from_metal-organic_frameworks_towards_ammonia_synthesis/run_20260430_192624
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/2_1_Highly_efficient_K-Fe_C_catalysts_derived_from_metal-organic_frameworks_towards_ammonia_synthesis/run_20260430_192624/document.md
+[entity_extraction] markdown loaded: chars=42621
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=49723
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.55s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process 2.1 Highly efficient K-Fe_C catalysts derived from metal-organic frameworks towards ammonia synthesis.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: 2.1 Reduction Process of Iron Catalyst Precursors for.pdf
+============================================================
+[ocr] found existing run for 2.1 Reduction Process of Iron Catalyst Precursors for.pdf: run_20260430_193108
+[pipeline] starting extraction for run_20260430_193108...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/2_1_Reduction_Process_of_Iron_Catalyst_Precursors_for/run_20260430_193108
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/2_1_Reduction_Process_of_Iron_Catalyst_Precursors_for/run_20260430_193108/document.md
+[entity_extraction] markdown loaded: chars=38940
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=46042
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.78s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process 2.1 Reduction Process of Iron Catalyst Precursors for.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: 20240725-谢慧民-Ni-MC催化剂的制备.pdf
+============================================================
+[ocr] found existing run for 20240725-谢慧民-Ni-MC催化剂的制备.pdf: run_20260430_193511
+[pipeline] starting extraction for run_20260430_193511...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/20240725-谢慧民-Ni-MC催化剂的制备/run_20260430_193511
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/20240725-谢慧民-Ni-MC催化剂的制备/run_20260430_193511/document.md
+[entity_extraction] markdown loaded: chars=940
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=8042
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=1.36s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process 20240725-谢慧民-Ni-MC催化剂的制备.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: ACS Appl. Mater. Interfaces 2025, 17, 44596−44607.pdf
+============================================================
+[ocr] found existing run for ACS Appl. Mater. Interfaces 2025, 17, 44596−44607.pdf: run_20260511_133412
+[pipeline] starting extraction for run_20260511_133412...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/ACS_Appl_Mater_Interfaces_2025_17_44596_44607/run_20260511_133412
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/ACS_Appl_Mater_Interfaces_2025_17_44596_44607/run_20260511_133412/document.md
+[entity_extraction] markdown loaded: chars=71779
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=78881
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.76s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process ACS Appl. Mater. Interfaces 2025, 17, 44596−44607.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: CJC-5-物理吸附原始数据-模型识别及数据提取.pdf
+============================================================
+[ocr] found existing run for CJC-5-物理吸附原始数据-模型识别及数据提取.pdf: run_20260430_194049
+[pipeline] starting extraction for run_20260430_194049...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/CJC-5-物理吸附原始数据-模型识别及数据提取/run_20260430_194049
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/CJC-5-物理吸附原始数据-模型识别及数据提取/run_20260430_194049/document.md
+[entity_extraction] markdown loaded: chars=72697
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=79799
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.70s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process CJC-5-物理吸附原始数据-模型识别及数据提取.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: Journal of Rare Earths 37 (2019) 492e499.pdf
+============================================================
+[ocr] found existing run for Journal of Rare Earths 37 (2019) 492e499.pdf: run_20260511_133504
+[pipeline] starting extraction for run_20260511_133504...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/Journal_of_Rare_Earths_37_2019_492e499/run_20260511_133504
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/Journal_of_Rare_Earths_37_2019_492e499/run_20260511_133504/document.md
+[entity_extraction] markdown loaded: chars=49754
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=56856
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=1.17s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process Journal of Rare Earths 37 (2019) 492e499.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: Nat Catal 8, 248–256 (2025).pdf
+============================================================
+[ocr] found existing run for Nat Catal 8, 248–256 (2025).pdf: run_20260511_133519
+[pipeline] starting extraction for run_20260511_133519...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/Nat_Catal_8_248_256_2025/run_20260511_133519
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/Nat_Catal_8_248_256_2025/run_20260511_133519/document.md
+[entity_extraction] markdown loaded: chars=52895
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=59997
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.65s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process Nat Catal 8, 248–256 (2025).pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: Progress in Green Ammonia Synthesis Technology - Catalytic Behavior of Ammonia Synthesis Catalysts.pdf
+============================================================
+[ocr] found existing run for Progress in Green Ammonia Synthesis Technology - Catalytic Behavior of Ammonia Synthesis Catalysts.pdf: run_20260511_133702
+[pipeline] starting extraction for run_20260511_133702...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/Progress_in_Green_Ammonia_Synthesis_Technology_-_Catalytic_Behavior_of_Ammonia_Synthesis_Catalysts/run_20260511_133702
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/Progress_in_Green_Ammonia_Synthesis_Technology_-_Catalytic_Behavior_of_Ammonia_Synthesis_Catalysts/run_20260511_133702/document.md
+[entity_extraction] markdown loaded: chars=117208
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=124310
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.69s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process Progress in Green Ammonia Synthesis Technology - Catalytic Behavior of Ammonia Synthesis Catalysts.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: Promotion of Nb2O5 on the wustite-based iron catalyst for ammonia synthesis.pdf
+============================================================
+[ocr] found existing run for Promotion of Nb2O5 on the wustite-based iron catalyst for ammonia synthesis.pdf: run_20260511_133813
+[pipeline] starting extraction for run_20260511_133813...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/Promotion_of_Nb2O5_on_the_wustite-based_iron_catalyst_for_ammonia_synthesis/run_20260511_133813
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/Promotion_of_Nb2O5_on_the_wustite-based_iron_catalyst_for_ammonia_synthesis/run_20260511_133813/document.md
+[entity_extraction] markdown loaded: chars=54480
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=61582
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.57s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process Promotion of Nb2O5 on the wustite-based iron catalyst for ammonia synthesis.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: SrO助催化剂对Fe1-XO基熔铁氨合成催化剂性能的影晌.pdf
+============================================================
+[ocr] found existing run for SrO助催化剂对Fe1-XO基熔铁氨合成催化剂性能的影晌.pdf: run_20260430_195513
+[pipeline] starting extraction for run_20260430_195513...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/SrO助催化剂对Fe1-XO基熔铁氨合成催化剂性能的影晌/run_20260430_195513
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/SrO助催化剂对Fe1-XO基熔铁氨合成催化剂性能的影晌/run_20260430_195513/document.md
+[entity_extraction] markdown loaded: chars=22020
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=29122
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.90s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process SrO助催化剂对Fe1-XO基熔铁氨合成催化剂性能的影晌.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: 助剂对Ru:CeO2催化剂的表面性质及氨合成性能的影响.pdf
+============================================================
+[ocr] found existing run for 助剂对Ru:CeO2催化剂的表面性质及氨合成性能的影响.pdf: run_20260401_091545
+[pipeline] starting extraction for run_20260401_091545...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/助剂对Ru_CeO2催化剂的表面性质及氨合成性能的影响/run_20260401_091545
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/助剂对Ru_CeO2催化剂的表面性质及氨合成性能的影响/run_20260401_091545/document.md
+[entity_extraction] markdown loaded: chars=81284
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=88386
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.71s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process 助剂对Ru:CeO2催化剂的表面性质及氨合成性能的影响.pdf: Expecting value: line 1 column 1 (char 0)
+
+============================================================
+Processing: 助剂对RuCeO2催化剂的表面性质及氨合成性能的影响.pdf
+============================================================
+[ocr] found existing run for 助剂对RuCeO2催化剂的表面性质及氨合成性能的影响.pdf: run_20260401_091545
+[pipeline] starting extraction for run_20260401_091545...
+[entity_extraction] run dir: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/助剂对Ru_CeO2催化剂的表面性质及氨合成性能的影响/run_20260401_091545
+[entity_extraction] loading ontology...
+[entity_extraction] ontology loaded: roots=8, relations=59
+[entity_extraction] reading OCR markdown: /Users/gaofeng_0524/Desktop/ai4s in mat/artifacts/ocr/助剂对Ru_CeO2催化剂的表面性质及氨合成性能的影响/run_20260401_091545/document.md
+[entity_extraction] markdown loaded: chars=81284
+[entity_extraction] building extraction prompt...
+[entity_extraction] prompt ready: chars=88386
+[entity_extraction] calling KG LLM...
+[llm] request started: model=coding-glm-5-free, timeout=900s, api=https://aihubmix.com/v1/chat/completions
+[llm] response received: status=200, elapsed=0.62s
+[entity_extraction] raw extraction received: chars=188
+[entity_extraction] parsing grouped output...
+[pipeline] failed to process 助剂对RuCeO2催化剂的表面性质及氨合成性能的影响.pdf: Expecting value: line 1 column 1 (char 0)

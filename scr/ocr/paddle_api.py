@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any
 
 import requests
+from requests import exceptions as requests_exceptions
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
@@ -78,12 +79,18 @@ class PaddleOCRAPIClient:
         if verbose:
             print(f"Submitting OCR request: {path}")
 
-        response = self.session.post(
-            self.api_url,
-            json=payload,
-            headers=headers,
-            timeout=self.timeout,
-        )
+        try:
+            response = self.session.post(
+                self.api_url,
+                json=payload,
+                headers=headers,
+                timeout=self.timeout,
+            )
+        except requests_exceptions.RequestException as exc:
+            raise PaddleOCRAPIError(
+                "PaddleOCR API request failed. Check PADDLEOCR_VL_API_URL, network connectivity, DNS, and proxy settings. "
+                f"api_url={self.api_url}"
+            ) from exc
         response.raise_for_status()
 
         try:
@@ -175,7 +182,12 @@ class PaddleOCRAPIClient:
         if not asset_url:
             return
 
-        response = self.session.get(asset_url, timeout=60)
+        try:
+            response = self.session.get(asset_url, timeout=60)
+        except requests_exceptions.RequestException as exc:
+            raise PaddleOCRAPIError(
+                f"Failed to download OCR asset. Check network connectivity or the asset URL: {asset_url}"
+            ) from exc
         response.raise_for_status()
 
         destination.parent.mkdir(parents=True, exist_ok=True)
@@ -201,7 +213,14 @@ def _load_env_file(env_file: str | Path) -> None:
         if not line or line.startswith("#") or "=" not in line:
             continue
         key, value = line.split("=", 1)
-        os.environ.setdefault(key.strip(), value.strip())
+        key = key.strip()
+        value = value.strip()
+
+        # Remove quotes if present
+        if (value.startswith('"') and value.endswith('"')) or (value.startswith("'") and value.endswith("'")):
+            value = value[1:-1]
+
+        os.environ[key] = value
 
 
 def _now() -> datetime:
