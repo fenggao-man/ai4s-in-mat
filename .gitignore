@@ -7,6 +7,9 @@
 !.env.example
 .python-version
 
+AGENTS.md
+tree-index.md
+
 .venv/
 .ruff_cache/
 .pytest_cache/
@@ -25,6 +28,7 @@ __pycache__/
 
 Data/
 artifacts/
+memory/
 build/
 dist/
 *.egg-info/
