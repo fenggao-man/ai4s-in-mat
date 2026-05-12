@@ -8,6 +8,11 @@ from .entity_storage import (
     store_entity_graph,
     store_entity_graph_from_run,
 )
+from .sqlite_retrieval import (
+    initialize_retrieval_database,
+    index_graph_for_retrieval,
+    search_knowledge_graph,
+)
 
 __all__ = [
     "align_entity_graph",
@@ -19,6 +24,9 @@ __all__ = [
     "export_semantic_review_excel",
     "fuse_entity_graph",
     "fuse_entity_graph_from_run",
+    "index_graph_for_retrieval",
+    "initialize_retrieval_database",
+    "search_knowledge_graph",
     "store_entity_graph",
     "store_entity_graph_from_run",
 ]
