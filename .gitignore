@@ -1,7 +1,13 @@
+# OS / editor noise
 .DS_Store
+**/.DS_Store
+._*
 .idea/
+**/.idea/
 .vscode/
+**/.vscode/
 
+# Local secrets
 .env
 .env.*
 !.env.example
@@ -10,6 +16,7 @@
 AGENTS.md
 tree-index.md
 
+# Python / test caches
 .venv/
 .ruff_cache/
 .pytest_cache/
@@ -21,14 +28,20 @@ tree-index.md
 .coverage.*
 htmlcov/
 __pycache__/
+**/__pycache__/
 *.pyc
 *.pyo
 *.pyd
 *.log
 
+# Local data and generated artifacts
 Data/
 artifacts/
 memory/
+*.sqlite3
+*.db
+
+# Packaging/build outputs
 build/
 dist/
 *.egg-info/
