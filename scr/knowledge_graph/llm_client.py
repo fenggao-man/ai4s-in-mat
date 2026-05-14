@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import time
 from pathlib import Path
 
@@ -12,6 +13,7 @@ from requests import exceptions as requests_exceptions
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 DEFAULT_ENV_FILE = PROJECT_ROOT / ".env"
 DEFAULT_KG_LLM_TIMEOUT = 900
+THINK_BLOCK_RE = re.compile(r"<think\b[^>]*>.*?</think>", re.IGNORECASE | re.DOTALL)
 
 
 def load_env_file(env_file: str | Path = DEFAULT_ENV_FILE) -> None:
@@ -33,6 +35,19 @@ def load_env_file(env_file: str | Path = DEFAULT_ENV_FILE) -> None:
             value = value[1:-1]
             
         os.environ[key] = value
+
+
+def strip_reasoning_blocks(text: str) -> str:
+    """
+    Remove model reasoning blocks such as <think>...</think>.
+
+    Some models, including DeepSeek-style reasoning models, may prepend hidden
+    reasoning in the visible response. Downstream parsers expect only the final
+    answer, so strip those blocks when present and leave normal responses alone.
+    """
+    if "<think" not in text.lower():
+        return text.strip()
+    return THINK_BLOCK_RE.sub("", text).strip()
 
 
 def call_kg_llm(
@@ -99,6 +114,6 @@ def call_kg_llm(
             flush=True,
         )
     try:
-        return data["choices"][0]["message"]["content"]
+        return strip_reasoning_blocks(data["choices"][0]["message"]["content"])
     except (KeyError, IndexError, TypeError) as exc:
         raise ValueError(f"Unexpected KG LLM response: {json.dumps(data, ensure_ascii=False)[:500]}") from exc
