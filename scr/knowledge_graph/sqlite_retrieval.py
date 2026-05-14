@@ -123,11 +123,14 @@ def index_graph_for_retrieval(
     }
 
 
+import difflib
+
 def search_knowledge_graph(
     query: str,
     db_path: str | Path = DEFAULT_DB_PATH,
     limit: int = 5,
     hops: int = 1,
+    fuzzy: bool = True,
 ) -> dict[str, Any]:
     db_file = Path(db_path)
     if not db_file.exists():
@@ -135,7 +138,14 @@ def search_knowledge_graph(
 
     with sqlite3.connect(db_file) as conn:
         conn.row_factory = sqlite3.Row
+        
+        # 1. Try exact/substring match first
         node_hits = _search_nodes(conn, query=query, limit=limit)
+        
+        # 2. If no hits and fuzzy is enabled, try fuzzy matching
+        if not node_hits and fuzzy:
+            node_hits = _fuzzy_search_nodes(conn, query=query, limit=limit)
+            
         chunk_hits = _search_chunks(conn, query=query, limit=limit)
         seed_node_ids = [row["node_id"] for row in node_hits]
         subgraph = _expand_subgraph(conn, seed_node_ids=seed_node_ids, hops=hops)
@@ -146,6 +156,26 @@ def search_knowledge_graph(
         "chunks": [dict(row) for row in chunk_hits],
         "subgraph": subgraph,
     }
+
+def _fuzzy_search_nodes(conn: sqlite3.Connection, query: str, limit: int) -> list[sqlite3.Row]:
+    # Fetch all display names to find closest matches
+    all_nodes = conn.execute("SELECT node_id, display_name FROM nodes").fetchall()
+    names = [row["display_name"] for row in all_nodes]
+    
+    matches = difflib.get_close_matches(query, names, n=limit, cutoff=0.6)
+    if not matches:
+        return []
+        
+    placeholders = ",".join("?" for _ in matches)
+    return conn.execute(
+        f"""
+        SELECT node_id, doc_id, type, level, display_name, properties_json
+        FROM nodes
+        WHERE display_name IN ({placeholders})
+        LIMIT ?
+        """,
+        tuple(matches) + (limit,),
+    ).fetchall()
 
 
 def _initialize_schema(conn: sqlite3.Connection) -> None:
