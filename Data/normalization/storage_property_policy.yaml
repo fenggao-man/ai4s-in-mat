@@ -1,39 +1,133 @@
-version: 0.1.0-draft
+version: 0.3.0
 status: active
 scope: storage_projection
 notes:
-  - 该文件定义 Neo4j 入库前的最小属性集。
-  - 目标是让图数据库只保留知识图谱查询和展示需要的字段。
-  - aliases、source_node_ids、fusion_status、normalization_method 等流水线调试字段不进入 Neo4j。
+  - v0.3.0 适配实体中心模型。不再区分 name_node / value_node，
+    每个实体类型自行定义入库属性集。
+  - 排除 aliases、source_node_ids、fusion_status、normalization_method 等管线调试字段。
 
-property_groups:
-  document:
-    - doc_id
-    - title
-    - source
-    - filename
+entity_property_policy:
+  文档:
+    keep: [doc_id, title, source, filename, display_name]
 
-  name_node:
-    - display_name
-    - original_name
-    - doc_id
+  催化剂:
+    keep:
+      - doc_id
+      - name
+      - display_name
+      - original_name
+      - active_component
+      - precursor
+      - crystal_phase
+      - iron_ratio_value
+      - iron_ratio_unit
+      - surface_area_value
+      - surface_area_unit
+      - pore_structure
+      - particle_size_value
+      - particle_size_unit
+      - preparation_method
+      - mechanical_strength_value
+      - mechanical_strength_unit
+      - support
+      - source_text
+      - note
 
-  value_node:
-    - value
-    - unit
-    - display_name
-    - original_name
-    - doc_id
+  化学物质:
+    keep:
+      - doc_id
+      - name
+      - display_name
+      - original_name
+      - formula
+      - role
+      - catalyst_name
+      - source_text
+      - note
 
-value_node_types:
-  - 粒径
-  - 比表面积
-  - 助剂含量
-  - 温度
-  - 压力
-  - 空速
-  - 反应时间
-  - 焙烧温度
-  - 还原活化
-  - 氨合成活性
-  - 转化率
+  助剂:
+    keep:
+      - doc_id
+      - name
+      - display_name
+      - original_name
+      - content_value
+      - content_unit
+      - promoter_type
+      - addition_method
+      - catalyst_name
+      - source_text
+      - note
+
+  制备步骤:
+    keep:
+      - doc_id
+      - step_order
+      - step_name
+      - display_name
+      - original_name
+      - method
+      - temperature_value
+      - temperature_unit
+      - duration
+      - atmosphere
+      - description
+      - catalyst_name
+      - source_text
+
+  测试:
+    keep:
+      - doc_id
+      - temperature_value
+      - temperature_unit
+      - pressure_value
+      - pressure_unit
+      - ghsv_value
+      - ghsv_unit
+      - h2_n2_ratio
+      - feed_composition
+      - gas_purity
+      - duration_value
+      - duration_unit
+      - nh3_activity_value
+      - nh3_activity_unit
+      - conversion
+      - selectivity
+      - stability
+      - lifetime
+      - toxicity_resistance
+      - catalyst_name
+      - source_text
+      - note
+
+  表征:
+    keep:
+      - doc_id
+      - method
+      - display_name
+      - original_name
+      - result_summary
+      - confirmed_phase
+      - catalyst_name
+      - source_text
+      - note
+
+  机理:
+    keep:
+      - doc_id
+      - aspect
+      - display_name
+      - original_name
+      - value
+      - unit
+      - description
+      - catalyst_name
+      - source_text
+      - note
+
+excluded_keys:
+  - aliases
+  - source_node_ids
+  - merged_from_count
+  - fusion_status
+  - normalization_method

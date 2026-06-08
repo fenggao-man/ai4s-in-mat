@@ -8,60 +8,22 @@ from typing import Any
 
 SUBSCRIPT_MAP = str.maketrans("0123456789", "₀₁₂₃₄₅₆₇₈₉")
 SUPERSCRIPT_MINUS = "⁻"
-SUPPORTED_METHOD_TYPES = {
-    "表征方法",
-    "XRD",
-    "BET",
-    "TEM",
-    "SEM",
-    "XPS",
-    "H₂-TPR",
-    "N₂-TPD",
-    "NH₃-TPD",
-    "Mössbauer",
-    "Raman",
-    "FT-IR",
-}
-TARGET_NAME_TYPES = {
-    "催化剂",
-    "助剂",
-    "助剂种类",
-    "活性组分",
-    "前驱体",
-    "晶相结构",
-    "孔结构",
-    "制备方式",
-    "表征方法",
-    "XRD",
-    "BET",
-    "TEM",
-    "SEM",
-    "XPS",
-    "H2-TPR",
-    "N2-TPD",
-    "NH3-TPD",
-    "Mössbauer",
-    "Raman",
-    "FT-IR",
-}
-VALUE_UNIT_TYPES = {"温度", "压力", "粒径", "比表面积", "空速", "助剂含量"}
-UNIT_MAP = {
-    "C": "°C",
-    "°C": "°C",
-    "MPa": "MPa",
-    "nm": "nm",
-    "wt%": "wt%",
-    "m2/g": "m²/g",
-    "m^2/g": "m²/g",
-    "m²/g": "m²/g",
-    "h-1": "h⁻¹",
-    "h^-1": "h⁻¹",
-    "h⁻¹": "h⁻¹",
-}
-METHOD_NAME_MAP = {
+
+# Characterization method name normalization
+METHOD_NAME_MAP: dict[str, str] = {
     "H2-TPR": "H₂-TPR",
     "N2-TPD": "N₂-TPD",
     "NH3-TPD": "NH₃-TPD",
+}
+
+UNIT_MAP: dict[str, str] = {
+    "C": "°C", "°C": "°C",
+    "MPa": "MPa",
+    "nm": "nm",
+    "wt%": "wt%", "wt.%": "wt%",
+    "m2/g": "m²/g", "m^2/g": "m²/g", "m²/g": "m²/g",
+    "h-1": "h⁻¹", "h^-1": "h⁻¹", "h⁻¹": "h⁻¹",
+    "mL/g": "mL/g", "cm3/g": "cm³/g",
 }
 
 
@@ -82,12 +44,7 @@ def align_entity_graph(graph_path: str | Path, verbose: bool = False) -> Path:
     output_path.write_text(json.dumps(aligned, ensure_ascii=False, indent=2), encoding="utf-8")
 
     if verbose:
-        print(f"[entity_alignment] source graph: {source_path}", flush=True)
-        print(
-            f"[entity_alignment] aligned graph saved: {output_path} "
-            f"(nodes={len(aligned['nodes'])}, edges={len(aligned['edges'])})",
-            flush=True,
-        )
+        print(f"[entity_alignment] aligned: nodes={len(aligned['nodes'])}, edges={len(aligned['edges'])}", flush=True)
     return output_path
 
 
@@ -124,11 +81,7 @@ def build_aligned_graph(graph: dict[str, Any]) -> dict[str, Any]:
             "relation": edge["relation"],
             "target": node_id_map.get(edge["target"], edge["target"]),
         }
-        edge_key = (
-            aligned_edge["source"],
-            aligned_edge["relation"],
-            aligned_edge["target"],
-        )
+        edge_key = (aligned_edge["source"], aligned_edge["relation"], aligned_edge["target"])
         if edge_key in seen_edges:
             continue
         seen_edges.add(edge_key)
@@ -146,7 +99,8 @@ def _align_node(node: dict[str, Any]) -> dict[str, Any]:
     properties = dict(node.get("properties") or {})
     node_type = node.get("type", "")
 
-    display_name, original_name, method = _derive_display_name(node_type=node_type, properties=properties)
+    # Normalize display name based on entity type
+    display_name, original_name, method = _derive_display_name(node_type, properties)
     if original_name:
         properties.setdefault("original_name", original_name)
     if display_name:
@@ -154,92 +108,60 @@ def _align_node(node: dict[str, Any]) -> dict[str, Any]:
     if method:
         properties["normalization_method"] = method
 
+    # Normalize unit fields in properties
+    for key in list(properties.keys()):
+        if key.endswith("_unit") and properties[key]:
+            properties[key] = _normalize_unit(str(properties[key]))
+
     aligned_node["properties"] = properties
     return aligned_node
 
 
-def _derive_display_name(node_type: str, properties: dict[str, Any]) -> tuple[str | None, str | None, str | None]:
-    original_name = _extract_original_name(node_type=node_type, properties=properties)
+def _derive_display_name(
+    node_type: str, properties: dict[str, Any]
+) -> tuple[str | None, str | None, str | None]:
+    """Derive display_name based on entity type."""
+    original_name = _extract_primary_name(node_type, properties)
     if not original_name:
         return None, None, None
 
-    if node_type in VALUE_UNIT_TYPES:
-        return _normalize_value_unit(original_name, properties)
+    if node_type == "催化剂":
+        display = _normalize_catalyst_name(original_name)
+        return display, original_name, "format_standard"
 
-    if node_type in TARGET_NAME_TYPES:
-        display_name = _normalize_name(node_type=node_type, raw_name=original_name)
-        return display_name, original_name, "format_standard"
+    if node_type == "化学物质":
+        display = _normalize_formula(original_name)
+        return display, original_name, "format_standard"
+
+    if node_type == "助剂":
+        display = _normalize_formula(original_name)
+        return display, original_name, "format_standard"
+
+    if node_type == "表征":
+        # Normalize method name
+        method_name = properties.get("method", original_name)
+        normalized_method = METHOD_NAME_MAP.get(method_name, method_name)
+        normalized_method = _normalize_formula(normalized_method)
+        return normalized_method, method_name, "method_normalization"
 
     return original_name, original_name, "pass_through"
 
 
-def _extract_original_name(node_type: str, properties: dict[str, Any]) -> str | None:
+def _extract_primary_name(node_type: str, properties: dict[str, Any]) -> str | None:
+    """Extract the primary identifier for an entity."""
+    if node_type == "表征":
+        return properties.get("method") or properties.get("name")
+
     if properties.get("original_name"):
         return str(properties["original_name"]).strip()
 
-    if node_type in VALUE_UNIT_TYPES and properties.get("value") is not None:
-        value = str(properties.get("value")).strip()
-        unit = str(properties.get("unit", "")).strip()
-        return f"{value}{unit}" if unit else value
-
-    for key in ("name", "value"):
-        if properties.get(key) is not None:
-            value = str(properties[key]).strip()
-            if value:
-                return value
-    return None
-
-
-def _normalize_value_unit(raw_name: str, properties: dict[str, Any]) -> tuple[str, str, str]:
-    value = str(properties.get("value", "")).strip()
-    unit = str(properties.get("unit", "")).strip()
-
-    if not value:
-        parsed_value, parsed_unit = _split_value_unit(raw_name)
-        value = parsed_value or raw_name.strip()
-        unit = parsed_unit or unit
-
-    normalized_unit = _normalize_unit(unit)
-    properties["value"] = value
-    if normalized_unit:
-        properties["unit"] = normalized_unit
-        return f"{value} {normalized_unit}", raw_name, "format_standard"
-    return value, raw_name, "format_standard"
-
-
-def _split_value_unit(raw_name: str) -> tuple[str | None, str | None]:
-    compact = raw_name.replace(" ", "")
-    match = re.match(r"^([0-9]+(?:\.[0-9]+)?)(.*)$", compact)
-    if not match:
-        return None, None
-    value, unit = match.groups()
-    return value, unit or None
-
-
-def _normalize_unit(unit: str) -> str:
-    cleaned = unit.strip()
-    if not cleaned:
-        return ""
-    return UNIT_MAP.get(cleaned, _normalize_formula(cleaned))
-
-
-def _normalize_name(node_type: str, raw_name: str) -> str:
-    text = raw_name.strip()
-    if node_type == "催化剂":
-        text = _normalize_catalyst_name(text)
-    elif node_type in SUPPORTED_METHOD_TYPES:
-        text = METHOD_NAME_MAP.get(text, text)
-    else:
-        text = _normalize_formula(text)
-
-    return text
+    return properties.get("name") or properties.get("display_name")
 
 
 def _normalize_catalyst_name(text: str) -> str:
     text = text.strip()
     text = re.sub(r"\s+", "", text)
     text = text.replace(":", "/")
-    text = re.sub(r"(?<=[A-Za-z0-9₀₁₂₃₄₅₆₇₈₉])-(?=[A-Z])", "-", text)
     parts = text.split("/")
     if len(parts) >= 2:
         left = _normalize_formula(parts[0])
@@ -252,12 +174,24 @@ def _normalize_catalyst_name(text: str) -> str:
 def _normalize_formula(text: str) -> str:
     normalized = text.strip()
     normalized = re.sub(r"\s+", "", normalized)
-    normalized = re.sub(r"([A-Za-z\)])(\d+)", lambda m: m.group(1) + m.group(2).translate(SUBSCRIPT_MAP), normalized)
+    normalized = re.sub(
+        r"([A-Za-z\)])(\d+)",
+        lambda m: m.group(1) + m.group(2).translate(SUBSCRIPT_MAP),
+        normalized,
+    )
     normalized = normalized.replace("^−1", SUPERSCRIPT_MINUS + "¹")
     normalized = normalized.replace("^-1", SUPERSCRIPT_MINUS + "¹")
-    normalized = normalized.replace("-1", SUPERSCRIPT_MINUS + "¹") if normalized.endswith("-1") else normalized
+    if normalized.endswith("-1"):
+        normalized = normalized[:-2] + SUPERSCRIPT_MINUS + "¹"
     normalized = normalized.replace("m2/g", "m²/g")
     return normalized
+
+
+def _normalize_unit(unit: str) -> str:
+    cleaned = unit.strip()
+    if not cleaned:
+        return ""
+    return UNIT_MAP.get(cleaned, cleaned)
 
 
 def _build_dedup_key(node: dict[str, Any]) -> tuple[str, str] | None:
@@ -267,6 +201,8 @@ def _build_dedup_key(node: dict[str, Any]) -> tuple[str, str] | None:
 
     properties = node.get("properties") or {}
     display_name = str(properties.get("display_name", "")).strip()
+    if not display_name:
+        display_name = str(properties.get("name", "")).strip()
     if not display_name:
         return None
     return node_type, display_name

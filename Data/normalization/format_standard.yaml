@@ -1,11 +1,10 @@
-version: 0.1.0-draft
-status: review
+version: 0.3.0
+status: active
 scope: display_format_only
 notes:
-  - 该文件只定义第一版通用书写标准，不定义复杂实体对齐逻辑。
-  - 当前目标是统一展示格式、抽取输出格式与人工审核格式。
-  - original_name 保留原文写法，display_name 使用本文件规定的标准写法。
-  - canonical_name、signature、跨文档融合规则暂不在本文件中定义。
+  - v0.3.0 适配实体中心模型。表征方法收敛为"表征"实体的 method 属性。
+  - 数值/单位不再作为独立子节点，而是所在实体的属性字段。
+  - original_name 保留原文写法，display_name 使用本标准写法。
 
 field_policy:
   required_name_fields:
@@ -17,58 +16,28 @@ field_policy:
 
 chemical_formula:
   element_symbol_case: 元素符号使用标准大小写，例如 Ru、Ce、Fe。
-  subscript_digits: 化学式中的计量数字使用 Unicode 下标字符，例如 CeO₂、Fe₂O₃、Fe₃O₄。
-  standard_display_rule: 普通数字形式不是标准展示写法，例如 CeO2 需要改写为 CeO₂。
-  gas_formula_rule: 气体分子也使用下标，例如 H₂、N₂、NH₃。
+  subscript_digits: 化学式中的计量数字使用 Unicode 下标字符，例如 CeO₂、Fe₂O₃。
   examples:
     - original_name: CeO2
       display_name: CeO₂
-    - original_name: Fe2O3
-      display_name: Fe₂O₃
     - original_name: Fe3O4
       display_name: Fe₃O₄
-    - original_name: NH3
-      display_name: NH₃
 
 catalyst_name:
   primary_pattern: 活性组分/载体
   separator_policy:
     standard: /
-    non_standard:
-      - ":"
-      - "-"
+    non_standard: [":", "-"]
   multi_promoter_pattern: 活性组分/载体-助剂1-助剂2
-  naming_boundary:
-    include:
-      - 活性组分
-      - 载体或核心支撑组成
-      - 助剂种类
-    exclude:
-      - 助剂含量
-      - 温度
-      - 压力
-      - 制备方式
-      - 反应条件
   examples:
     - original_name: Ru:CeO2
       display_name: Ru/CeO₂
-    - original_name: Ru-CeO2
-      display_name: Ru/CeO₂
     - original_name: Ru/CeO2-K
       display_name: Ru/CeO₂-K
-    - original_name: Ru:CeO2-K-Cs
-      display_name: Ru/CeO₂-K-Cs
 
-component_name:
-  active_component_rule: 活性组分优先使用标准化学式或公认简称。
-  promoter_rule: 助剂种类优先使用标准化学式或公认简称。
-  oxide_policy: 如果原文明确写为氧化物形式，则展示名保留氧化物形式。
-  non_goal:
-    - 第一版不强制将 K 与 K₂O 归并为同一展示名。
-    - 第一版不处理化学等价归并。
+promoter_name:
+  rule: 助剂名称优先使用标准化学式或公认简称。
   examples:
-    - original_name: K
-      display_name: K
     - original_name: K2O
       display_name: K₂O
     - original_name: Al2O3
@@ -76,25 +45,27 @@ component_name:
 
 value_unit:
   spacing_rule: 数值与单位之间保留一个空格。
+  entity_fields:
+    催化剂: [iron_ratio_value, surface_area_value, particle_size_value, mechanical_strength_value]
+    助剂: [content_value]
+    制备步骤: [temperature_value]
+    测试: [temperature_value, pressure_value, ghsv_value, duration_value, nh3_activity_value]
+    机理: [value]
   preferred_units:
-    温度: °C
+    温度: "°C"
     压力: MPa
     粒径: nm
-    比表面积: m²/g
-    空速: h⁻¹
-    助剂含量: wt%
+    比表面积: "m²/g"
+    空速: "h⁻¹"
+    含量: wt%
   percentage_rule: wt% 前保留数值与单位空格，例如 1 wt%。
   examples:
     - original_name: 450C
       display_name: 450 °C
     - original_name: 10MPa
       display_name: 10 MPa
-    - original_name: 1wt% K
-      display_name: 1 wt% K
     - original_name: 120m2/g
       display_name: 120 m²/g
-    - original_name: 15000h-1
-      display_name: 15000 h⁻¹
 
 characterization_method:
   standard_forms:
@@ -109,20 +80,58 @@ characterization_method:
     - Mössbauer
     - Raman
     - FT-IR
-  rule:
-    - 表征方法优先使用领域常见标准简称。
-    - 含化学式的简称使用下标字符。
+  rule: 表征方法作为"表征"实体的 method 属性，使用领域常见标准简称。
   examples:
     - original_name: H2-TPR
       display_name: H₂-TPR
-    - original_name: N2-TPD
-      display_name: N₂-TPD
     - original_name: NH3-TPD
       display_name: NH₃-TPD
 
+preparation_step:
+  rule: 制备步骤按 step_order 从小到大的顺序排列。step_name 使用简短描述。
+  step_names:
+    - 原料称量
+    - 共沉淀
+    - 老化
+    - 洗涤
+    - 干燥
+    - 焙烧
+    - 还原活化
+    - 等体积浸渍
+    - 熔融
+
+mechanism_aspect:
+  standard_forms:
+    - 解离吸附
+    - 缔合吸附
+    - 加氢步骤
+    - 脱附机理
+    - 活性位模型
+    - 速率控制步骤
+    - 活化能
+    - 反应级数
+    - 吸附热
+    - 指前因子
+    - 动力学参数
+  rule: 机理的 aspect 字段使用以上标准术语。
+
+chemical_substance:
+  composition_format:
+    description: 化学物质的组成以 JSON 对象存储，键为元素/化合物名，值为包含 value 和 unit 的对象。
+    example: >
+      {"Fe": {"value": 95, "unit": "wt%"}, "K₂O": {"value": 1.0, "unit": "wt%"}}
+  properties_format:
+    description: 固有物化属性以 JSON 对象存储，键为属性名，值为包含 value 和 unit 的对象。
+    example: >
+      {"BET_surface_area": {"value": 13.2, "unit": "m²/g"}, "particle_size": {"value": 5.0, "unit": "nm"}}
+
+preparation_step_io:
+  inputs_rule: 消耗的化学物质以逗号分隔的名称列表，名称需与化学物质节点的 name 字段一致。
+  outputs_rule: 产出的化学物质以逗号分隔的名称列表。
+  example:
+    inputs: "Fe₃O₄, Al₂O₃, KNO₃"
+    outputs: "Fe₃O₄/Al₂O₃-K₂O前驱体"
+
 non_goals:
-  - 不定义 canonical_name。
   - 不定义跨文档实体融合规则。
-  - 不定义组合实体 signature 结构。
-  - 不处理复杂别名推理。
   - 不处理化学等价或反应机理级归并。

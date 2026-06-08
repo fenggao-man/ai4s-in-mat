@@ -1,75 +1,60 @@
-version: 0.1.0
+version: 0.3.0
 status: active
+description: >
+  v0.3.0 概念树反映实体-关系模型。
+  不再有 parent→child 的属性嵌套，而是通过语义关系连接实体。
+
 concept_tree:
-  - root: 催化剂
-    concepts:
-      - 活性组分
-      - 前驱体
-      - 晶相结构
-      - 铁比
-      - 比表面积
-      - 孔结构
-      - 粒径
-      - 制备方式
-      - 机械强度
+  - entity: 催化剂
+    related_via:
+      - relation: 含有活性组分
+        target: 化学物质
+      - relation: 使用前驱体
+        target: 化学物质
+      - relation: 负载于
+        target: 化学物质
+      - relation: 添加助剂
+        target: 助剂
+      - relation: 制备于
+        target: 制备步骤
+      - relation: 测试于
+        target: 测试
+      - relation: 表征于
+        target: 表征
+      - relation: 有机理
+        target: 机理
 
-  - root: 助剂
-    concepts:
-      - 助剂含量
-      - 助剂种类
-      - 添加方式
+  - entity: 制备步骤
+    related_via:
+      - relation: 消耗
+        target: 化学物质
+      - relation: 产出
+        target: 化学物质
+      - relation: 下一步
+        target: 制备步骤
 
-  - root: 反应条件
-    concepts:
-      - 温度
-      - 压力
-      - 空速
-      - 氢氮比
-      - 进料组成
-      - 气体纯度
-      - 反应时间
+  - entity: 表征
+    related_via:
+      - relation: 证实
+        target: 化学物质
 
-  - root: 催化性能
-    concepts:
-      - 氨合成活性
-      - 转化率
-      - 选择性
-      - 稳定性
-      - 寿命
-      - 抗毒性
+  - entity: 助剂
+    related_via:
+      - relation: 促进
+        target: 机理
+      - relation: 影响性能
+        target: 测试
 
-  - root: 表征方法
-    concepts:
-      - XRD
-      - BET
-      - TEM
-      - SEM
-      - XPS
-      - H2-TPR
-      - N2-TPD
-      - NH3-TPD
-      - Mössbauer
-      - Raman
-      - FT-IR
+  - entity: 测试
+    related_via: []
 
-  - root: 反应机理
-    concepts:
-      - 解离吸附
-      - 缔合吸附
-      - 加氢步骤
-      - 脱附机理
-      - 活性位模型
-      - 速率控制步骤
-      - 活化能
-      - 反应级数
-      - 吸附热
-      - 指前因子
-      - 动力学参数
+  - entity: 机理
+    related_via: []
 
-  - root: 制备工艺
-    concepts:
-      - 原料选择
-      - 混合方式
-      - 成型工艺
-      - 焙烧温度
-      - 还原活化
+  - entity: 化学物质
+    related_via: []
+
+  - entity: 文档
+    related_via:
+      - relation: 提及
+        target: 催化剂

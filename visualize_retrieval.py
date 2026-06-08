@@ -1,9 +1,10 @@
 import os
 import json
 from pathlib import Path
-from flask import Flask, request, jsonify, render_template_string
+from flask import Flask, request, jsonify, render_template_string, send_from_directory
 from flask_cors import CORS
 from neo4j import GraphDatabase
+import sqlite3
 from scr.knowledge_graph.llm_client import load_env_file
 
 from scr.knowledge_graph.sqlite_retrieval import (
@@ -16,6 +17,7 @@ CORS(app)
 
 PROJECT_ROOT = Path(__file__).resolve().parent
 DB_PATH = PROJECT_ROOT / DEFAULT_DB_PATH
+ARTIFACTS_ROOT = PROJECT_ROOT / "artifacts"
 ENV_FILE = PROJECT_ROOT / ".env"
 
 # Load Neo4j config
@@ -24,6 +26,26 @@ NEO4J_URI = os.environ.get("NEO4J_URI")
 NEO4J_USER = os.environ.get("NEO4J_USER")
 NEO4J_PASSWORD = os.environ.get("NEO4J_PASSWORD")
 NEO4J_DATABASE = os.environ.get("NEO4J_DATABASE", "neo4j")
+
+@app.route('/imgs/<path:filename>')
+def serve_image(filename):
+    """
+    Search for the image in artifacts/ocr and serve it.
+    The filename might be 'imgs/xxx.jpg'
+    """
+    ocr_root = ARTIFACTS_ROOT / "ocr"
+    # Search recursively for the image
+    for img_path in ocr_root.rglob(filename):
+        if img_path.is_file():
+            return send_from_directory(img_path.parent, img_path.name)
+    
+    # Also try just the basename if not found
+    basename = os.path.basename(filename)
+    for img_path in ocr_root.rglob(basename):
+        if img_path.is_file():
+            return send_from_directory(img_path.parent, img_path.name)
+            
+    return "Image not found", 404
 
 def get_neo4j_data(query_text):
     if not NEO4J_URI:
@@ -330,14 +352,14 @@ def index():
 @app.route('/api/search')
 def search():
     query = request.args.get('q', '')
-    limit = int(request.args.get('limit', 5))
+    limit = int(request.args.get('limit', 10))
     hops = int(request.args.get('hops', 1))
     
     if not query:
         return jsonify({"error": "Query is required"}), 400
         
     try:
-        # 1. Get text chunks from SQLite
+        # 1. Get graph and text chunks from SQLite
         sqlite_result = search_knowledge_graph(
             query=query,
             db_path=DB_PATH,
@@ -345,18 +367,29 @@ def search():
             hops=hops
         )
         
-        # 2. Get graph data from Neo4j
+        # 2. Get graph data from Neo4j (if configured and reachable)
         neo4j_data = get_neo4j_data(query)
         
-        # 3. Combine
+        # 3. Combine Data
+        # We prefer Neo4j data for visualization if available, otherwise fallback to SQLite subgraph
+        subgraph = neo4j_data
+        if not subgraph or (not subgraph.get("nodes") and not subgraph.get("edges")):
+            print(f"[api] Neo4j returned no data, falling back to SQLite subgraph for '{query}'")
+            subgraph = sqlite_result.get("subgraph", {"nodes": [], "edges": []})
+            # Ensure SQLite nodes have the expected keys for visualization
+            for node in subgraph.get("nodes", []):
+                if "is_hit" not in node:
+                    node["is_hit"] = any(h["node_id"] == node["node_id"] for h in sqlite_result.get("nodes", []))
+        
         combined_result = {
             "query": query,
             "chunks": sqlite_result.get("chunks", []),
-            "subgraph": neo4j_data  # Use Neo4j data for the visualization
+            "subgraph": subgraph
         }
         
         return jsonify(combined_result)
     except Exception as e:
+        print(f"[api] Search error: {e}")
         return jsonify({"error": str(e)}), 500
 
 if __name__ == '__main__':

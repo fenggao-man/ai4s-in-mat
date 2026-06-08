@@ -1,239 +1,96 @@
-version: 0.2.0
+version: 0.3.0
 status: active
-design: two_level_nodes
+design: entity_centric
+description: >
+  从 v0.2.0 的 54 条"有X"结构关系收敛为 15 条语义关系。
+  每条关系表达真实科研逻辑，而非仅仅复制节点层级结构。
+
 relation_types:
+  # ── 文档层 ──
   - name: 提及
     source_types: [文档]
     target_types: [催化剂]
 
-  - name: 有活性组分
+  # ── 组成关系 ──
+  - name: 含有活性组分
     source_types: [催化剂]
-    target_types: [活性组分]
+    target_types: [化学物质]
+    description: 催化剂含有某种活性组分
 
-  - name: 有前驱体
+  - name: 使用前驱体
     source_types: [催化剂]
-    target_types: [前驱体]
+    target_types: [化学物质]
+    description: 催化剂使用某种前驱体
 
-  - name: 有晶相结构
+  - name: 负载于
     source_types: [催化剂]
-    target_types: [晶相结构]
+    target_types: [化学物质]
+    description: 催化剂负载在某种载体上
 
-  - name: 有铁比
-    source_types: [催化剂]
-    target_types: [铁比]
-
-  - name: 有比表面积
-    source_types: [催化剂]
-    target_types: [比表面积]
-
-  - name: 有孔结构
-    source_types: [催化剂]
-    target_types: [孔结构]
-
-  - name: 有粒径
-    source_types: [催化剂]
-    target_types: [粒径]
-
-  - name: 有制备方式
-    source_types: [催化剂]
-    target_types: [制备方式]
-
-  - name: 有机械强度
-    source_types: [催化剂]
-    target_types: [机械强度]
-
-  - name: 有助剂
+  - name: 添加助剂
     source_types: [催化剂]
     target_types: [助剂]
+    description: 催化剂添加了某种助剂
 
-  - name: 有助剂含量
+  # ── 制备关系 ──
+  - name: 制备于
+    source_types: [催化剂]
+    target_types: [制备步骤]
+    description: 催化剂的第一个制备步骤
+
+  - name: 下一步
+    source_types: [制备步骤]
+    target_types: [制备步骤]
+    description: 制备步骤的先后顺序
+
+  - name: 消耗
+    source_types: [制备步骤]
+    target_types: [化学物质]
+    description: 制备步骤消耗的原料
+    edge_properties:
+      - name: role
+        type: string
+        description: 该物质在此步骤中的角色（reactant / solvent / catalyst / reagent / additive）
+
+  - name: 产出
+    source_types: [制备步骤]
+    target_types: [化学物质]
+    description: 制备步骤产出的物质
+    edge_properties:
+      - name: description
+        type: string
+        description: 产物形态描述（如 precipitate / solution / calcined solid）
+
+  # ── 测试关系 ──
+  - name: 测试于
+    source_types: [催化剂]
+    target_types: [测试]
+    description: 催化剂在某种条件下进行了性能测试
+
+  # ── 表征关系 ──
+  - name: 表征于
+    source_types: [催化剂]
+    target_types: [表征]
+    description: 催化剂通过某种方法进行了表征
+
+  - name: 证实
+    source_types: [表征]
+    target_types: [化学物质]
+    description: 表征结果证实了某种化学物种或晶相的存在
+
+  # ── 机理关系 ──
+  - name: 有机理
+    source_types: [催化剂]
+    target_types: [机理]
+    description: 催化剂的反应机理描述
+
+  # ── 跨域关系 ──
+  - name: 促进
     source_types: [助剂]
-    target_types: [助剂含量]
+    target_types: [机理]
+    description: 助剂对反应机理的促进作用
 
-  - name: 有助剂种类
+  - name: 影响性能
     source_types: [助剂]
-    target_types: [助剂种类]
-
-  - name: 有添加方式
-    source_types: [助剂]
-    target_types: [添加方式]
-
-  - name: 有反应条件
-    source_types: [催化剂]
-    target_types: [反应条件]
-
-  - name: 有温度
-    source_types: [反应条件]
-    target_types: [温度]
-
-  - name: 有压力
-    source_types: [反应条件]
-    target_types: [压力]
-
-  - name: 有空速
-    source_types: [反应条件]
-    target_types: [空速]
-
-  - name: 有氢氮比
-    source_types: [反应条件]
-    target_types: [氢氮比]
-
-  - name: 有进料组成
-    source_types: [反应条件]
-    target_types: [进料组成]
-
-  - name: 有气体纯度
-    source_types: [反应条件]
-    target_types: [气体纯度]
-
-  - name: 有反应时间
-    source_types: [反应条件]
-    target_types: [反应时间]
-
-  - name: 有催化性能
-    source_types: [催化剂]
-    target_types: [催化性能]
-
-  - name: 有氨合成活性
-    source_types: [催化性能]
-    target_types: [氨合成活性]
-
-  - name: 有转化率
-    source_types: [催化性能]
-    target_types: [转化率]
-
-  - name: 有选择性
-    source_types: [催化性能]
-    target_types: [选择性]
-
-  - name: 有稳定性
-    source_types: [催化性能]
-    target_types: [稳定性]
-
-  - name: 有寿命
-    source_types: [催化性能]
-    target_types: [寿命]
-
-  - name: 有抗毒性
-    source_types: [催化性能]
-    target_types: [抗毒性]
-
-  - name: 有表征方法
-    source_types: [催化剂]
-    target_types: [表征方法]
-
-  - name: 有XRD
-    source_types: [表征方法]
-    target_types: [XRD]
-
-  - name: 有BET
-    source_types: [表征方法]
-    target_types: [BET]
-
-  - name: 有TEM
-    source_types: [表征方法]
-    target_types: [TEM]
-
-  - name: 有SEM
-    source_types: [表征方法]
-    target_types: [SEM]
-
-  - name: 有XPS
-    source_types: [表征方法]
-    target_types: [XPS]
-
-  - name: 有H2-TPR
-    source_types: [表征方法]
-    target_types: [H2-TPR]
-
-  - name: 有N2-TPD
-    source_types: [表征方法]
-    target_types: [N2-TPD]
-
-  - name: 有NH3-TPD
-    source_types: [表征方法]
-    target_types: [NH3-TPD]
-
-  - name: 有Mössbauer
-    source_types: [表征方法]
-    target_types: [Mössbauer]
-
-  - name: 有Raman
-    source_types: [表征方法]
-    target_types: [Raman]
-
-  - name: 有FT-IR
-    source_types: [表征方法]
-    target_types: [FT-IR]
-
-  - name: 有反应机理
-    source_types: [催化剂]
-    target_types: [反应机理]
-
-  - name: 有解离吸附
-    source_types: [反应机理]
-    target_types: [解离吸附]
-
-  - name: 有缔合吸附
-    source_types: [反应机理]
-    target_types: [缔合吸附]
-
-  - name: 有加氢步骤
-    source_types: [反应机理]
-    target_types: [加氢步骤]
-
-  - name: 有脱附机理
-    source_types: [反应机理]
-    target_types: [脱附机理]
-
-  - name: 有活性位模型
-    source_types: [反应机理]
-    target_types: [活性位模型]
-
-  - name: 有速率控制步骤
-    source_types: [反应机理]
-    target_types: [速率控制步骤]
-
-  - name: 有活化能
-    source_types: [反应机理]
-    target_types: [活化能]
-
-  - name: 有反应级数
-    source_types: [反应机理]
-    target_types: [反应级数]
-
-  - name: 有吸附热
-    source_types: [反应机理]
-    target_types: [吸附热]
-
-  - name: 有指前因子
-    source_types: [反应机理]
-    target_types: [指前因子]
-
-  - name: 有动力学参数
-    source_types: [反应机理]
-    target_types: [动力学参数]
-
-  - name: 有制备工艺
-    source_types: [催化剂]
-    target_types: [制备工艺]
-
-  - name: 有原料选择
-    source_types: [制备工艺]
-    target_types: [原料选择]
-
-  - name: 有混合方式
-    source_types: [制备工艺]
-    target_types: [混合方式]
-
-  - name: 有成型工艺
-    source_types: [制备工艺]
-    target_types: [成型工艺]
-
-  - name: 有焙烧温度
-    source_types: [制备工艺]
-    target_types: [焙烧温度]
-
-  - name: 有还原活化
-    source_types: [制备工艺]
-    target_types: [还原活化]
+    target_types: [测试]
+    description: 助剂对催化性能的影响
